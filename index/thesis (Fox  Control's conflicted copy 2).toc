@@ -1,0 +1,73 @@
+\contentsline {chapter}{Introduction}{1}{chapter*.9}%
+\contentsline {chapter}{\numberline {1}Fire and poison-baiting manipulate invasive predator and threatened prey occurence within temperate landscapes}{3}{chapter.1}%
+\contentsline {section}{Abstract}{3}{section*.10}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Methods}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Study area}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Camera-trap surveys}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Cumulative detection probabilities}{5}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Generalised additive models of species occurence}{5}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}Results}{9}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Discussion}{13}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Quantifying spatiotemporal shifts in predator behaviour across habitats, individuals and threats.}{15}{chapter.2}%
+\contentsline {section}{Abstract}{15}{section*.15}%
+\contentsline {section}{\numberline {2.1}Introduction}{16}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Methods}{18}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Study area}{18}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Camera-trap surveys}{18}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Data preparation}{19}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Generalised additive models}{20}{subsection.2.2.4}%
+\contentsline {subsubsection}{Spatial variation in predator activity}{20}{section*.16}%
+\contentsline {subsubsection}{Variation in predator activity across vegetation types}{20}{section*.17}%
+\contentsline {subsubsection}{Feral cat spatiotemporal avoidance of foxes}{20}{section*.18}%
+\contentsline {subsubsection}{Individual variation in feral cat diel activity}{21}{section*.19}%
+\contentsline {section}{\numberline {2.3}Results}{23}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Discussion}{29}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Unexpectedly high densities of feral cats in a rugged temperate forest}{31}{chapter.3}%
+\contentsline {section}{Abstract}{31}{section*.25}%
+\contentsline {section}{\numberline {3.1}Introduction}{32}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Methods}{34}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Study area}{34}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Study design}{34}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Individual cat identification}{34}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Estimating population density}{35}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Results}{37}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Discussion}{40}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Quantifying mesopredator release: lethal control of an invasive apex predator alters feral cat density and detectability}{43}{chapter.4}%
+\contentsline {section}{Abstract}{43}{section*.27}%
+\contentsline {section}{\numberline {4.1}Introduction}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Methods}{47}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Study area}{47}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Study design and camera-trapping}{47}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Individual feral cat identification}{48}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Spatial fox occurrence}{49}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Spatial mark-resight models of feral cat density}{49}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Results}{53}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Fox occurrence}{53}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Feral cats in the Glenelg region}{53}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Feral cats in the Otway region}{54}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Discussion}{60}{section.4.4}%
+\contentsline {chapter}{Conclusion}{63}{chapter*.34}%
+\contentsline {chapter}{References}{65}{chapter*.35}%
+\contentsline {chapter}{\numberline {A}Supporting Information: Chapter \ref {occ}}{77}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Supporting Information: Chapter \ref {otways17}}{83}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Supporting Information: Chapter \ref {density}}{87}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Field surveys}{88}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Individual cat identification}{91}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Summary statistics}{94}{section.C.3}%
+\contentsline {section}{\numberline {C.4}Feral cat detection plots}{95}{section.C.4}%
+\contentsline {subsection}{\numberline {C.4.1}Glenelg region}{95}{subsection.C.4.1}%
+\contentsline {subsubsection}{Replicate 1}{95}{section*.43}%
+\contentsline {subsubsection}{Replicate 2}{96}{section*.45}%
+\contentsline {subsubsection}{Replicate 3}{97}{section*.47}%
+\contentsline {subsection}{\numberline {C.4.2}Otway region}{98}{subsection.C.4.2}%
+\contentsline {subsubsection}{2017}{98}{section*.49}%
+\contentsline {subsubsection}{2018}{99}{section*.51}%
+\contentsline {subsubsection}{2019}{100}{section*.53}%
+\contentsline {section}{\numberline {C.5}Fox spatial occurrence}{101}{section.C.5}%
+\contentsline {subsection}{\numberline {C.5.1}Glenelg region}{101}{subsection.C.5.1}%
+\contentsline {subsection}{\numberline {C.5.2}Otway Region}{103}{subsection.C.5.2}%
+\contentsline {section}{\numberline {C.6}Vegetation categories}{105}{section.C.6}%
+\contentsline {section}{\numberline {C.7}Spatial mark-resight models}{107}{section.C.7}%
+\contentsline {subsection}{\numberline {C.7.1}Glenelg region}{107}{subsection.C.7.1}%
+\contentsline {subsection}{\numberline {C.7.2}Otway region}{112}{subsection.C.7.2}%

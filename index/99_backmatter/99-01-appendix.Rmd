@@ -1,0 +1,108 @@
+<!-- These lines tell the templates that we are about to start the appendices.
+They should appear at the start of your first appendix.-->
+`r if(knitr:::is_latex_output()) '\\appendix'`
+`r if(!knitr:::is_latex_output()) '# (APPENDIX) Appendix {-}'`
+
+Fix up indent things from reference rmd.
+-->
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{8pt}
+
+
+# Supporting Information: Chapter \@ref(occ) {#occ-app}
+
+\newpage
+
+$~$
+
+$~$
+
+$~$
+
+```{r occ-stats-tab}
+
+## DATA PREPARATION
+records <- read.csv("data/c1/gam_data.csv")
+# drop zoi's records - too much spatial autocorrelation
+records <- filter(records, data_source != "zoi")
+# exclude stations left out for less than 14 days
+records <- filter(records, survey_duration >= 14)
+# as we only had three "Riverine Grassy Woodlands or Forests" unique survey sites --> drop em
+records <- filter(records, XGROUPNAME != "Riverine Grassy Woodlands or Forests")
+# as we only had 20 "Rainforests" unique survey sites, all of which interspersed in "Wet Forests" in the Otways, reclassify as "Wet Forests". 
+records$XGROUPNAME <- if_else(records$XGROUPNAME == "Rainforests", "Wet or Damp Forests", as.character(records$XGROUPNAME))
+# abbreviate EVC group names for plotting
+records$XGROUPNAME <- if_else(records$XGROUPNAME == "Wet or Damp Forests", "Wet Forests", records$XGROUPNAME)
+records$XGROUPNAME <- if_else(records$XGROUPNAME == "Riparian Scrubs or Swampy Scrubs and Woodlands", "Swampy Scrubs", records$XGROUPNAME)
+records$XGROUPNAME <- substr(records$XGROUPNAME, 1, nchar(records$XGROUPNAME) - 1)
+
+# SUMMARIES
+table1 <- records %>%
+  group_by(region, XGROUPNAME) %>%
+  mutate(sites = length(unique(station)),
+         deployments = length(unique(station_year)),
+         fox_present = sum(fox),
+         cat_present = sum(cat),
+         sbb_present = sum(bandicoot_sb),
+         lnp_present = sum(potoroo_ln),
+         fox_naive = (fox_present / deployments),
+         cat_naive = (cat_present / deployments),
+         sbb_naive = (sbb_present / deployments),
+         lnp_naive = (lnp_present / deployments)
+         )
+table1 <- table1 %>%
+  dplyr::select(XGROUPNAME, region, sites, deployments, fox_naive, cat_naive, sbb_naive, lnp_naive)  %>% 
+  distinct() %>%
+  arrange(XGROUPNAME, region)
+# rename region 
+table1$region <- factor(table1$region)
+levels(table1$region) <- c("Glenelg", "Otway")
+
+# remove repeat vegetation name
+table1[c(2, 4, 6, 8, 10, 12),1] <- ""
+
+# make table
+kbl(table1, longtable = T, booktabs = T, digits = 2,
+    caption = "Number of camera-trap sites, total deployments and naive occupancy rates for red foxes, feral cats, southern brown bandicoots (SBB) and long-nosed potoroos (LNP) within Ecological Vegetation Class groups across two broad regions in south-west Victoria, Australia.",
+     col.names = c("Vegetation", "Region", "Sites", "Deployments", "Fox", "Cat", "SBB", "LNP")) %>% 
+   kable_styling(font_size = 10)
+```
+
+\newpage
+
+$~$
+
+$~$
+
+$~$
+
+```{r occ-det-prob, out.width="100%", fig.cap="Cumulative detection probability for surveyed species averaged across all sites (solid black lines), as well as sites with fox control (solid red line) and without fox control (solid blue line). Dashed lines represent 95\\% confidence intervals. Vertical grey lines represent mean (solid) as well as 25\\% and 75\\% quantiles (dotted) of days camera-traps were active for."}
+knitr::include_graphics("figure/c1/detectability.png")
+```
+
+\newpage
+
+$~$
+
+$~$
+
+$~$
+
+```{r occ-twi, out.width="100%", fig.cap="The fine-scale topgraphic wetness index had no discernible impact on fox (a), feral cat (b) or southern brown bandicoot (c) occurence probability in south-west Victoria, Australia. Long-nosed potoroo (d) occurence probability increased with topographic wetness. Shaded regions indicate 95\\% confidence intervals"}
+knitr::include_graphics("figure/c1/twi.png")
+```
+
+\newpage
+
+$~$
+
+$~$
+
+$~$
+
+```{r occ-dist, out.width="100%", fig.cap="Fox occurence probability decreased linearly for 2 km as distance to the nearest area of non-native vegetation (larger than 30 ha) increased (a). Increasing distance to non-native vegetation had a weak, positive effect on long-nosed potoroo's (d), but little-no impact on feral cats (b) and southern brown bandicooots (c) in south-west Victoria, Australia. Shaded regions indicate 95\\% confidence intervals."}
+knitr::include_graphics("figure/c1/dist_edge.png")
+```
+
+\newpage
