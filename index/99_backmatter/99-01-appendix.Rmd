@@ -20,7 +20,7 @@ $~$
 
 $~$
 
-```{r occ-stats-tab}
+```{r occ-naive}
 
 ## DATA PREPARATION
 records <- read.csv("data/c1/gam_data.csv")
@@ -77,21 +77,10 @@ $~$
 
 $~$
 
-```{r occ-det-prob, out.width="100%", fig.cap="Cumulative detection probability for surveyed species averaged across all sites (solid black lines), as well as sites with fox control (solid red line) and without fox control (solid blue line). Dashed lines represent 95\\% confidence intervals. Vertical grey lines represent mean (solid) as well as 25\\% and 75\\% quantiles (dotted) of days camera-traps were active for."}
+```{r occ-cumdet, out.width="100%", fig.cap="Cumulative detection probability for surveyed species averaged across all sites (solid black lines), as well as sites with fox control (solid red line) and without fox control (solid blue line). Dashed lines represent 95\\% confidence intervals. Vertical grey lines represent mean (solid) as well as 25\\% and 75\\% quantiles (dotted) of days camera-traps were active for."}
 knitr::include_graphics("figure/c1/detectability.png")
 ```
 
-\newpage
-
-$~$
-
-$~$
-
-$~$
-
-```{r occ-twi, out.width="100%", fig.cap="The fine-scale topgraphic wetness index had no discernible impact on fox (a), feral cat (b) or southern brown bandicoot (c) occurence probability in south-west Victoria, Australia. Long-nosed potoroo (d) occurence probability increased with topographic wetness. Shaded regions indicate 95\\% confidence intervals"}
-knitr::include_graphics("figure/c1/twi.png")
-```
 
 \newpage
 
@@ -101,7 +90,7 @@ $~$
 
 $~$
 
-```{r occ-dist, out.width="100%", fig.cap="Fox occurence probability decreased linearly for 2 km as distance to the nearest area of non-native vegetation (larger than 30 ha) increased (a). Increasing distance to non-native vegetation had a weak, positive effect on long-nosed potoroo's (d), but little-no impact on feral cats (b) and southern brown bandicooots (c) in south-west Victoria, Australia. Shaded regions indicate 95\\% confidence intervals."}
+```{r occ-dist, out.width="100%", fig.cap="Fox occurrence probability decreased linearly for 2 km as distance to the nearest area of non-native vegetation (larger than 30 ha) increased (a). Increasing distance to non-native vegetation had a weak, positive effect on long-nosed potoroo's (d), but little-no impact on feral cats (b) and southern brown bandicooots (c) in south-west Victoria, Australia. Shaded regions indicate 95\\% confidence intervals."}
 knitr::include_graphics("figure/c1/dist_edge.png")
 ```
 
