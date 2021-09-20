@@ -50,8 +50,6 @@ $~$
 
 $~$
 
-$~$
-
 ```{r otways17-map,   fig.align = "right", fig.cap = "Study area, western Otway Ranges, Victoria, Australia, showing the location of the camera-trapping sites (black dots) within the 3500 m buffer zone (thin grey line)."}
 include_graphics(path = "figure/c2/c2_map.png")
 ```

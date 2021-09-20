@@ -1,1 +1,63 @@
-text
+
+This preface provides a summary of the chapters in this thesis and describes my contribution to them as well as the contributions of my collaborators and supervisors. This is a thesis with publication and comprises four chapters that present my PhD research. Therefore there is some overlap in content and the pronoun ‘we’ is used instead of ‘I’ in recognition of the co-authors’ contributions. The General Introduction provides a brief overview of the relevant literature and outlines the key themes underlying the research, while the Synthesis describes links between the papers and places the research in a broader context. 
+
+I designed and led fieldwork to collect data for this PhD. I experimentally deployed 425 camera-traps in the Glenelg region during 2018 (a control-impact experiment two spatial replicates), and 524 camera-trap deployments in a Before-After-Control-Impact Paired series design in the western Otway Ranges from 2017 to 2019. I had field assistance from the following volunteers: Shauni Omond, Shayne Neal, Asitha Samarawickrama, Shelley Thompson, Erin Harris, Hannah Killian, Lani Watson, Mark Dorman, Jack Davis, Carl Roffey, Bruce Edley, Larissa Oliveira Gonçalves, Ben Lake, Chantelle Geissler, Aviya Naccarella, Emily Gronow, Harley England, David Pitts, Annie Hobby, Louise Falls, Thomas McKinnon, Jimmy Downie, Marney Hradsky, Stephanie Samson, Robin Sinclair, Asmaa Alhusainan, Kelly Forrester, Tammana Wadawani, Emily Gregg, Hannah Edwards, Adam Beck, Vishnu Memnon, Sandy Lu, Dr Pia Lentini, Prof. Nick Golding, Emily McColl-Gausden, Nina Page, Maggie Campbell-Jones, Kyle Quinn and Jack Dickson. Surveys were conducted under University of Melbourne Animal Ethics Committee approval 1714119 and Victorian Government Department of Environment, Land Water and Planning Research Permit 10008273. I sorted camera-trap images and identified 133 individual feral cats from this dataset, with secondary independent identifications made by Mark Le Pla and Luke Woodford.
+
+Chapter 3 uses a subset of this dataset; the 2017 camera-trap deployments in the Otway Ranges. This dataset was used in its entirety for the other chapters, but was supplemented with additional data collected by government partner researchers (detailed below). Chapters 1 and 2 include an additional XX camera-trap deployments from the Glenelg Ark fox control monitoring program (2013-19) and XX from the Otway Ark fox control monitoring program (2016-18). Chapter 4 include an additional dataset from the Lower Glenelg National Park (serving as a third spatial replicate for the Control-Impact experimental design). Alan Robley designed this camera-trap layout, with Ethan Le Duc, Michael Murrell, Dylan Thomas, Rhys Weber, Chris Johansson, Lachlan Levings and Liz Beever carried out the surveys, with Luke Woodford identifying cats (all from the Victorian Government Department of Environment, Land, Water and Planning). 
+
+$~$
+
+## Publications included as part of this thesis {-}
+
+**Chapter 1**
+
+Contributions: 
+
+Code: 
+
+$~$
+
+**Chapter 2**
+
+Contributions: 
+
+Code: 
+
+$~$
+
+**Chapter 3**
+
+MW Rees, JH Pascoe, BA Wintle, M Le Pla, EK Birnbaum, BA Hradsky (2019). Unexpectedly high densities of feral cats in a rugged temperate forest. *Biological Conservation*, **239**, 108287.
+
+Contributions: 
+
+Code: https://github.com/matt-w-rees/feral-cat-otways-2017-SMR
+
+$~$
+
+**Chapter 4**
+
+**MW Rees**, JH Pascoe, M Le Pla, A Robley, EK Birnbaum, BA Wintle, & BA Hradsky (*In review*). Quantifying mesopredator release: lethal control of an invasive apex predator alters feral cat density and detectability.
+
+Contributions: M.W.R, B.A.H, J.H.P, B.A.W and A.R conceived the ideas and designed the methodology; M.W.R, J.H.P, M.LP, E.K.B and B.A.H collected the data; M.W.R analysed the data with input from B.A.H and B.A.W, and led the writing of the manuscript. All authors contributed critically to the drafts and gave final approval for publication.
+
+Code: https://github.com/matt-w-rees/invasive-mesopredator-release
+
+
+\newpage
+ 
+## Other publications that I have contributed to during my candidature but are not presented in this thesis {-}
+
+M Le Pla, EK Birnbaum, **MW Rees**, BA Hradsky, AR Weeks, A Van Rooyen, JH Pascoe (*In review*).
+Genetic Sampling and an Activity Index Indicate Contrasting Outcomes of Lethal Control for an Invasive Predator  
+
+A Stobo-Wilson, BP Murphy, SM Legge, DG Chapple, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, TM Newsome, R Palmer, **MW Rees**, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (*In review*). Compounding and complementary carnivores: Australian bird species eaten by the introduced European red fox Vulpes vulpes and domestic cat *Felis catus*.
+
+A Stobo-Wilson, BP Murphy, SM Legge, DG Chapple, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, TM Newsome, R Palmer, **MW Rees**, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (2021). Reptiles as food: predation of Australian reptiles by introduced red foxes compounds and complements predation by cats. *Wildlife Research* **48**, 470-480. https://doi.org/10.1071/WR20194
+
+A Stobo-Wilson, BP Murphy, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, SM Legge, TM Newsome, R Palmer, **MW Rees**, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (2021). Sharing meals: Predation on Australian mammals by the introduced European red fox compounds and complements predation by feral cats. *Biological Conservation* **261** : 109284. https://doi.org/10.1016/j.biocon.2021.109284
+
+H Davies, Tiwi Land Rangers, **MW Rees**, D Stokeld, AC Miller, GR Gillespie, BP Murphy (2021). Variation in feral cat density between two large adjacent islands in Australia’s monsoon tropics. *Pacific Conservation Biology*. https://doi.org/10.1071/PC20088
+
+**MW Rees**, J Carwardine, A Reeson, and J Firn (2020). Rapidly assessing cobenefits to advance threat-management alliances. *Conservation Biology*, **34**: 843-853. https://doi.org/10.1111/cobi.13490
+

@@ -81,7 +81,15 @@
 
 % +-----Abstract---------------------------------------------------------------+
   \begin{abstract}
-    text
+    Invasive predators are a major driver of global biodiversity loss. Accordingly, lethal invasive predator control is a common conservation strategy. However, despite usually being faced with multiple invasive predators, managers often implement targeted control of one species at a time due to feasibility constraints. There is concern that singular invasive predator control leads to a `mesopredator release' of subordinate predators, through relaxation via direct top-down pressure and indirect competition. An invasive mesopredators release could dampen or even worsen conservation outcomes. While intuitive, evidence for mesopredator release is weak due to a lack of robust experimental designs and replication, as well as reliance on activity indices.
+    
+    In this thesis, I investigated whether the lethal control of an apex invasive predator (red fox \emph{Vulpes vulpes}) has led to a mesopredator release of a widespread subordinate invasive predator (feral cat \emph{Felis catus}). I replicated field experiments and collated additional camera-trapping data across two regions with a simple predator guild comprising the introduced red fox and feral cat, allowing sharp focus on interactions between these species. Glenelg region with long-term fox control, Control-Impact with three replicates. Otway Ranges, BACIPS. I quantified impacts of fox control on two threatened native marsupials and assessed evidence for a mesopredator release of feral cats using multiple population metrics: site occurrence, spatiotemporal behaviour and population density.
+    
+    Fox occurrence strongly declined across the gradient of 1080 poison-bait density; the maximum of 20 baits deployed in a foxes home range reduced fox occurrence by 70\% consistently across both regions. However, this had basically no impact on southern brown bandicoot \emph{Isoodon obesulus} occurrence. Long-nosed potoroo \emph{Potorous tridactylus} occurrence increased with long-term fox-bait density in the Glenelg region, but decreased slightly in the Otway Ranges where fox control had recently commenced. Rather than being limited by foxes, habitat suitability for these threatened mammals was more strongly driven by an interaction between vegetation type and time since fire. However, not only do optimal fire regimes vary across species, but they can be entirely conflicting for the same species across different vegetation communities.
+    
+    At a landscape scale (mean size: 169 km\textsuperscript{2}), lethal fox control was associated with a range of responses from a negligible to 3.7-fold increase in feral cat density. Consistent with the mesopredator release hypothesis, the degree of increase corresponded with variation in the duration and intensity of fox suppression. At a fine spatial scale (200 m), feral cat density had a consistent negative association with fox occurrence across both regions. Individual cat detectability and movement also varied across the (artificially manipulated) fox occurrence gradient. Using a larger dataset without individual identification, I saw no evidence that foxes impacted the occurrence of cats, in fact, these predators were more likely to co-occur than not in the Glenelg region. Instead, feral cats seemed to avoid foxes by shifting diel activity patterns. Where foxes are nocturnal in the Glenelg region dry vegetation types of the Otway Ranges, cats became more active during the the day where fox activity was highest. In the wet vegetation types of the Otway Ranges where foxes were active consistently throughout the daily cycle; cats concentrated activity around midnight where fox activity was highest.
+    
+    My thesis provides replicated, experimental evidence that that apex predator suppression is associated with an increase in the density of a mesopredator. Mesopredator release can manifest as changes in both behaviour and density, distorting inference if these processes are not distinguished. Further, joint spatiotemporal models are required to adequately understand predator interactions. I provide an example of an easily implementable, hierarchical generalised additive model framework to investigate spatiotemporal changes in species detections and share information across different contexts. Our results help explain why fox control did not consistently improve southern brown bandicoot and long-nosed potoroo occurrence, suggesting integrated pest management may be necessary to improve conservation outcomes. Until thats feasible, maintaining habitat structure through careful use prescribed fire is a priority.
   \end{abstract}
 % +-----Declaration------------------------------------------------------------+
   \begin{declaration}
@@ -90,24 +98,104 @@
     \def\labelenumi{\roman{enumi}.}
     \tightlist
     \item
-      the thesis comprises only their original work towards the {[}name of
-      the award{]} except where indicated in the preface;
+      the thesis comprises only their original work towards the PhD except where indicated in the preface;
     \item
       due acknowledgement has been made in the text to all other material
       used; and
     \item
-      the thesis is fewer than the maximum word limit in length, exclusive of
-      tables, maps, bibliographies and appendices or that the thesis is {[}number
-      of words{]} as approved by the Research Higher Degrees Committee.
+      the thesis is fewer than 100,000 words in length, exclusive of
+      tables, maps, bibliographies and appendices.
     \end{enumerate}
   \end{declaration}
 % +-----Preface----------------------------------------------------------------+
   \begin{preface}
-    text
+    This preface provides a summary of the chapters in this thesis and describes my contribution to them as well as the contributions of my collaborators and supervisors. This is a thesis with publication and comprises four chapters that present my PhD research. Therefore there is some overlap in content and the pronoun `we' is used instead of `I' in recognition of the co-authors' contributions. The General Introduction provides a brief overview of the relevant literature and outlines the key themes underlying the research, while the Synthesis describes links between the papers and places the research in a broader context.
+    
+    I designed and led fieldwork to collect data for this PhD. I experimentally deployed 425 camera-traps in the Glenelg region during 2018 (a control-impact experiment two spatial replicates), and 524 camera-trap deployments in a Before-After-Control-Impact Paired series design in the western Otway Ranges from 2017 to 2019. I had field assistance from the following volunteers: Shauni Omond, Shayne Neal, Asitha Samarawickrama, Shelley Thompson, Erin Harris, Hannah Killian, Lani Watson, Mark Dorman, Jack Davis, Carl Roffey, Bruce Edley, Larissa Oliveira Gonçalves, Ben Lake, Chantelle Geissler, Aviya Naccarella, Emily Gronow, Harley England, David Pitts, Annie Hobby, Louise Falls, Thomas McKinnon, Jimmy Downie, Marney Hradsky, Stephanie Samson, Robin Sinclair, Asmaa Alhusainan, Kelly Forrester, Tammana Wadawani, Emily Gregg, Hannah Edwards, Adam Beck, Vishnu Memnon, Sandy Lu, Dr Pia Lentini, Prof.~Nick Golding, Emily McColl-Gausden, Nina Page, Maggie Campbell-Jones, Kyle Quinn and Jack Dickson. Surveys were conducted under University of Melbourne Animal Ethics Committee approval 1714119 and Victorian Government Department of Environment, Land Water and Planning Research Permit 10008273. I sorted camera-trap images and identified 133 individual feral cats from this dataset, with secondary independent identifications made by Mark Le Pla and Luke Woodford.
+    
+    Chapter 3 uses a subset of this dataset; the 2017 camera-trap deployments in the Otway Ranges. This dataset was used in its entirety for the other chapters, but was supplemented with additional data collected by government partner researchers (detailed below). Chapters 1 and 2 include an additional XX camera-trap deployments from the Glenelg Ark fox control monitoring program (2013-19) and XX from the Otway Ark fox control monitoring program (2016-18). Chapter 4 include an additional dataset from the Lower Glenelg National Park (serving as a third spatial replicate for the Control-Impact experimental design). Alan Robley designed this camera-trap layout, with Ethan Le Duc, Michael Murrell, Dylan Thomas, Rhys Weber, Chris Johansson, Lachlan Levings and Liz Beever carried out the surveys, with Luke Woodford identifying cats (all from the Victorian Government Department of Environment, Land, Water and Planning).
+    
+    \(~\)
+    
+    \hypertarget{publications-included-as-part-of-this-thesis}{%
+    \section*{Publications included as part of this thesis}\label{publications-included-as-part-of-this-thesis}}
+    \addcontentsline{toc}{section}{Publications included as part of this thesis}
+    
+    \textbf{Chapter 1}
+    
+    Contributions:
+    
+    Code:
+    
+    \(~\)
+    
+    \textbf{Chapter 2}
+    
+    Contributions:
+    
+    Code:
+    
+    \(~\)
+    
+    \textbf{Chapter 3}
+    
+    MW Rees, JH Pascoe, BA Wintle, M Le Pla, EK Birnbaum, BA Hradsky (2019). Unexpectedly high densities of feral cats in a rugged temperate forest. \emph{Biological Conservation}, \textbf{239}, 108287.
+    
+    Contributions:
+    
+    Code: \url{https://github.com/matt-w-rees/feral-cat-otways-2017-SMR}
+    
+    \(~\)
+    
+    \textbf{Chapter 4}
+    
+    \textbf{MW Rees}, JH Pascoe, M Le Pla, A Robley, EK Birnbaum, BA Wintle, \& BA Hradsky (\emph{In review}). Quantifying mesopredator release: lethal control of an invasive apex predator alters feral cat density and detectability.
+    
+    Contributions: M.W.R, B.A.H, J.H.P, B.A.W and A.R conceived the ideas and designed the methodology; M.W.R, J.H.P, M.LP, E.K.B and B.A.H collected the data; M.W.R analysed the data with input from B.A.H and B.A.W, and led the writing of the manuscript. All authors contributed critically to the drafts and gave final approval for publication.
+    
+    Code: \url{https://github.com/matt-w-rees/invasive-mesopredator-release}
+    
+    \newpage
+    
+    \hypertarget{other-publications-that-i-have-contributed-to-during-my-candidature-but-are-not-presented-in-this-thesis}{%
+    \section*{Other publications that I have contributed to during my candidature but are not presented in this thesis}\label{other-publications-that-i-have-contributed-to-during-my-candidature-but-are-not-presented-in-this-thesis}}
+    \addcontentsline{toc}{section}{Other publications that I have contributed to during my candidature but are not presented in this thesis}
+    
+    M Le Pla, EK Birnbaum, \textbf{MW Rees}, BA Hradsky, AR Weeks, A Van Rooyen, JH Pascoe (\emph{In review}).
+    Genetic Sampling and an Activity Index Indicate Contrasting Outcomes of Lethal Control for an Invasive Predator
+    
+    A Stobo-Wilson, BP Murphy, SM Legge, DG Chapple, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, TM Newsome, R Palmer, \textbf{MW Rees}, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (\emph{In review}). Compounding and complementary carnivores: Australian bird species eaten by the introduced European red fox Vulpes vulpes and domestic cat \emph{Felis catus}.
+    
+    A Stobo-Wilson, BP Murphy, SM Legge, DG Chapple, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, TM Newsome, R Palmer, \textbf{MW Rees}, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (2021). Reptiles as food: predation of Australian reptiles by introduced red foxes compounds and complements predation by cats. \emph{Wildlife Research} \textbf{48}, 470-480. \url{https://doi.org/10.1071/WR20194}
+    
+    A Stobo-Wilson, BP Murphy, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, SM Legge, TM Newsome, R Palmer, \textbf{MW Rees}, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (2021). Sharing meals: Predation on Australian mammals by the introduced European red fox compounds and complements predation by feral cats. \emph{Biological Conservation} \textbf{261} : 109284. \url{https://doi.org/10.1016/j.biocon.2021.109284}
+    
+    H Davies, Tiwi Land Rangers, \textbf{MW Rees}, D Stokeld, AC Miller, GR Gillespie, BP Murphy (2021). Variation in feral cat density between two large adjacent islands in Australia's monsoon tropics. \emph{Pacific Conservation Biology}. \url{https://doi.org/10.1071/PC20088}
+    
+    \textbf{MW Rees}, J Carwardine, A Reeson, and J Firn (2020). Rapidly assessing cobenefits to advance threat-management alliances. \emph{Conservation Biology}, \textbf{34}: 843-853. \url{https://doi.org/10.1111/cobi.13490}
   \end{preface}
 % +-----Acknowledgements-------------------------------------------------------+
   \begin{acknowledgements}
-    We acknowledge and pay respect to the Gadubanud and Gunditjmara peoples on whose traditional lands this study took place. Surveys were conducted under University of Melbourne Animal Ethics Committee approval 1714119 and Victorian Government Department of Environment, Land Water and Planning Research Permit 10008273. This experiment was conducted in cooperation with the Glenelg Ark (Department of Environment, Land Water and Planning) and Otway Ark (Parks Victoria) working groups. Ethan Le Duc, Michael Murrell, Dylan Thomas, Rhys Weber, Chris Johansson, Lachlan Levings and Liz Beever carried out the Lower Glenelg National Park surveys, with Luke Woodford identifying cats. We are extremely grateful to our field assistants: Shauni Omond, Shayne Neal, Asitha Samarawickrama, Shelley Thompson, Erin Harris, Hannah Killian, Lani Watson, Mark Dorman, Jack Davis,Carl Roffey, Bruce Edley, Larissa Oliveira Gonçalves, Ben Lake, Chantelle Geissler, Aviya Naccarella, Emily Gronow, Harley England, David Pitts, Annie Hobby, Louise Falls, Thomas McKinnon, Jimmy Downie, Marney Hradsky, Stephanie Samson, Robin Sinclair, Asmaa Alhusainan, Kelly Forrester, Tammana Wadawani, Emily McColl-Gausden, Emily Gregg, Hannah Edwards, Adam Beck, Vishnu Memnon, Sandy Lu, Dr Pia Lentini, Prof.~Nick Golding, Emily McColl-Gausden, Nina Page, Maggie Campbell-Jones, Kyle Quinn and Jack Dickson. This manuscript was improved by comments from William Geary; Dr Joanne Potts also gave instrumental advice on fitting spatial mark-resight models. Our study was generously supported by the Conservation Ecology Centre, the Victorian Government Department of Environment, Land Water and Planning, Arthur Rylah Institute for Environmental Research, Parks Victoria, the Australian Government's National Environmental Science Program through the Threatened Species Recovery Hub, and ARC Linkage Project LP170101134. M.W.R also receives support from an Australian Government Research Training Program Scholarship.
+    I acknowledge and pay respect to the Gadubanud and Gunditjmara people on whose traditional lands this study took place. It was a privilege to learn about and work on across the countries.\\
+    I also completed my PhD while living on Wurundjeri country and Bandjalang country.
+    
+    Supervisors.
+    
+    Committee.
+    
+    Discussions many QAEco people highly influenced this PhD. Zoï. Plus Billy.
+    
+    This thesis would be very different--much worse--without the assistance of nearly 50 fieldwork volunteers.
+    Vin and Kelly provided me a home away from home during fieldwork and some much needed employment.
+    
+    Heywood DELWP office. Wes and the revolving troop of GA project officers: Pittsy, Thomas McKinnon, Lou, Ethan.
+    Glenelg Ark, Arthur Rylah Institute for borrowing camera-traps.
+    Claire Miller from PV Otway Ark.
+    
+    Family and friends. Particularly parents. Cara.
+    
+    Funding:
+    Our study was generously supported by the Conservation Ecology Centre, the Victorian Government Department of Environment, Land Water and Planning, Arthur Rylah Institute for Environmental Research, Parks Victoria, the Australian Government's National Environmental Science Program through the Threatened Species Recovery Hub, and ARC Linkage Project LP170101134. M.W.R also receives support from an Australian Government Research Training Program Scholarship.
   \end{acknowledgements}
 % +-----Table of contents------------------------------------------------------+
 
@@ -138,9 +226,9 @@
 
 \begin{mainmatter}
 
-\hypertarget{introduction}{%
-\chapter*{Introduction}\label{introduction}}
-\addcontentsline{toc}{chapter}{Introduction}
+\hypertarget{general-introduction}{%
+\chapter*{General Introduction}\label{general-introduction}}
+\addcontentsline{toc}{chapter}{General Introduction}
 
 Welcome to my University of Melbourne \emph{R Markdown} thesis template.
 
@@ -153,8 +241,8 @@ Welcome to my University of Melbourne \emph{R Markdown} thesis template.
 
 \newpage
 
-\hypertarget{introduction-1}{%
-\section{Introduction}\label{introduction-1}}
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
 
 Conservation managers intervene with ecosystems to stem rapid biodiversity loss, but benefits are rarely quantified. Understanding management outcomes is essential to ensure cost-effectiveness and detect potential unintended consequences. However, reliable inference is difficult to achieve because management effects need to be separated from `natural' drivers and population fluctuations, as well the impact of co-occurring threats and management. Further, we often have a poor understanding of what drives the patchy occurrence of species within their distributions--the spatial scale at which management usually operates at, and a common metric used to evaluate conservation strategy success.
 
@@ -304,8 +392,7 @@ Our work adds to the growing body of evidence that fire regimes are key to maint
 
 We observed surprising effects of rainfall on mammal occurrence. Feral cats were the exception, who's occurrence probability increased with both short and long-term rainfall. On the other hand, foxes, who had the strongest interaction with rainfall patterns, had higher occurrence probabilities with low rainfall. These responses may reflect different prey preferences. In a neighbouring region, Grampians, small mammals (rodent, antechinus) abundance followed short-term rainfall patterns - this increase in prey availability could explain cats occurring where rainfall is high. Foxes - I dunno? SBB's occurrence was not impacted by rainfall, LNP occurrence increased during dry periods within areas with high long-term rainfall averages. More effort is required to tease apart rainfall effects on mammal communities in these temperate landscapes. Directly quantifying time lag-effects with rainfall should be a future research priority, as should investigating interactive effects between species.
 
-Invasive predators are well-documented to prefer forest edges, this was true for foxes but not for cats in our study.
-For foxes, this effect lasted for 2 km into the forest interior, but no effect was detected for cats. GAMs useful for quantifying this, rather than arbitrarily defining categorical edge habitat or assuming edge effects are linear. The weak and uncertain increase in CWR mammal occurrence with distance is intuitive because there is more habitat away from edges, and less foxes.
+Invasive predators are well-documented to prefer forest edges, this was true for foxes but not for cats in our study. For foxes, this effect lasted for 2 km into the forest interior, but no effect was detected for cats. GAMs useful for quantifying this, rather than arbitrarily defining categorical edge habitat or assuming edge effects are linear. The weak and uncertain increase in CWR mammal occurrence with distance is intuitive because there is more habitat away from edges, and less foxes.
 
 While increasing poison-bait density can suppress foxes, Australian threatened native mammals may not benefit unless habitat structure is maintained using careful fire regimes. Failure to account for these changing environmental conditions would have produced substantial noise around the fox control effect. Improved inference will likely come from comparing a range of population metrics, such as behaviour and density.
 Invasive predators, fire, as well as changes to rainfall and fire regimes are pervasive biodiversity threats throughout the globe, including within protected areas. However, averaging effects across populations can be misleading because species responses vary.
@@ -319,8 +406,8 @@ Invasive predators, fire, as well as changes to rainfall and fire regimes are pe
 
 \newpage
 
-\hypertarget{introduction-2}{%
-\section{Introduction}\label{introduction-2}}
+\hypertarget{introduction-1}{%
+\section{Introduction}\label{introduction-1}}
 
 Diel activity patterns - the distribution of activity throughout the daily cycle - are an important but overlooked aspect of behavioural ecology. Animals must allocate particular times of the day to rest, forage, socialise and reproduce, which are traded-off against threat avoidance (e.g.~predation) and deterrence against resource loss (i.e.~inter and intraspecific competition). Diel activity can therefore vary spatially across different environmental conditions (e.g.~food, shelter availability) and species assemblages. This is important to understand because constrained diel activity can incur fitness costs to individuals and populations (Lamb 2020 PNAS).
 
@@ -506,8 +593,8 @@ Effective invasive predator management requires accurate knowledge of population
 
 \newpage
 
-\hypertarget{introduction-3}{%
-\section{Introduction}\label{introduction-3}}
+\hypertarget{introduction-2}{%
+\section{Introduction}\label{introduction-2}}
 
 Accurate estimates of the distribution and abundance of invasive predators are essential to determine ecosystem impacts, inform effective management and target control efforts. However, this information is difficult to obtain as predators are often cryptic, trap-shy and occur at low densities (Royle \emph{et al.} 2008). A prominent example is the feral cat \emph{Felis catus}, which is implicated in the extinction or decline of 430 species globally (Doherty \emph{et al.} 2017). A better understanding of feral cat density has been highlighted as a priority for effective management of both this species and its threatened native prey (Woinarski \emph{et al.} 2014; Legge \emph{et al.} 2017; Moseby \emph{et al.} 2019).
 
@@ -551,8 +638,6 @@ In SMR models, detectability is defined by two parameters: \emph{g}\textsubscrip
 As the lures may have decreased in potency over the sampling session, we tested for a linear trend in \emph{g}\textsubscript{0} over time. We also tested whether density differed between the two grids, with and without a linear time trend. We compared these models to the null model (where detection and density were kept constant across both grids) using AICc. Overdispersal in the unmarked sightings was adjusted for as per Efford \& Hunter (2018) and a spatial resolution of 0.6 of the sigma estimate was used for all models (Efford 2021).
 
 \newpage
-
-\(~\)
 
 \(~\)
 
@@ -776,8 +861,8 @@ In conclusion, our study shows that feral cats can occur at high densities in we
 \end{enumerate}
 \newpage
 
-\hypertarget{introduction-4}{%
-\section{Introduction}\label{introduction-4}}
+\hypertarget{introduction-3}{%
+\section{Introduction}\label{introduction-3}}
 
 Understanding species interactions is critical for effective invasive species management (Zavaleta \emph{et al.} 2001). When several invasive species co-occur, management actions that suppress the dominant invasive species may inadvertently benefit subordinate invasive species (Jackson 2015; Kuebbing \& Nuñez 2015). For example, the removal of a dominant invasive predator may increase the abundance of a subordinate invasive species directly by reducing top-down pressure, or indirectly by increasing the availability of shared resources; these are often referred to as mesopredator or competitor release, respectively (Crooks \& Soulé 1999; Ruscoe \emph{et al.} 2011; Doherty \& Ritchie 2017). The release of subordinate invasive species, particularly predators, can have serious negative implications for native taxa and ecosystem function (Courchamp \emph{et al.} 1999; Ballari \emph{et al.} 2016). However, integrated invasive predator management is often far more costly and less feasible than single species control, and so it is important to identify when the extra cost is justified (Bode \emph{et al.} 2015).
 
@@ -983,9 +1068,9 @@ Our study is among the very few which have used a direct measure of density to t
 
 The results of our study may explain why pest management that only targets foxes--one of the most prevalent conservation actions in Australia--does not consistently improve native prey persistence (Dexter \& Murray 2009; Robley \emph{et al.} 2014b; Wayne \emph{et al.} 2017; Lindenmayer \emph{et al.} 2018; Duncan \emph{et al.} 2020). More evidence is required to understand the circumstances in which lethal fox control increases cat density, particularly the role of baseline fox and prey densities. A more integrated approach to invasive predator management, where foxes and cats are simultaneously or otherwise optimally controlled could substantially improve biodiversity outcomes (Risbey \emph{et al.} 2000; Comer \emph{et al.} 2020). If this is not feasible, changes in invasive mesopredator density and the outcomes for native prey species should be closely monitored as part of any control program for invasive apex predators, with triggers for ceasing apex predator control or commencing integrated management if single-species control proves counterproductive for the conservation of threatened prey species.
 
-\hypertarget{conclusion}{%
-\chapter*{Conclusion}\label{conclusion}}
-\addcontentsline{toc}{chapter}{Conclusion}
+\hypertarget{synthesis}{%
+\chapter*{Synthesis}\label{synthesis}}
+\addcontentsline{toc}{chapter}{Synthesis}
 
 text
 

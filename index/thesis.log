@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.30)  19 SEP 2021 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.30)  20 SEP 2021 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,68 +409,85 @@ LaTeX Info: Redefining \nameref on input line 75.
 {/Users/mrees2/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [
 2
 
-] [3] [4
-
 ]
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-103.
+90.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-103.
+90.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-103.
+90.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 103.
+(Font)              scaled to size 11.40997pt on input line 90.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 103.
+(Font)              scaled to size 8.33606pt on input line 90.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 103.
+(Font)              scaled to size 6.25204pt on input line 90.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 103.
+(Font)              scaled to size 11.40997pt on input line 90.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 103.
+(Font)              scaled to size 8.33606pt on input line 90.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 103.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-3.
+(Font)              scaled to size 6.25204pt on input line 90.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 90
+.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-103.
+90.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [5] [6
+) [3] [4] [5
 
-] [7] [8
+] [6
 
 ]
-Overfull \hbox (6.31223pt too wide) in paragraph at lines 110--111
-\OT1/ppl/m/n/10.95 ment De-part-ment of En-vi-ron-ment, Land Wa-ter and Plan-ni
-ng Re-search Per-mit 10008273.
+Overfull \hbox (0.34418pt too wide) in paragraph at lines 114--115
+\OT1/ppl/m/n/10.95 Ben Lake, Chantelle Geissler, Aviya Nac-carella, Emily Grono
+w, Harley Eng-land, David
  []
 
-[9] [10
+[7]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+46.
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (6.83559pt too wide) in paragraph at lines 146--147
+[]\OT1/ppl/m/n/10.95 Code: []$\OT1/pcr/m/n/10.95 https : / / github . com / mat
+t-[]w-[]rees / feral-[]cat-[]otways-[]2017-[]SMR$[] 
+ []
 
-] (./thesis.toc [11] [12])
+
+Overfull \hbox (32.11555pt too wide) in paragraph at lines 156--157
+[]\OT1/ppl/m/n/10.95 Code: []$\OT1/pcr/m/n/10.95 https : / / github . com / mat
+t-[]w-[]rees / invasive-[]mesopredator-[]release$[] 
+ []
+
+[8] [9] [10
+
+] [11] [12
+
+] (./thesis.toc [13] [14])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
-[13] [14
+[15] [16
 
-] (./thesis.lot [15])
+] (./thesis.lot [17])
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
-[16] (./thesis.lof [17
+[18] (./thesis.lof [19
 
 ]
 Overfull \hbox (3.24532pt too wide) in paragraph at lines 8--8
@@ -484,13 +501,13 @@ Overfull \hbox (6.28976pt too wide) in paragraph at lines 10--10
 es vulpes \OT1/ppl/m/n/10.95 de-tec-tions (log-transformed 
  []
 
-[18] [19] [20] [21])
+[20] [21] [22] [23])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
-[22] [23
+[24] [25
 
-] [24
+] [26
 
 ] [1
 
@@ -499,55 +516,55 @@ es vulpes \OT1/ppl/m/n/10.95 de-tec-tions (log-transformed
 ]
 Chapter 1.
 [3]
-Overfull \hbox (0.13489pt too wide) in paragraph at lines 163--164
+Overfull \hbox (0.13489pt too wide) in paragraph at lines 251--252
 \OT1/ppl/m/n/10.95 than any other in-va-sive ver-te-brates, pri-mar-ily through
  con-tin-u-ous 1080 poison-baiting
  []
 
 [4]
-Overfull \hbox (16.19922pt too wide) in paragraph at lines 169--170
+Overfull \hbox (16.19922pt too wide) in paragraph at lines 257--258
 \OT1/ppl/m/n/10.95 but are sel-dom been ac-counted for as-sess-ing fox con-trol
  out-comes. For ex-am-ple Boodoree,
  []
 
 [5] [6] [7] [8]
-Overfull \hbox (1.10509pt too wide) in paragraph at lines 210--211
+Overfull \hbox (1.10509pt too wide) in paragraph at lines 298--299
 []\OT1/ppl/m/n/10.95 Invasive preda-tors are well-documented to pre-fer edges b
 e-tween for-est and cleared
  []
 
 [9] [10]
-<figure/c1/fig1_map.png, id=772, 1205.50375pt x 736.7525pt>
+<figure/c1/fig1_map.png, id=804, 1205.50375pt x 736.7525pt>
 File: figure/c1/fig1_map.png Graphic file (type png)
 <use figure/c1/fig1_map.png>
-Package pdftex.def Info: figure/c1/fig1_map.png  used on input line 223.
+Package pdftex.def Info: figure/c1/fig1_map.png  used on input line 311.
 (pdftex.def)             Requested size: 412.56497pt x 252.13385pt.
 [11 <./figure/c1/fig1_map.png>] [12] [13]
-<figure/c1/foxbaits.png, id=804, 4998.675pt x 4818.0pt>
+<figure/c1/foxbaits.png, id=837, 4998.675pt x 4818.0pt>
 File: figure/c1/foxbaits.png Graphic file (type png)
 <use figure/c1/foxbaits.png>
-Package pdftex.def Info: figure/c1/foxbaits.png  used on input line 253.
+Package pdftex.def Info: figure/c1/foxbaits.png  used on input line 341.
 (pdftex.def)             Requested size: 412.56497pt x 397.65164pt.
 [14 <./figure/c1/foxbaits.png>]
-<figure/c1/tsf.png, id=810, 6022.5pt x 5420.25pt>
+<figure/c1/tsf.png, id=843, 6022.5pt x 5420.25pt>
 File: figure/c1/tsf.png Graphic file (type png)
 <use figure/c1/tsf.png>
-Package pdftex.def Info: figure/c1/tsf.png  used on input line 268.
+Package pdftex.def Info: figure/c1/tsf.png  used on input line 356.
 (pdftex.def)             Requested size: 412.56497pt x 371.26836pt.
 [15 <./figure/c1/tsf.png>]
-<figure/c1/rainfall.png, id=816, 4998.675pt x 4818.0pt>
+<figure/c1/rainfall.png, id=849, 4998.675pt x 4818.0pt>
 File: figure/c1/rainfall.png Graphic file (type png)
 <use figure/c1/rainfall.png>
-Package pdftex.def Info: figure/c1/rainfall.png  used on input line 283.
+Package pdftex.def Info: figure/c1/rainfall.png  used on input line 371.
 (pdftex.def)             Requested size: 412.56497pt x 397.65164pt.
 [16 <./figure/c1/rainfall.png>]
-Overfull \hbox (3.94536pt too wide) in paragraph at lines 294--295
+Overfull \hbox (3.94536pt too wide) in paragraph at lines 382--383
 \OT1/ppl/m/n/10.95 poison-baits in the Glenelg re-gion, Aus-tralia, largely mai
 n-tains the per-sis-tence of LNP's
  []
 
 
-Overfull \hbox (3.03677pt too wide) in paragraph at lines 294--295
+Overfull \hbox (3.03677pt too wide) in paragraph at lines 382--383
 \OT1/ppl/m/n/10.95 fox con-trol is not the only ef-fec-tive tool mangers have--
 maintaining op-ti-mal fire regimes
  []
@@ -557,328 +574,323 @@ Chapter 2.
 [19
 
 ] [20] [21] [22] [23] [24] [25]
-<figure/c4/fig1_map.png, id=881, 1205.50375pt x 736.7525pt>
+<figure/c4/fig1_map.png, id=913, 1205.50375pt x 736.7525pt>
 File: figure/c4/fig1_map.png Graphic file (type png)
 <use figure/c4/fig1_map.png>
-Package pdftex.def Info: figure/c4/fig1_map.png  used on input line 395.
+Package pdftex.def Info: figure/c4/fig1_map.png  used on input line 482.
 (pdftex.def)             Requested size: 412.56497pt x 252.13385pt.
 [26 <./figure/c4/fig1_map.png>] [27] [28]
-<figure/c4/diel_strength_600dpi.png, id=905, 6022.5pt x 5420.25pt>
+<figure/c4/diel_strength_600dpi.png, id=938, 6022.5pt x 5420.25pt>
 File: figure/c4/diel_strength_600dpi.png Graphic file (type png)
 <use figure/c4/diel_strength_600dpi.png>
 Package pdftex.def Info: figure/c4/diel_strength_600dpi.png  used on input line
- 446.
+ 533.
 (pdftex.def)             Requested size: 412.56497pt x 371.26836pt.
 [29 <./figure/c4/diel_strength_600dpi.png>]
-<figure/c4/predator_veg.png, id=911, 5420.25pt x 6022.5pt>
+<figure/c4/predator_veg.png, id=945, 5420.25pt x 6022.5pt>
 File: figure/c4/predator_veg.png Graphic file (type png)
 <use figure/c4/predator_veg.png>
-Package pdftex.def Info: figure/c4/predator_veg.png  used on input line 455.
+Package pdftex.def Info: figure/c4/predator_veg.png  used on input line 542.
 (pdftex.def)             Requested size: 412.56497pt x 458.37642pt.
 [30 <./figure/c4/predator_veg.png>]
-<figure/c4/cat_fox_count.png, id=917, 5420.25pt x 3914.625pt>
+<figure/c4/cat_fox_count.png, id=951, 5420.25pt x 3914.625pt>
 File: figure/c4/cat_fox_count.png Graphic file (type png)
 <use figure/c4/cat_fox_count.png>
-Package pdftex.def Info: figure/c4/cat_fox_count.png  used on input line 464.
+Package pdftex.def Info: figure/c4/cat_fox_count.png  used on input line 551.
 (pdftex.def)             Requested size: 412.56497pt x 297.94467pt.
 [31 <./figure/c4/cat_fox_count.png>]
-<figure/c4/cat_ind.png, id=924, 5420.25pt x 6022.5pt>
+<figure/c4/cat_ind.png, id=957, 5420.25pt x 6022.5pt>
 File: figure/c4/cat_ind.png Graphic file (type png)
 <use figure/c4/cat_ind.png>
-Package pdftex.def Info: figure/c4/cat_ind.png  used on input line 473.
+Package pdftex.def Info: figure/c4/cat_ind.png  used on input line 560.
 (pdftex.def)             Requested size: 412.56497pt x 458.37642pt.
 [32 <./figure/c4/cat_ind.png>] [33] [34]
 Chapter 3.
 [35
 
 ] [36] [37]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
-30.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 6
+17.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [38] [39]
-<figure/c2/c2_map.png, id=971, 722.7pt x 542.025pt>
+<figure/c2/c2_map.png, id=1003, 722.7pt x 542.025pt>
 File: figure/c2/c2_map.png Graphic file (type png)
 <use figure/c2/c2_map.png>
-Package pdftex.def Info: figure/c2/c2_map.png  used on input line 564.
+Package pdftex.def Info: figure/c2/c2_map.png  used on input line 649.
 (pdftex.def)             Requested size: 412.56497pt x 309.42061pt.
 [40 <./figure/c2/c2_map.png>] [41] [42] [43] [44] [45] [46
 
 ]
 Chapter 4.
 [47] [48] [49] [50] [51] [52] [53] [54] [55]
-<figure/c3/fig1.png, id=1074, 913.4125pt x 578.16pt>
+<figure/c3/fig1.png, id=1106, 913.4125pt x 578.16pt>
 File: figure/c3/fig1.png Graphic file (type png)
 <use figure/c3/fig1.png>
-Package pdftex.def Info: figure/c3/fig1.png  used on input line 855.
+Package pdftex.def Info: figure/c3/fig1.png  used on input line 940.
 (pdftex.def)             Requested size: 412.56497pt x 261.14001pt.
 [56 <./figure/c3/fig1.png>] [57] [58]
-<figure/c3/fig2_600dpi.png, id=1120, 5119.125pt x 5570.8125pt>
+<figure/c3/fig2_600dpi.png, id=1153, 5119.125pt x 5570.8125pt>
 File: figure/c3/fig2_600dpi.png Graphic file (type png)
 <use figure/c3/fig2_600dpi.png>
-Package pdftex.def Info: figure/c3/fig2_600dpi.png  used on input line 899.
+Package pdftex.def Info: figure/c3/fig2_600dpi.png  used on input line 984.
 (pdftex.def)             Requested size: 412.56497pt x 448.90425pt.
 [59 <./figure/c3/fig2_600dpi.png>]
-<figure/c3/foxD_600dpi.png, id=1126, 3914.625pt x 2409.0pt>
+<figure/c3/foxD_600dpi.png, id=1160, 3914.625pt x 2409.0pt>
 File: figure/c3/foxD_600dpi.png Graphic file (type png)
 <use figure/c3/foxD_600dpi.png>
-Package pdftex.def Info: figure/c3/foxD_600dpi.png  used on input line 914.
+Package pdftex.def Info: figure/c3/foxD_600dpi.png  used on input line 999.
 (pdftex.def)             Requested size: 412.56497pt x 253.85304pt.
 [60 <./figure/c3/foxD_600dpi.png>]
-<figure/c3/foxDet_otways_600dpi.png, id=1132, 4998.675pt x 3011.25pt>
+<figure/c3/foxDet_otways_600dpi.png, id=1166, 4998.675pt x 3011.25pt>
 File: figure/c3/foxDet_otways_600dpi.png Graphic file (type png)
 <use figure/c3/foxDet_otways_600dpi.png>
 Package pdftex.def Info: figure/c3/foxDet_otways_600dpi.png  used on input line
- 929.
+ 1014.
 (pdftex.def)             Requested size: 412.56497pt x 248.53227pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 933.
+(Font)              scaled to size 10.42007pt on input line 1018.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 933.
+(Font)              scaled to size 7.91925pt on input line 1018.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 933.
+(Font)              scaled to size 10.42007pt on input line 1018.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 933.
+(Font)              scaled to size 7.91925pt on input line 1018.
 [61 <./figure/c3/foxDet_otways_600dpi.png>]
-<figure/c3/glenelg_estimates_600dpi.png, id=1139, 4998.675pt x 2710.125pt>
+<figure/c3/glenelg_estimates_600dpi.png, id=1172, 4998.675pt x 2710.125pt>
 File: figure/c3/glenelg_estimates_600dpi.png Graphic file (type png)
 <use figure/c3/glenelg_estimates_600dpi.png>
 Package pdftex.def Info: figure/c3/glenelg_estimates_600dpi.png  used on input 
-line 944.
+line 1029.
 (pdftex.def)             Requested size: 412.56497pt x 223.67905pt.
 [62 <./figure/c3/glenelg_estimates_600dpi.png>]
-<figure/c3/otways_estimates_600dpi.png, id=1145, 4998.675pt x 2710.125pt>
+<figure/c3/otways_estimates_600dpi.png, id=1178, 4998.675pt x 2710.125pt>
 File: figure/c3/otways_estimates_600dpi.png Graphic file (type png)
 <use figure/c3/otways_estimates_600dpi.png>
 Package pdftex.def Info: figure/c3/otways_estimates_600dpi.png  used on input l
-ine 959.
+ine 1044.
 (pdftex.def)             Requested size: 412.56497pt x 223.67905pt.
 [63 <./figure/c3/otways_estimates_600dpi.png>] [64] [65] [66] [67
 
 ] [68
 
 ] [69] [70]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-089.
-(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (26.19812pt too wide) in paragraph at lines 1088--1090
+Overfull \hbox (26.19812pt too wide) in paragraph at lines 1173--1175
  [][]\OT1/ppl/m/n/10.95 DELWP. (2020). \OT1/ppl/m/it/10.95 Biore-gions and evc 
 bench-marks\OT1/ppl/m/n/10.95 . Avail-able at: []$\OT1/pcr/m/n/10.95 https : / 
 / www . environment .
  []
 
 [71] [72]
-Overfull \hbox (9.05925pt too wide) in paragraph at lines 1178--1180
+Overfull \hbox (9.05925pt too wide) in paragraph at lines 1263--1265
  \OT1/ppl/m/n/10.95 Human-modified habi-tats fa-cil-i-tate forest-dwelling pop-
 u-la-tions of an in-va-sive preda-
  []
 
 [73]
-Overfull \hbox (0.17915pt too wide) in paragraph at lines 1211--1213
+Overfull \hbox (0.17915pt too wide) in paragraph at lines 1296--1298
  \OT1/ppl/m/n/10.95 among non-na-tive plants: Pat-terns, pro-cesses, and man-ag
 e-ment im-pli-ca-tions. \OT1/ppl/m/it/10.95 Global
  []
 
 [74] [75] [76] [77] [78]
 LaTeX Font Info:    Trying to load font information for OML+ppl on input line 1
-427.
+512.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omlppl.fd
 File: omlppl.fd 
 )
 LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1427.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1512.
 
 [79] [80
 
 ]
 Appendix A.
 [81] [82]
-<figure/c1/detectability.png, id=1386, 5420.25pt x 4818.0pt>
+<figure/c1/detectability.png, id=1417, 5420.25pt x 4818.0pt>
 File: figure/c1/detectability.png Graphic file (type png)
 <use figure/c1/detectability.png>
-Package pdftex.def Info: figure/c1/detectability.png  used on input line 1477.
+Package pdftex.def Info: figure/c1/detectability.png  used on input line 1562.
 (pdftex.def)             Requested size: 412.56497pt x 366.70113pt.
 [83 <./figure/c1/detectability.png>]
-<figure/c1/dist_edge.png, id=1392, 4998.675pt x 4818.0pt>
+<figure/c1/dist_edge.png, id=1424, 4998.675pt x 4818.0pt>
 File: figure/c1/dist_edge.png Graphic file (type png)
 <use figure/c1/dist_edge.png>
-Package pdftex.def Info: figure/c1/dist_edge.png  used on input line 1492.
+Package pdftex.def Info: figure/c1/dist_edge.png  used on input line 1577.
 (pdftex.def)             Requested size: 412.56497pt x 397.65164pt.
 [84 <./figure/c1/dist_edge.png>]
 Appendix B.
 [85
 
 ]
-<figure/otways17-g0t-1.pdf, id=1405, 426.59375pt x 248.93pt>
+<figure/otways17-g0t-1.pdf, id=1436, 426.59375pt x 248.93pt>
 File: figure/otways17-g0t-1.pdf Graphic file (type pdf)
 <use figure/otways17-g0t-1.pdf>
-Package pdftex.def Info: figure/otways17-g0t-1.pdf  used on input line 1512.
+Package pdftex.def Info: figure/otways17-g0t-1.pdf  used on input line 1597.
 (pdftex.def)             Requested size: 288.79422pt x 168.52946pt.
 [86 <./figure/otways17-g0t-1.pdf>] [87] [88
 
 ]
 Appendix C.
 [89] [90]
-<figure/density-camop-1.pdf, id=1437, 429.605pt x 285.065pt>
+<figure/density-camop-1.pdf, id=1469, 429.605pt x 285.065pt>
 File: figure/density-camop-1.pdf Graphic file (type pdf)
 <use figure/density-camop-1.pdf>
-Package pdftex.def Info: figure/density-camop-1.pdf  used on input line 1579.
+Package pdftex.def Info: figure/density-camop-1.pdf  used on input line 1664.
 (pdftex.def)             Requested size: 412.56497pt x 273.76367pt.
 [91 <./figure/density-camop-1.pdf>]
-<figure/c3/camtrap1.jpg, id=1453, 1027.84pt x 770.88pt>
+<figure/c3/camtrap1.jpg, id=1484, 1027.84pt x 770.88pt>
 File: figure/c3/camtrap1.jpg Graphic file (type jpg)
 <use figure/c3/camtrap1.jpg>
-Package pdftex.def Info: figure/c3/camtrap1.jpg  used on input line 1594.
+Package pdftex.def Info: figure/c3/camtrap1.jpg  used on input line 1679.
 (pdftex.def)             Requested size: 412.56497pt x 309.42871pt.
 [92 <./figure/c3/camtrap1.jpg>] [93] [94]
-<figure/c3/cat_coats.jpg, id=1469, 3854.4pt x 3252.15pt>
+<figure/c3/cat_coats.jpg, id=1501, 3854.4pt x 3252.15pt>
 File: figure/c3/cat_coats.jpg Graphic file (type jpg)
 <use figure/c3/cat_coats.jpg>
-Package pdftex.def Info: figure/c3/cat_coats.jpg  used on input line 1628.
+Package pdftex.def Info: figure/c3/cat_coats.jpg  used on input line 1713.
 (pdftex.def)             Requested size: 412.56497pt x 348.06097pt.
 [95 <./figure/c3/cat_coats.jpg>]
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1646--1653
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1731--1738
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1653--1660
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1738--1745
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1660--1662
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1745--1747
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1662--1664
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1747--1749
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1664--1679
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1749--1764
  [] [] [] [] [] [] [] [] 
  []
 
 [96]
-<figure/density-plot-ch-1-1.pdf, id=1479, 447.6725pt x 259.97125pt>
+<figure/density-plot-ch-1-1.pdf, id=1512, 447.6725pt x 259.97125pt>
 File: figure/density-plot-ch-1-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-1-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-1-1.pdf  used on input line 170
-0.
+Package pdftex.def Info: figure/density-plot-ch-1-1.pdf  used on input line 178
+5.
 (pdftex.def)             Requested size: 412.56497pt x 239.58899pt.
 [97 <./figure/density-plot-ch-1-1.pdf>]
-<figure/density-plot-ch-2-1.pdf, id=1496, 445.665pt x 256.96pt>
+<figure/density-plot-ch-2-1.pdf, id=1528, 445.665pt x 256.96pt>
 File: figure/density-plot-ch-2-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-2-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-2-1.pdf  used on input line 171
-8.
+Package pdftex.def Info: figure/density-plot-ch-2-1.pdf  used on input line 180
+3.
 (pdftex.def)             Requested size: 412.56497pt x 237.87639pt.
 [98 <./figure/density-plot-ch-2-1.pdf>]
-<figure/density-plot-ch-3-1.pdf, id=1511, 445.665pt x 205.76875pt>
+<figure/density-plot-ch-3-1.pdf, id=1542, 445.665pt x 205.76875pt>
 File: figure/density-plot-ch-3-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-3-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-3-1.pdf  used on input line 173
-6.
+Package pdftex.def Info: figure/density-plot-ch-3-1.pdf  used on input line 182
+1.
 (pdftex.def)             Requested size: 412.56497pt x 190.48695pt.
 [99 <./figure/density-plot-ch-3-1.pdf>]
-<figure/density-plot-ch-4-1.pdf, id=1525, 445.665pt x 275.0275pt>
+<figure/density-plot-ch-4-1.pdf, id=1556, 445.665pt x 275.0275pt>
 File: figure/density-plot-ch-4-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-4-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-4-1.pdf  used on input line 175
-7.
+Package pdftex.def Info: figure/density-plot-ch-4-1.pdf  used on input line 184
+2.
 (pdftex.def)             Requested size: 412.56497pt x 254.60208pt.
 [100 <./figure/density-plot-ch-4-1.pdf>]
-<figure/density-plot-ch-5-1.pdf, id=1540, 447.6725pt x 258.9675pt>
+<figure/density-plot-ch-5-1.pdf, id=1571, 447.6725pt x 258.9675pt>
 File: figure/density-plot-ch-5-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-5-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-5-1.pdf  used on input line 177
-5.
+Package pdftex.def Info: figure/density-plot-ch-5-1.pdf  used on input line 186
+0.
 (pdftex.def)             Requested size: 412.56497pt x 238.66393pt.
 [101 <./figure/density-plot-ch-5-1.pdf>]
-<figure/density-plot-ch-6-1.pdf, id=1554, 447.6725pt x 261.97874pt>
+<figure/density-plot-ch-6-1.pdf, id=1586, 447.6725pt x 261.97874pt>
 File: figure/density-plot-ch-6-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-6-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-6-1.pdf  used on input line 179
-3.
+Package pdftex.def Info: figure/density-plot-ch-6-1.pdf  used on input line 187
+8.
 (pdftex.def)             Requested size: 412.56497pt x 241.4391pt.
 [102 <./figure/density-plot-ch-6-1.pdf>]
-Overfull \hbox (106.4644pt too wide) in paragraph at lines 1834--1834
+Overfull \hbox (106.4644pt too wide) in paragraph at lines 1919--1919
 []\OT1/pcr/m/n/10.95 fox ~ s(x, y, bs = "ds", m = c(1, 0.5), k = 200) + offset(
 log(survey_duration))[] 
  []
 
 [103]
-<figure/c3/fox_occ_se_glenelg_600dpi.png, id=1575, 5119.125pt x 3011.25pt>
+<figure/c3/fox_occ_se_glenelg_600dpi.png, id=1606, 5119.125pt x 3011.25pt>
 File: figure/c3/fox_occ_se_glenelg_600dpi.png Graphic file (type png)
 <use figure/c3/fox_occ_se_glenelg_600dpi.png>
 Package pdftex.def Info: figure/c3/fox_occ_se_glenelg_600dpi.png  used on input
- line 1844.
+ line 1929.
 (pdftex.def)             Requested size: 412.56497pt x 242.65094pt.
 [104 <./figure/c3/fox_occ_se_glenelg_600dpi.png>]
-Overfull \hbox (34.19449pt too wide) in paragraph at lines 1888--1888
+Overfull \hbox (34.19449pt too wide) in paragraph at lines 1973--1973
 []\OT1/pcr/m/n/10.95 fox ~ year + s(x, y, by = year, bs = "ds", m = c(1, 0.5), 
 k = 100) +[] 
  []
 
 [105]
-<figure/c3/fox_occ_se_otways_600dpi.png, id=1586, 5119.125pt x 2559.5625pt>
+<figure/c3/fox_occ_se_otways_600dpi.png, id=1617, 5119.125pt x 2559.5625pt>
 File: figure/c3/fox_occ_se_otways_600dpi.png Graphic file (type png)
 <use figure/c3/fox_occ_se_otways_600dpi.png>
 Package pdftex.def Info: figure/c3/fox_occ_se_otways_600dpi.png  used on input 
-line 1898.
+line 1983.
 (pdftex.def)             Requested size: 412.56497pt x 206.2533pt.
 [106 <./figure/c3/fox_occ_se_otways_600dpi.png>] [107]
-<figure/density-veg-1.pdf, id=1597, 467.7475pt x 279.0425pt>
+<figure/density-veg-1.pdf, id=1630, 467.7475pt x 279.0425pt>
 File: figure/density-veg-1.pdf Graphic file (type pdf)
 <use figure/density-veg-1.pdf>
-Package pdftex.def Info: figure/density-veg-1.pdf  used on input line 1922.
+Package pdftex.def Info: figure/density-veg-1.pdf  used on input line 2007.
 (pdftex.def)             Requested size: 412.56497pt x 246.13295pt.
 [108 <./figure/density-veg-1.pdf>] [109] [110]
-Overfull \hbox (30.79257pt too wide) in alignment at lines 1994--2014
+Overfull \hbox (30.79257pt too wide) in alignment at lines 2079--2099
  [] [] [] [] [] [] [] 
  []
 
 [111]
-Overfull \hbox (7.7201pt too wide) in alignment at lines 2026--2040
+Overfull \hbox (7.7201pt too wide) in alignment at lines 2111--2125
  [] [] [] [] [] [] [] 
  []
 
 [112] [113] [114] [115]
-Overfull \hbox (63.89241pt too wide) in alignment at lines 2131--2151
+Overfull \hbox (63.89241pt too wide) in alignment at lines 2216--2236
  [] [] [] [] [] [] [] 
  []
 
 [116]
-Overfull \hbox (7.7201pt too wide) in alignment at lines 2163--2177
+Overfull \hbox (7.7201pt too wide) in alignment at lines 2248--2262
  [] [] [] [] [] [] [] 
  []
 
 [117] [118] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 163A6634861515CE7F3F4B546FC1493A;11028.
+(rerunfilecheck)             Checksum: 432D320E5E8386C6150A3C1B4DAB263E;11963.
  ) 
 Here is how much of TeX's memory you used:
- 11824 strings out of 480559
- 185145 string characters out of 5902535
- 503039 words of memory out of 5000000
- 28723 multiletter control sequences out of 15000+600000
+ 11834 strings out of 480559
+ 185519 string characters out of 5902535
+ 503451 words of memory out of 5000000
+ 28727 multiletter control sequences out of 15000+600000
  431007 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,12n,80p,2022b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,80p,1719b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/mrees2/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users
 /mrees2/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 Users/mrees2/Library/TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></Us
 ers/mrees2/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Use
 rs/mrees2/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></User
 s/mrees2/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (142 pages, 18109315 bytes).
+Output written on thesis.pdf (144 pages, 18119684 bytes).
 PDF statistics:
- 1788 PDF objects out of 2073 (max. 8388607)
- 1549 compressed objects within 16 object streams
- 493 named destinations out of 1000 (max. 500000)
- 660 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1820 PDF objects out of 2073 (max. 8388607)
+ 1579 compressed objects within 16 object streams
+ 499 named destinations out of 1000 (max. 500000)
+ 676 words of extra memory for PDF output out of 10000 (max. 10000000)
 
