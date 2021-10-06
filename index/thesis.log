@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.30)  20 SEP 2021 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.10.1)  6 OCT 2021 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,6 +333,55 @@ Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR)
 ) (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup7
+) (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count291
+\calc@Bcount=\count292
+\calc@Adimen=\dimen175
+\calc@Bdimen=\dimen176
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count293
+\calc@Cskip=\skip73
+) (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen177
+\ESO@tempdimb=\dimen178
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen179
+\AM@pageheight=\dimen180
+\AM@fboxrule=\dimen181
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count294
+\AM@pagebox=\box59
+\AM@global@opts=\toks31
+\AM@pagecnt=\count295
+\AM@toc@title=\toks32
+\c@AM@survey=\count296
+\AM@templatesizebox=\box60
 )
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 7
 5.
@@ -342,8 +391,8 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.
 def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count291
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count297
+\l__pdf_internal_box=\box61
 ) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
@@ -394,7 +443,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count292
+\c@section@level=\count298
 )
 LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
@@ -403,7 +452,13 @@ LaTeX Info: Redefining \nameref on input line 75.
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-[1
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) [1
 
 
 {/Users/mrees2/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [
@@ -450,13 +505,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 ] [6
 
-]
-Overfull \hbox (0.34418pt too wide) in paragraph at lines 114--115
-\OT1/ppl/m/n/10.95 Ben Lake, Chantelle Geissler, Aviya Nac-carella, Emily Grono
-w, Harley Eng-land, David
- []
-
-[7]
+] [7]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
 46.
 (/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -489,408 +538,553 @@ t-[]w-[]rees / invasive-[]mesopredator-[]release$[]
 
 [18] (./thesis.lof [19
 
-]
-Overfull \hbox (3.24532pt too wide) in paragraph at lines 8--8
- [][] [][]\OT1/ppl/m/n/10.95 Relative spa-tial pat-terns of in-va-sive preda-to
-r diel ac-tiv-ity strength across 
- []
-
-
-Overfull \hbox (6.28976pt too wide) in paragraph at lines 10--10
- \OT1/ppl/m/n/10.95 sponse to 'in-de-pen-dent' red fox \OT1/ppl/m/it/10.95 Vulp
-es vulpes \OT1/ppl/m/n/10.95 de-tec-tions (log-transformed 
- []
-
-[20] [21] [22] [23])
+] [20] [21] [22])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
-[24] [25
+[23] [24
 
-] [26
-
-] [1
-
-] [2
+] [25] [26
 
 ]
 Chapter 1.
-[3]
-Overfull \hbox (0.13489pt too wide) in paragraph at lines 251--252
-\OT1/ppl/m/n/10.95 than any other in-va-sive ver-te-brates, pri-mar-ily through
- con-tin-u-ous 1080 poison-baiting
+[1
+
+] [2] [3] [4] [5]
+LaTeX Font Info:    Trying to load font information for OML+ppl on input line 3
+09.
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omlppl.fd
+File: omlppl.fd 
+)
+LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 309.
+[6]
+Chapter 2.
+[7
+
+] [8] [9]
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 3
+43.
+(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+) [10] [11]
+<figure/otways17_map.png, id=807, 722.7pt x 542.025pt>
+File: figure/otways17_map.png Graphic file (type png)
+<use figure/otways17_map.png>
+Package pdftex.def Info: figure/otways17_map.png  used on input line 375.
+(pdftex.def)             Requested size: 412.56497pt x 309.42061pt.
+[12 <./figure/otways17_map.png>] [13] [14] [15] [16] [17] [18
+
+]
+Chapter 3.
+
+Overfull \hbox (5.16109pt too wide) in paragraph at lines 576--578
+\OT1/ppl/m/n/10.95 culling ef-forts, but lethal con-trol across broad spa-tiote
+m-po-ral scales is ex-pen-sive. Quan-
  []
 
-[4]
-Overfull \hbox (16.19922pt too wide) in paragraph at lines 257--258
-\OT1/ppl/m/n/10.95 but are sel-dom been ac-counted for as-sess-ing fox con-trol
- out-comes. For ex-am-ple Boodoree,
- []
-
-[5] [6] [7] [8]
-Overfull \hbox (1.10509pt too wide) in paragraph at lines 298--299
+[19] [20] [21] [22] [23] [24] [25]
+Overfull \hbox (1.10509pt too wide) in paragraph at lines 662--663
 []\OT1/ppl/m/n/10.95 Invasive preda-tors are well-documented to pre-fer edges b
 e-tween for-est and cleared
  []
 
-[9] [10]
-<figure/c1/fig1_map.png, id=804, 1205.50375pt x 736.7525pt>
-File: figure/c1/fig1_map.png Graphic file (type png)
-<use figure/c1/fig1_map.png>
-Package pdftex.def Info: figure/c1/fig1_map.png  used on input line 311.
+[26] [27]
+<figure/map_cams.png, id=899, 1205.50375pt x 736.7525pt>
+File: figure/map_cams.png Graphic file (type png)
+<use figure/map_cams.png>
+Package pdftex.def Info: figure/map_cams.png  used on input line 675.
 (pdftex.def)             Requested size: 412.56497pt x 252.13385pt.
-[11 <./figure/c1/fig1_map.png>] [12] [13]
-<figure/c1/foxbaits.png, id=837, 4998.675pt x 4818.0pt>
-File: figure/c1/foxbaits.png Graphic file (type png)
-<use figure/c1/foxbaits.png>
-Package pdftex.def Info: figure/c1/foxbaits.png  used on input line 341.
+[28 <./figure/map_cams.png>]
+
+LaTeX Warning: Reference `fig:occ-rain' on page 29 undefined on input line 690.
+
+
+
+LaTeX Warning: Reference `fig:occ-rain' on page 29 undefined on input line 690.
+
+
+
+LaTeX Warning: Reference `fig:occ-rain' on page 29 undefined on input line 690.
+
+
+
+LaTeX Warning: Reference `fig:occ-rain' on page 29 undefined on input line 690.
+
+
+
+LaTeX Warning: Reference `fig:occ-rain' on page 29 undefined on input line 690.
+
+
+[29] [30]
+<figure/foxbaits.png, id=925, 4998.675pt x 4818.0pt>
+File: figure/foxbaits.png Graphic file (type png)
+<use figure/foxbaits.png>
+Package pdftex.def Info: figure/foxbaits.png  used on input line 705.
 (pdftex.def)             Requested size: 412.56497pt x 397.65164pt.
-[14 <./figure/c1/foxbaits.png>]
-<figure/c1/tsf.png, id=843, 6022.5pt x 5420.25pt>
-File: figure/c1/tsf.png Graphic file (type png)
-<use figure/c1/tsf.png>
-Package pdftex.def Info: figure/c1/tsf.png  used on input line 356.
+[31 <./figure/foxbaits.png>]
+<figure/tsf.png, id=931, 6022.5pt x 5420.25pt>
+File: figure/tsf.png Graphic file (type png)
+<use figure/tsf.png>
+Package pdftex.def Info: figure/tsf.png  used on input line 720.
 (pdftex.def)             Requested size: 412.56497pt x 371.26836pt.
-[15 <./figure/c1/tsf.png>]
-<figure/c1/rainfall.png, id=849, 4998.675pt x 4818.0pt>
-File: figure/c1/rainfall.png Graphic file (type png)
-<use figure/c1/rainfall.png>
-Package pdftex.def Info: figure/c1/rainfall.png  used on input line 371.
-(pdftex.def)             Requested size: 412.56497pt x 397.65164pt.
-[16 <./figure/c1/rainfall.png>]
-Overfull \hbox (3.94536pt too wide) in paragraph at lines 382--383
+[32 <./figure/tsf.png>]
+Overfull \hbox (3.94536pt too wide) in paragraph at lines 731--732
 \OT1/ppl/m/n/10.95 poison-baits in the Glenelg re-gion, Aus-tralia, largely mai
 n-tains the per-sis-tence of LNP's
  []
 
 
-Overfull \hbox (3.03677pt too wide) in paragraph at lines 382--383
+Overfull \hbox (3.03677pt too wide) in paragraph at lines 731--732
 \OT1/ppl/m/n/10.95 fox con-trol is not the only ef-fec-tive tool mangers have--
 maintaining op-ti-mal fire regimes
  []
 
-[17] [18]
-Chapter 2.
-[19
-
-] [20] [21] [22] [23] [24] [25]
-<figure/c4/fig1_map.png, id=913, 1205.50375pt x 736.7525pt>
-File: figure/c4/fig1_map.png Graphic file (type png)
-<use figure/c4/fig1_map.png>
-Package pdftex.def Info: figure/c4/fig1_map.png  used on input line 482.
-(pdftex.def)             Requested size: 412.56497pt x 252.13385pt.
-[26 <./figure/c4/fig1_map.png>] [27] [28]
-<figure/c4/diel_strength_600dpi.png, id=938, 6022.5pt x 5420.25pt>
-File: figure/c4/diel_strength_600dpi.png Graphic file (type png)
-<use figure/c4/diel_strength_600dpi.png>
-Package pdftex.def Info: figure/c4/diel_strength_600dpi.png  used on input line
- 533.
-(pdftex.def)             Requested size: 412.56497pt x 371.26836pt.
-[29 <./figure/c4/diel_strength_600dpi.png>]
-<figure/c4/predator_veg.png, id=945, 5420.25pt x 6022.5pt>
-File: figure/c4/predator_veg.png Graphic file (type png)
-<use figure/c4/predator_veg.png>
-Package pdftex.def Info: figure/c4/predator_veg.png  used on input line 542.
-(pdftex.def)             Requested size: 412.56497pt x 458.37642pt.
-[30 <./figure/c4/predator_veg.png>]
-<figure/c4/cat_fox_count.png, id=951, 5420.25pt x 3914.625pt>
-File: figure/c4/cat_fox_count.png Graphic file (type png)
-<use figure/c4/cat_fox_count.png>
-Package pdftex.def Info: figure/c4/cat_fox_count.png  used on input line 551.
-(pdftex.def)             Requested size: 412.56497pt x 297.94467pt.
-[31 <./figure/c4/cat_fox_count.png>]
-<figure/c4/cat_ind.png, id=957, 5420.25pt x 6022.5pt>
-File: figure/c4/cat_ind.png Graphic file (type png)
-<use figure/c4/cat_ind.png>
-Package pdftex.def Info: figure/c4/cat_ind.png  used on input line 560.
-(pdftex.def)             Requested size: 412.56497pt x 458.37642pt.
-[32 <./figure/c4/cat_ind.png>] [33] [34]
-Chapter 3.
+[33] [34]
+Chapter 4.
 [35
 
-] [36] [37]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 6
-17.
-(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [38] [39]
-<figure/c2/c2_map.png, id=1003, 722.7pt x 542.025pt>
-File: figure/c2/c2_map.png Graphic file (type png)
-<use figure/c2/c2_map.png>
-Package pdftex.def Info: figure/c2/c2_map.png  used on input line 649.
-(pdftex.def)             Requested size: 412.56497pt x 309.42061pt.
-[40 <./figure/c2/c2_map.png>] [41] [42] [43] [44] [45] [46
-
-]
-Chapter 4.
-[47] [48] [49] [50] [51] [52] [53] [54] [55]
-<figure/c3/fig1.png, id=1106, 913.4125pt x 578.16pt>
-File: figure/c3/fig1.png Graphic file (type png)
-<use figure/c3/fig1.png>
-Package pdftex.def Info: figure/c3/fig1.png  used on input line 940.
+] [36] [37] [38] [39] [40] [41] [42] [43]
+<figure/map_density.png, id=1010, 913.4125pt x 578.16pt>
+File: figure/map_density.png Graphic file (type png)
+<use figure/map_density.png>
+Package pdftex.def Info: figure/map_density.png  used on input line 846.
 (pdftex.def)             Requested size: 412.56497pt x 261.14001pt.
-[56 <./figure/c3/fig1.png>] [57] [58]
-<figure/c3/fig2_600dpi.png, id=1153, 5119.125pt x 5570.8125pt>
-File: figure/c3/fig2_600dpi.png Graphic file (type png)
-<use figure/c3/fig2_600dpi.png>
-Package pdftex.def Info: figure/c3/fig2_600dpi.png  used on input line 984.
+[44 <./figure/map_density.png>] [45] [46]
+<figure/fox_occ_map.png, id=1057, 5119.125pt x 5570.8125pt>
+File: figure/fox_occ_map.png Graphic file (type png)
+<use figure/fox_occ_map.png>
+Package pdftex.def Info: figure/fox_occ_map.png  used on input line 890.
 (pdftex.def)             Requested size: 412.56497pt x 448.90425pt.
-[59 <./figure/c3/fig2_600dpi.png>]
-<figure/c3/foxD_600dpi.png, id=1160, 3914.625pt x 2409.0pt>
-File: figure/c3/foxD_600dpi.png Graphic file (type png)
-<use figure/c3/foxD_600dpi.png>
-Package pdftex.def Info: figure/c3/foxD_600dpi.png  used on input line 999.
+[47 <./figure/fox_occ_map.png>]
+<figure/foxD_600dpi.png, id=1064, 3914.625pt x 2409.0pt>
+File: figure/foxD_600dpi.png Graphic file (type png)
+<use figure/foxD_600dpi.png>
+Package pdftex.def Info: figure/foxD_600dpi.png  used on input line 905.
 (pdftex.def)             Requested size: 412.56497pt x 253.85304pt.
-[60 <./figure/c3/foxD_600dpi.png>]
-<figure/c3/foxDet_otways_600dpi.png, id=1166, 4998.675pt x 3011.25pt>
-File: figure/c3/foxDet_otways_600dpi.png Graphic file (type png)
-<use figure/c3/foxDet_otways_600dpi.png>
-Package pdftex.def Info: figure/c3/foxDet_otways_600dpi.png  used on input line
- 1014.
+[48 <./figure/foxD_600dpi.png>]
+<figure/foxDet_otways_600dpi.png, id=1070, 4998.675pt x 3011.25pt>
+File: figure/foxDet_otways_600dpi.png Graphic file (type png)
+<use figure/foxDet_otways_600dpi.png>
+Package pdftex.def Info: figure/foxDet_otways_600dpi.png  used on input line 92
+0.
 (pdftex.def)             Requested size: 412.56497pt x 248.53227pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 1018.
+(Font)              scaled to size 10.42007pt on input line 924.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 1018.
+(Font)              scaled to size 7.91925pt on input line 924.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 1018.
+(Font)              scaled to size 10.42007pt on input line 924.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 1018.
-[61 <./figure/c3/foxDet_otways_600dpi.png>]
-<figure/c3/glenelg_estimates_600dpi.png, id=1172, 4998.675pt x 2710.125pt>
-File: figure/c3/glenelg_estimates_600dpi.png Graphic file (type png)
-<use figure/c3/glenelg_estimates_600dpi.png>
-Package pdftex.def Info: figure/c3/glenelg_estimates_600dpi.png  used on input 
-line 1029.
+(Font)              scaled to size 7.91925pt on input line 924.
+[49 <./figure/foxDet_otways_600dpi.png>]
+<figure/glenelg_estimates_600dpi.png, id=1076, 4998.675pt x 2710.125pt>
+File: figure/glenelg_estimates_600dpi.png Graphic file (type png)
+<use figure/glenelg_estimates_600dpi.png>
+Package pdftex.def Info: figure/glenelg_estimates_600dpi.png  used on input lin
+e 935.
 (pdftex.def)             Requested size: 412.56497pt x 223.67905pt.
-[62 <./figure/c3/glenelg_estimates_600dpi.png>]
-<figure/c3/otways_estimates_600dpi.png, id=1178, 4998.675pt x 2710.125pt>
-File: figure/c3/otways_estimates_600dpi.png Graphic file (type png)
-<use figure/c3/otways_estimates_600dpi.png>
-Package pdftex.def Info: figure/c3/otways_estimates_600dpi.png  used on input l
-ine 1044.
+[50 <./figure/glenelg_estimates_600dpi.png>]
+<figure/otways_estimates_600dpi.png, id=1082, 4998.675pt x 2710.125pt>
+File: figure/otways_estimates_600dpi.png Graphic file (type png)
+<use figure/otways_estimates_600dpi.png>
+Package pdftex.def Info: figure/otways_estimates_600dpi.png  used on input line
+ 950.
 (pdftex.def)             Requested size: 412.56497pt x 223.67905pt.
-[63 <./figure/c3/otways_estimates_600dpi.png>] [64] [65] [66] [67
+[51 <./figure/otways_estimates_600dpi.png>] [52] [53] [54]
+Chapter 5.
+[55
 
-] [68
+] [56] [57] [58]
+Overfull \hbox (2.51767pt too wide) in paragraph at lines 1026--1027
+[]\OT1/ppl/m/n/10.95 We iden-ti-fied the mapped Eco-log-i-cal Veg-e-ta-tion Cla
+ss group (``EVC''; DELWP 2020)
+ []
 
-] [69] [70]
-Overfull \hbox (26.19812pt too wide) in paragraph at lines 1173--1175
+[59] [60] [61]
+File: figure/map_cams.png Graphic file (type png)
+<use figure/map_cams.png>
+Package pdftex.def Info: figure/map_cams.png  used on input line 1060.
+(pdftex.def)             Requested size: 412.56497pt x 252.13385pt.
+[62] [63] [64] [65]
+<figure/diel_strength_600dpi.png, id=1188, 6022.5pt x 5420.25pt>
+File: figure/diel_strength_600dpi.png Graphic file (type png)
+<use figure/diel_strength_600dpi.png>
+Package pdftex.def Info: figure/diel_strength_600dpi.png  used on input line 11
+24.
+(pdftex.def)             Requested size: 412.56497pt x 371.26836pt.
+[66 <./figure/diel_strength_600dpi.png>]
+<figure/predator_veg.png, id=1194, 5420.25pt x 6022.5pt>
+File: figure/predator_veg.png Graphic file (type png)
+<use figure/predator_veg.png>
+Package pdftex.def Info: figure/predator_veg.png  used on input line 1133.
+(pdftex.def)             Requested size: 412.56497pt x 458.37642pt.
+[67 <./figure/predator_veg.png>]
+<figure/cat_fox_count.png, id=1200, 5420.25pt x 3914.625pt>
+File: figure/cat_fox_count.png Graphic file (type png)
+<use figure/cat_fox_count.png>
+Package pdftex.def Info: figure/cat_fox_count.png  used on input line 1142.
+(pdftex.def)             Requested size: 412.56497pt x 297.94467pt.
+[68 <./figure/cat_fox_count.png>]
+<figure/cat_ind.png, id=1206, 5420.25pt x 6022.5pt>
+File: figure/cat_ind.png Graphic file (type png)
+<use figure/cat_ind.png>
+Package pdftex.def Info: figure/cat_ind.png  used on input line 1151.
+(pdftex.def)             Requested size: 412.56497pt x 458.37642pt.
+[69 <./figure/cat_ind.png>] [70] [71] [72
+
+]
+Chapter 6.
+[73] [74
+
+] [75] [76]
+Overfull \hbox (26.19812pt too wide) in paragraph at lines 1311--1313
  [][]\OT1/ppl/m/n/10.95 DELWP. (2020). \OT1/ppl/m/it/10.95 Biore-gions and evc 
 bench-marks\OT1/ppl/m/n/10.95 . Avail-able at: []$\OT1/pcr/m/n/10.95 https : / 
 / www . environment .
  []
 
-[71] [72]
-Overfull \hbox (9.05925pt too wide) in paragraph at lines 1263--1265
+[77] [78] [79] [80]
+Overfull \hbox (9.05925pt too wide) in paragraph at lines 1434--1436
  \OT1/ppl/m/n/10.95 Human-modified habi-tats fa-cil-i-tate forest-dwelling pop-
 u-la-tions of an in-va-sive preda-
  []
 
-[73]
-Overfull \hbox (0.17915pt too wide) in paragraph at lines 1296--1298
+[81]
+Overfull \hbox (0.17915pt too wide) in paragraph at lines 1479--1481
  \OT1/ppl/m/n/10.95 among non-na-tive plants: Pat-terns, pro-cesses, and man-ag
 e-ment im-pli-ca-tions. \OT1/ppl/m/it/10.95 Global
  []
 
-[74] [75] [76] [77] [78]
-LaTeX Font Info:    Trying to load font information for OML+ppl on input line 1
-512.
-(/Users/mrees2/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omlppl.fd
-File: omlppl.fd 
-)
-LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1512.
-
-[79] [80
-
-]
+[82] [83] [84] [85] [86] [87] [88]
 Appendix A.
-[81] [82]
-<figure/c1/detectability.png, id=1417, 5420.25pt x 4818.0pt>
-File: figure/c1/detectability.png Graphic file (type png)
-<use figure/c1/detectability.png>
-Package pdftex.def Info: figure/c1/detectability.png  used on input line 1562.
-(pdftex.def)             Requested size: 412.56497pt x 366.70113pt.
-[83 <./figure/c1/detectability.png>]
-<figure/c1/dist_edge.png, id=1424, 4998.675pt x 4818.0pt>
-File: figure/c1/dist_edge.png Graphic file (type png)
-<use figure/c1/dist_edge.png>
-Package pdftex.def Info: figure/c1/dist_edge.png  used on input line 1577.
-(pdftex.def)             Requested size: 412.56497pt x 397.65164pt.
-[84 <./figure/c1/dist_edge.png>]
-Appendix B.
-[85
+[89
 
 ]
-<figure/otways17-g0t-1.pdf, id=1436, 426.59375pt x 248.93pt>
+<figure/otways17-g0t-1.pdf, id=1496, 469.755pt x 325.215pt>
 File: figure/otways17-g0t-1.pdf Graphic file (type pdf)
 <use figure/otways17-g0t-1.pdf>
-Package pdftex.def Info: figure/otways17-g0t-1.pdf  used on input line 1597.
-(pdftex.def)             Requested size: 288.79422pt x 168.52946pt.
-[86 <./figure/otways17-g0t-1.pdf>] [87] [88
+Package pdftex.def Info: figure/otways17-g0t-1.pdf  used on input line 1772.
+(pdftex.def)             Requested size: 288.79422pt x 199.93408pt.
+[90 <./figure/otways17-g0t-1.pdf>] [91] [92
 
 ]
+Appendix B.
+[93]
+
+pdfTeX warning: pdflatex (file ./figure/Rees_2019_biolcons.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<figure/Rees_2019_biolcons.pdf, id=1521, 597.50829pt x 796.67737pt>
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf  used on input line 1823
+.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+
+
+pdfTeX warning: pdflatex (file ./figure/Rees_2019_biolcons.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf  used on input line 1823
+.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+
+
+pdfTeX warning: pdflatex (file ./figure/Rees_2019_biolcons.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figure/Rees_2019_biolcons.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<figure/Rees_2019_biolcons.pdf, id=1524, page=1, 597.50829pt x 796.67737pt>
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 1>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page1 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 1>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page1 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 1>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page1 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 1>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page1 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 1>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page1 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[94 <./figure/Rees_2019_biolcons.pdf>]
+
+pdfTeX warning: pdflatex (file ./figure/Rees_2019_biolcons.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<figure/Rees_2019_biolcons.pdf, id=1578, page=2, 597.50829pt x 796.67737pt>
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 2>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page2 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 2>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page2 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 2>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page2 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[95 <./figure/Rees_2019_biolcons.pdf>]
+
+pdfTeX warning: pdflatex (file ./figure/Rees_2019_biolcons.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<figure/Rees_2019_biolcons.pdf, id=1597, page=3, 597.50829pt x 796.67737pt>
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 3>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page3 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 3>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page3 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 3>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page3 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[96 <./figure/Rees_2019_biolcons.pdf>]
+
+pdfTeX warning: pdflatex (file ./figure/Rees_2019_biolcons.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<figure/Rees_2019_biolcons.pdf, id=1602, page=4, 597.50829pt x 796.67737pt>
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 4>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page4 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 4>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page4 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 4>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page4 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[97 <./figure/Rees_2019_biolcons.pdf>]
+
+pdfTeX warning: pdflatex (file ./figure/Rees_2019_biolcons.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<figure/Rees_2019_biolcons.pdf, id=1610, page=5, 597.50829pt x 796.67737pt>
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 5>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page5 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 5>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page5 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: figure/Rees_2019_biolcons.pdf Graphic file (type pdf)
+<use figure/Rees_2019_biolcons.pdf, page 5>
+Package pdftex.def Info: figure/Rees_2019_biolcons.pdf , page5 used on input li
+ne 1823.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[98 <./figure/Rees_2019_biolcons.pdf>]
 Appendix C.
-[89] [90]
-<figure/density-camop-1.pdf, id=1469, 429.605pt x 285.065pt>
+[99
+
+] [100]
+<figure/detectability.png, id=1625, 5420.25pt x 4818.0pt>
+File: figure/detectability.png Graphic file (type png)
+<use figure/detectability.png>
+Package pdftex.def Info: figure/detectability.png  used on input line 1870.
+(pdftex.def)             Requested size: 412.56497pt x 366.70113pt.
+[101 <./figure/detectability.png>]
+<figure/dist_edge.png, id=1632, 4998.675pt x 4818.0pt>
+File: figure/dist_edge.png Graphic file (type png)
+<use figure/dist_edge.png>
+Package pdftex.def Info: figure/dist_edge.png  used on input line 1885.
+(pdftex.def)             Requested size: 412.56497pt x 397.65164pt.
+[102 <./figure/dist_edge.png>]
+Appendix D.
+[103
+
+] [104]
+<figure/density-camop-1.pdf, id=1650, 469.755pt x 325.215pt>
 File: figure/density-camop-1.pdf Graphic file (type pdf)
 <use figure/density-camop-1.pdf>
-Package pdftex.def Info: figure/density-camop-1.pdf  used on input line 1664.
-(pdftex.def)             Requested size: 412.56497pt x 273.76367pt.
-[91 <./figure/density-camop-1.pdf>]
-<figure/c3/camtrap1.jpg, id=1484, 1027.84pt x 770.88pt>
-File: figure/c3/camtrap1.jpg Graphic file (type jpg)
-<use figure/c3/camtrap1.jpg>
-Package pdftex.def Info: figure/c3/camtrap1.jpg  used on input line 1679.
+Package pdftex.def Info: figure/density-camop-1.pdf  used on input line 1914.
+(pdftex.def)             Requested size: 412.56497pt x 285.6194pt.
+[105 <./figure/density-camop-1.pdf>]
+<figure/camtrap1.jpg, id=1663, 1027.84pt x 770.88pt>
+File: figure/camtrap1.jpg Graphic file (type jpg)
+<use figure/camtrap1.jpg>
+Package pdftex.def Info: figure/camtrap1.jpg  used on input line 1929.
 (pdftex.def)             Requested size: 412.56497pt x 309.42871pt.
-[92 <./figure/c3/camtrap1.jpg>] [93] [94]
-<figure/c3/cat_coats.jpg, id=1501, 3854.4pt x 3252.15pt>
-File: figure/c3/cat_coats.jpg Graphic file (type jpg)
-<use figure/c3/cat_coats.jpg>
-Package pdftex.def Info: figure/c3/cat_coats.jpg  used on input line 1713.
+[106 <./figure/camtrap1.jpg>] [107] [108]
+<figure/cat_coats.jpg, id=1680, 3854.4pt x 3252.15pt>
+File: figure/cat_coats.jpg Graphic file (type jpg)
+<use figure/cat_coats.jpg>
+Package pdftex.def Info: figure/cat_coats.jpg  used on input line 1963.
 (pdftex.def)             Requested size: 412.56497pt x 348.06097pt.
-[95 <./figure/c3/cat_coats.jpg>]
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1731--1738
+[109 <./figure/cat_coats.jpg>]
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1981--1988
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1738--1745
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1988--1995
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1745--1747
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1995--1997
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1747--1749
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1997--1999
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.12138pt too wide) in alignment at lines 1749--1764
+Overfull \hbox (22.12138pt too wide) in alignment at lines 1999--2014
  [] [] [] [] [] [] [] [] 
  []
 
-[96]
-<figure/density-plot-ch-1-1.pdf, id=1512, 447.6725pt x 259.97125pt>
+[110]
+<figure/density-plot-ch-1-1.pdf, id=1690, 469.755pt x 325.215pt>
 File: figure/density-plot-ch-1-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-1-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-1-1.pdf  used on input line 178
+Package pdftex.def Info: figure/density-plot-ch-1-1.pdf  used on input line 203
 5.
-(pdftex.def)             Requested size: 412.56497pt x 239.58899pt.
-[97 <./figure/density-plot-ch-1-1.pdf>]
-<figure/density-plot-ch-2-1.pdf, id=1528, 445.665pt x 256.96pt>
+(pdftex.def)             Requested size: 412.56497pt x 285.6194pt.
+[111 <./figure/density-plot-ch-1-1.pdf>]
+<figure/density-plot-ch-2-1.pdf, id=1704, 469.755pt x 325.215pt>
 File: figure/density-plot-ch-2-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-2-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-2-1.pdf  used on input line 180
+Package pdftex.def Info: figure/density-plot-ch-2-1.pdf  used on input line 205
 3.
-(pdftex.def)             Requested size: 412.56497pt x 237.87639pt.
-[98 <./figure/density-plot-ch-2-1.pdf>]
-<figure/density-plot-ch-3-1.pdf, id=1542, 445.665pt x 205.76875pt>
+(pdftex.def)             Requested size: 412.56497pt x 285.6194pt.
+[112 <./figure/density-plot-ch-2-1.pdf>]
+<figure/density-plot-ch-3-1.pdf, id=1716, 469.755pt x 325.215pt>
 File: figure/density-plot-ch-3-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-3-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-3-1.pdf  used on input line 182
+Package pdftex.def Info: figure/density-plot-ch-3-1.pdf  used on input line 207
 1.
-(pdftex.def)             Requested size: 412.56497pt x 190.48695pt.
-[99 <./figure/density-plot-ch-3-1.pdf>]
-<figure/density-plot-ch-4-1.pdf, id=1556, 445.665pt x 275.0275pt>
+(pdftex.def)             Requested size: 412.56497pt x 285.6194pt.
+[113 <./figure/density-plot-ch-3-1.pdf>]
+<figure/density-plot-ch-4-1.pdf, id=1729, 469.755pt x 325.215pt>
 File: figure/density-plot-ch-4-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-4-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-4-1.pdf  used on input line 184
+Package pdftex.def Info: figure/density-plot-ch-4-1.pdf  used on input line 209
 2.
-(pdftex.def)             Requested size: 412.56497pt x 254.60208pt.
-[100 <./figure/density-plot-ch-4-1.pdf>]
-<figure/density-plot-ch-5-1.pdf, id=1571, 447.6725pt x 258.9675pt>
+(pdftex.def)             Requested size: 412.56497pt x 285.6194pt.
+[114 <./figure/density-plot-ch-4-1.pdf>]
+<figure/density-plot-ch-5-1.pdf, id=1742, 469.755pt x 325.215pt>
 File: figure/density-plot-ch-5-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-5-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-5-1.pdf  used on input line 186
+Package pdftex.def Info: figure/density-plot-ch-5-1.pdf  used on input line 211
 0.
-(pdftex.def)             Requested size: 412.56497pt x 238.66393pt.
-[101 <./figure/density-plot-ch-5-1.pdf>]
-<figure/density-plot-ch-6-1.pdf, id=1586, 447.6725pt x 261.97874pt>
+(pdftex.def)             Requested size: 412.56497pt x 285.6194pt.
+[115 <./figure/density-plot-ch-5-1.pdf>]
+<figure/density-plot-ch-6-1.pdf, id=1754, 469.755pt x 325.215pt>
 File: figure/density-plot-ch-6-1.pdf Graphic file (type pdf)
 <use figure/density-plot-ch-6-1.pdf>
-Package pdftex.def Info: figure/density-plot-ch-6-1.pdf  used on input line 187
+Package pdftex.def Info: figure/density-plot-ch-6-1.pdf  used on input line 212
 8.
-(pdftex.def)             Requested size: 412.56497pt x 241.4391pt.
-[102 <./figure/density-plot-ch-6-1.pdf>]
-Overfull \hbox (106.4644pt too wide) in paragraph at lines 1919--1919
+(pdftex.def)             Requested size: 412.56497pt x 285.6194pt.
+[116 <./figure/density-plot-ch-6-1.pdf>]
+Overfull \hbox (106.4644pt too wide) in paragraph at lines 2169--2169
 []\OT1/pcr/m/n/10.95 fox ~ s(x, y, bs = "ds", m = c(1, 0.5), k = 200) + offset(
 log(survey_duration))[] 
  []
 
-[103]
-<figure/c3/fox_occ_se_glenelg_600dpi.png, id=1606, 5119.125pt x 3011.25pt>
-File: figure/c3/fox_occ_se_glenelg_600dpi.png Graphic file (type png)
-<use figure/c3/fox_occ_se_glenelg_600dpi.png>
-Package pdftex.def Info: figure/c3/fox_occ_se_glenelg_600dpi.png  used on input
- line 1929.
+[117]
+<figure/fox_occ_se_glenelg_600dpi.png, id=1773, 5119.125pt x 3011.25pt>
+File: figure/fox_occ_se_glenelg_600dpi.png Graphic file (type png)
+<use figure/fox_occ_se_glenelg_600dpi.png>
+Package pdftex.def Info: figure/fox_occ_se_glenelg_600dpi.png  used on input li
+ne 2179.
 (pdftex.def)             Requested size: 412.56497pt x 242.65094pt.
-[104 <./figure/c3/fox_occ_se_glenelg_600dpi.png>]
-Overfull \hbox (34.19449pt too wide) in paragraph at lines 1973--1973
+[118 <./figure/fox_occ_se_glenelg_600dpi.png>]
+Overfull \hbox (34.19449pt too wide) in paragraph at lines 2223--2223
 []\OT1/pcr/m/n/10.95 fox ~ year + s(x, y, by = year, bs = "ds", m = c(1, 0.5), 
 k = 100) +[] 
  []
 
-[105]
-<figure/c3/fox_occ_se_otways_600dpi.png, id=1617, 5119.125pt x 2559.5625pt>
-File: figure/c3/fox_occ_se_otways_600dpi.png Graphic file (type png)
-<use figure/c3/fox_occ_se_otways_600dpi.png>
-Package pdftex.def Info: figure/c3/fox_occ_se_otways_600dpi.png  used on input 
-line 1983.
+[119]
+<figure/fox_occ_se_otways_600dpi.png, id=1785, 5119.125pt x 2559.5625pt>
+File: figure/fox_occ_se_otways_600dpi.png Graphic file (type png)
+<use figure/fox_occ_se_otways_600dpi.png>
+Package pdftex.def Info: figure/fox_occ_se_otways_600dpi.png  used on input lin
+e 2233.
 (pdftex.def)             Requested size: 412.56497pt x 206.2533pt.
-[106 <./figure/c3/fox_occ_se_otways_600dpi.png>] [107]
-<figure/density-veg-1.pdf, id=1630, 467.7475pt x 279.0425pt>
+[120 <./figure/fox_occ_se_otways_600dpi.png>] [121]
+<figure/density-veg-1.pdf, id=1796, 469.755pt x 325.215pt>
 File: figure/density-veg-1.pdf Graphic file (type pdf)
 <use figure/density-veg-1.pdf>
-Package pdftex.def Info: figure/density-veg-1.pdf  used on input line 2007.
-(pdftex.def)             Requested size: 412.56497pt x 246.13295pt.
-[108 <./figure/density-veg-1.pdf>] [109] [110]
-Overfull \hbox (30.79257pt too wide) in alignment at lines 2079--2099
+Package pdftex.def Info: figure/density-veg-1.pdf  used on input line 2257.
+(pdftex.def)             Requested size: 412.56497pt x 285.6194pt.
+[122 <./figure/density-veg-1.pdf>] [123] [124]
+Overfull \hbox (30.79257pt too wide) in alignment at lines 2329--2349
  [] [] [] [] [] [] [] 
  []
 
-[111]
-Overfull \hbox (7.7201pt too wide) in alignment at lines 2111--2125
+[125]
+Overfull \hbox (7.7201pt too wide) in alignment at lines 2361--2375
  [] [] [] [] [] [] [] 
  []
 
-[112] [113] [114] [115]
-Overfull \hbox (63.89241pt too wide) in alignment at lines 2216--2236
+[126] [127] [128] [129]
+Overfull \hbox (63.89241pt too wide) in alignment at lines 2466--2486
  [] [] [] [] [] [] [] 
  []
 
-[116]
-Overfull \hbox (7.7201pt too wide) in alignment at lines 2248--2262
+[130]
+Overfull \hbox (7.7201pt too wide) in alignment at lines 2498--2512
  [] [] [] [] [] [] [] 
  []
 
-[117] [118] (./thesis.aux)
+[131] [132] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 432D320E5E8386C6150A3C1B4DAB263E;11963.
+(rerunfilecheck)             Checksum: AB80CC88228059518F85C13CAC269372;11822.
  ) 
 Here is how much of TeX's memory you used:
- 11834 strings out of 480559
- 185519 string characters out of 5902535
- 503451 words of memory out of 5000000
- 28727 multiletter control sequences out of 15000+600000
- 431007 words of font info for 98 fonts, out of 8000000 for 9000
+ 13162 strings out of 480559
+ 205368 string characters out of 5902367
+ 527898 words of memory out of 5000000
+ 29952 multiletter control sequences out of 15000+600000
+ 431996 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,12n,80p,1719b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,17n,80p,1719b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/mrees2/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users
 /mrees2/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 Users/mrees2/Library/TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></Us
 ers/mrees2/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Use
 rs/mrees2/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></User
 s/mrees2/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (144 pages, 18119684 bytes).
+Output written on thesis.pdf (158 pages, 17578472 bytes).
 PDF statistics:
- 1820 PDF objects out of 2073 (max. 8388607)
- 1579 compressed objects within 16 object streams
- 499 named destinations out of 1000 (max. 500000)
- 676 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2001 PDF objects out of 2073 (max. 8388607)
+ 1721 compressed objects within 18 object streams
+ 571 named destinations out of 1000 (max. 500000)
+ 722 words of extra memory for PDF output out of 10000 (max. 10000000)
 

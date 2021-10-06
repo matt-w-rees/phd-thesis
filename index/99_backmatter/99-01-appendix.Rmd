@@ -10,7 +10,7 @@ Fix up indent things from reference rmd.
 \setlength{\parskip}{8pt}
 
 
-# Supporting Information: Chapter \@ref(occ) {#occ-app}
+# Supporting Information: Chapter \@ref(otways17) {#otways17-app}
 
 \newpage
 
@@ -20,53 +20,25 @@ $~$
 
 $~$
 
-```{r occ-naive}
+```{r otways17-g0t, out.width = "70%", fig.cap="The AICc-best model linear trend in \\textit{g}0 values (probability of daily detection in activity centre) throughout the survey. Grey dashed lines indicate 95\\% confidence intervals."}
 
-## DATA PREPARATION
-records <- read.csv("data/c1/gam_data.csv")
-# drop zoi's records - too much spatial autocorrelation
-records <- filter(records, data_source != "zoi")
-# exclude stations left out for less than 14 days
-records <- filter(records, survey_duration >= 14)
-# as we only had three "Riverine Grassy Woodlands or Forests" unique survey sites --> drop em
-records <- filter(records, XGROUPNAME != "Riverine Grassy Woodlands or Forests")
-# as we only had 20 "Rainforests" unique survey sites, all of which interspersed in "Wet Forests" in the Otways, reclassify as "Wet Forests". 
-records$XGROUPNAME <- if_else(records$XGROUPNAME == "Rainforests", "Wet or Damp Forests", as.character(records$XGROUPNAME))
-# abbreviate EVC group names for plotting
-records$XGROUPNAME <- if_else(records$XGROUPNAME == "Wet or Damp Forests", "Wet Forests", records$XGROUPNAME)
-records$XGROUPNAME <- if_else(records$XGROUPNAME == "Riparian Scrubs or Swampy Scrubs and Woodlands", "Swampy Scrubs", records$XGROUPNAME)
-records$XGROUPNAME <- substr(records$XGROUPNAME, 1, nchar(records$XGROUPNAME) - 1)
+unexpected_model_fits <- readRDS("data/otways17/unexpected_model_fits.RData")
 
-# SUMMARIES
-table1 <- records %>%
-  group_by(region, XGROUPNAME) %>%
-  mutate(sites = length(unique(station)),
-         deployments = length(unique(station_year)),
-         fox_present = sum(fox),
-         cat_present = sum(cat),
-         sbb_present = sum(bandicoot_sb),
-         lnp_present = sum(potoroo_ln),
-         fox_naive = (fox_present / deployments),
-         cat_naive = (cat_present / deployments),
-         sbb_naive = (sbb_present / deployments),
-         lnp_naive = (lnp_present / deployments)
-         )
-table1 <- table1 %>%
-  dplyr::select(XGROUPNAME, region, sites, deployments, fox_naive, cat_naive, sbb_naive, lnp_naive)  %>% 
-  distinct() %>%
-  arrange(XGROUPNAME, region)
-# rename region 
-table1$region <- factor(table1$region)
-levels(table1$region) <- c("Glenelg", "Otway")
+# T PLOT 
+all_predicted <- predict(unexpected_model_fits$fit_MR_HR_T, newdata = data.frame(T = 1:72), realnames = "g0")
+predicted_values <- unlist(sapply(all_predicted, function(x) x[2]))
+lower_bound <- unlist(sapply(all_predicted, function(x) x[4]))
+upper_bound <- unlist(sapply(all_predicted, function(x) x[5]))
+time_sequence <- 1:72
 
-# remove repeat vegetation name
-table1[c(2, 4, 6, 8, 10, 12),1] <- ""
+par(mar=c(5.1,6,4.1,2.1))
 
-# make table
-kbl(table1, longtable = T, booktabs = T, digits = 2,
-    caption = "Number of camera-trap sites, total deployments and naive occupancy rates for red foxes, feral cats, southern brown bandicoots (SBB) and long-nosed potoroos (LNP) within Ecological Vegetation Class groups across two broad regions in south-west Victoria, Australia.",
-     col.names = c("Vegetation", "Region", "Sites", "Deployments", "Fox", "Cat", "SBB", "LNP")) %>% 
-   kable_styling(font_size = 10)
+plot(predicted_values ~ time_sequence, type = "l", lwd = 3, col = "black",  ylim = c(0, 0.15), las = 1,  xlab = NA, ylab = NA, cex.main = 1.5, cex.lab = 1.5, cex.axis = 1.1)
+lines(lower_bound ~ time_sequence, lty = 2, col = "gray50", lwd = 3)  # lty = 2 means dashed lines, lty = 1 is solid, lty = 3 is dotted
+lines(upper_bound ~ time_sequence, lty = 2, col = "gray50", lwd = 3)
+
+mtext(expression("Survey duration (days)"), side = 1, las = 1, line = 3, cex = 1.2)
+mtext(expression(paste(italic("g")[0])), side = 2, las = 1, line = 4, cex = 1.2)
 ```
 
 \newpage
@@ -77,21 +49,76 @@ $~$
 
 $~$
 
-```{r occ-cumdet, out.width="100%", fig.cap="Cumulative detection probability for surveyed species averaged across all sites (solid black lines), as well as sites with fox control (solid red line) and without fox control (solid blue line). Dashed lines represent 95\\% confidence intervals. Vertical grey lines represent mean (solid) as well as 25\\% and 75\\% quantiles (dotted) of days camera-traps were active for."}
-knitr::include_graphics("figure/c1/detectability.png")
+```{r otways17-detfn}
+# load detection function model fits
+unexpected_df_fits <- readRDS("data/otways17/unexpected_df_fits.RData")
+# get aic vals (via secr package)
+df <- AIC(unexpected_df_fits, criterion = "AICc")[,-2]
+# make row names a proper column
+df <- tibble::rownames_to_column(df, "fit")
+# round to 2 digis
+df$AICc <- round(df$AICc, digits = 2)
+df$dAICc <- round(df$dAICc, digits = 2)
+df$AICcwt <- round(df$AICcwt, digits = 2)
+
+# function to extract density estimates per model in secrlist as list
+out <- list()
+# get density estimates
+for (i in 1:length(unexpected_df_fits)) {
+         # extract density estimate 
+   estimate <- as.data.frame(unlist(sapply(predict(unexpected_df_fits[[i]]), "[", "D","estimate")))
+names(estimate)[1] <- "estimate"
+estimate <- tibble::rownames_to_column(estimate, "grid")
+   # extract 5% CI
+lower_bound <- as.data.frame(unlist(sapply(predict(unexpected_df_fits[[i]]), "[", "D","lcl")))
+names(lower_bound)[1] <- "lcl"
+lower_bound <- tibble::rownames_to_column(lower_bound, "grid")
+   # extract 95% CI
+upper_bound <- as.data.frame(unlist(sapply(predict(unexpected_df_fits[[i]]), "[", "D","ucl")))
+names(upper_bound)[1] <- "ucl"
+upper_bound <- tibble::rownames_to_column(upper_bound, "grid")
+# merge
+mod_est <- left_join(estimate, lower_bound) %>%
+                left_join(., upper_bound) 
+out[[i]] <- mod_est
+}
+# convert lists to dataframe
+out_df <- out %>% reduce(bind_rows)
+# add sess name 
+out_df$fit <- c(rep(names(unexpected_df_fits[1]), 2), rep(names(unexpected_df_fits[2]), 2), rep(names(unexpected_df_fits[3]), 2))
+# convert ha to km2
+out_df$estimate <- out_df$estimate*100
+out_df$lcl <- out_df$lcl*100
+out_df$ucl <- out_df$ucl*100
+
+# join aic and model estimate tables
+df <- left_join(df, out_df) 
+# subet cols
+df <- subset(df, select = -c(grid, model, logLik, AIC))
+# remove duplicates
+df <- unique(df)
+rownames(df) <- NULL
+ 
+df$fit <- c("hazard-rate", "exponential", "halfnormal")
+
+# make table with kableExtra
+kbl(df, longtable = T, booktabs = T, digits = 2, 
+    col.names = c("Detector function", "K", "AICc", "dAICc", "AICcwt", "estimate", "lcl", "ucl"),
+    caption = "Model selection table and density estimates for different detection function shapes for spatial mark-resight models.") %>% 
+   add_header_above(c("Model comparison" = 5, "Density estimate (cats km-2)" = 3)) %>% 
+   kable_styling(latex_options = c("repeat_header"), font_size = 10) %>% 
+footnote(general = c("K - number of parameters", 
+                     "AICc - Akaike's Information Criterion with small-sample adjustment",
+                     "dAICc - difference between AICc of this model and the model with smallest AICc",
+                     "AICcwt - AICc model weight",
+                     "lcl – lower 95% confidence limit",
+                     "ucl – upper 95% confidence limit"),
+         general_title = "")
 ```
 
 
-\newpage
 
-$~$
 
-$~$
 
-$~$
 
-```{r occ-dist, out.width="100%", fig.cap="Fox occurrence probability decreased linearly for 2 km as distance to the nearest area of non-native vegetation (larger than 30 ha) increased (a). Increasing distance to non-native vegetation had a weak, positive effect on long-nosed potoroo's (d), but little-no impact on feral cats (b) and southern brown bandicooots (c) in south-west Victoria, Australia. Shaded regions indicate 95\\% confidence intervals."}
-knitr::include_graphics("figure/c1/dist_edge.png")
-```
 
-\newpage

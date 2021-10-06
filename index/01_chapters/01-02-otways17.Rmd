@@ -1,0 +1,210 @@
+
+# Unexpectedly high densities of feral cats in a rugged temperate forest {#otways17}
+
+## Abstract {-}
+
+Effective invasive predator management requires accurate knowledge of population density. However, density can be difficult to estimate for wide-ranging, cryptic and trap-shy species, such as the feral cat *Felis catus*. Consequently, few density estimates exist for this invasive predator of global significance, particularly from rugged, mesic or structurally complex habitats where detection is challenging. In this study, we estimated feral cat density in the wet forests and cool temperate rainforests of the Otway Ranges, south-eastern Australia, to (1) provide a density estimate for this rarely surveyed habitat type, and (2) verify predictions from a continental-scale model of feral cat density. We deployed 140 camera traps across two independent 49 km^2^ grids and identified individual feral cats based on unique pelage markings. Using spatially explicit mark-resight models, we estimated that there were 1.14 cats km^-2^ (95% CI: 0.88 – 1.47). This is more than three times the average cat density in natural environments across Australia, and at least five times higher than model-based predictions for the Otway Ranges. Such high densities of feral cats likely reflect the abundance of small native mammals and lack of apex predators in our study area. Our findings contradict the widespread assumption that feral cats occur at very low densities in mesic and rugged habitats. Underestimating the density of feral cats in these environments has significant implications for pest animal management and biodiversity conservation.
+
+\newpage
+
+## Introduction
+
+Accurate estimates of the distribution and abundance of invasive predators are essential to determine ecosystem impacts, inform effective management and target control efforts. However, this information is difficult to obtain as predators are often cryptic, trap-shy and occur at low densities [@royle2008statistical]. A prominent example is the feral cat *Felis catus*, which is implicated in the extinction or decline of 430 species globally [@doherty2017impacts]. A better understanding of feral cat density has been highlighted as a priority for effective management of both this species and its threatened native prey [@woinarski2014action; @legge2017enumerating; @moseby2019understanding].
+
+@legge2017enumerating developed a continental-scale model of feral cat density for Australia which has had considerable implications for feral cat research and management. For instance, the model has been used to estimate the number of birds, reptiles and mammals killed annually across Australia by feral cats [@woinarski2017birds; @woinarski2018reptiles; @murphy2019introduced]. As the model estimated that there were considerably fewer feral cats in Australia than previously expected, it also casts doubt on the feasibility of Australian Federal Government’s plan to cull two million feral cats between 2015 and 2020 [@doherty2019conservation]. Given the importance of feral cat density estimates for policy, planning and management, it is vital to verify and refine the model’s predictions.
+
+The underlying data used by @legge2017enumerating had several limitations, including that feral cat density estimates were not available for any wetland, mangrove, dense heath or rainforest environments in Australia [@legge2017enumerating]. This likely reflects the difficulty of access and ineffectiveness of traditional feral cat monitoring methods (track counts and spotlight counts) in these structurally complex habitats [@denny2010review]. @legge2017enumerating highlighted the need for more site-based density surveys, particularly in these under-studied environments. Further, nearly all of the density estimates collated by @legge2017enumerating were based on studies that did not identify individual cats or account for imperfect detection (i.e. the possibility that some individuals were not detected). Such methods can be unreliable when inferring across sites, times, ecological contexts and different detection methods [@edwards2000evaluation; @hayward2015ecologists], particularly for species such as cats whose densities may fluctuate substantially over time in some regions [@legge2017enumerating]. Concurrent surveys of cats on Kangaroo Island and the adjacent Australian mainland suggests that the @legge2017enumerating model may substantially underestimate this variation in density [@taggart2019evidence].
+
+Robust population density estimates for cryptic and wide-ranging species based on individual identification are now more feasible due to recent advances in technology and statistical models. Camera-traps that sense temperature-in-motion provide an efficient survey approach across diverse environments and are particularly beneficial for studies of trap-shy species with unique markings, such as feral cats [@bengsen2011estimating]. Concurrently, spatial mark-resight (SMR) models, an extension of spatial capture-recapture models, enable population density estimates when a portion of the population can be individually identified [@royle2013spatial]. These models consider both the distribution and movement of individuals across the landscape in relation to the placement of detectors, and account for imperfect detection [@royle2013spatial]. The combination of camera-trap surveys to identify individuals and spatial capture-recapture methods to estimate density has shown promise for both feral and domestic cats [@cove2018free; @jimenez2017estimating; @mcgregor2015density; @robley2017towards; @robley2018estimating].
+
+The small number of studies that have estimated feral cat density in the mesic regions of south-eastern Australia indicate that these habitats support few feral cats relative to other regions [@legge2017enumerating]. However, survey effort for feral cats in these environments has been low compared to more arid regions. Our study therefore aimed to provide: (1) a density estimate for a rarely surveyed environment – a matrix of wet forest and cool temperate rainforest, and (2) an independent verification of the prediction from the @legge2017enumerating continental-scale model of feral cat density for the Otway region. To achieve these aims, we undertook a camera-trap survey over 8,230 trap nights at 140 sites in the Otway Ranges, south-eastern Australia. We derived feral cat density estimates by applying SMR analysis to our camera survey data.
+
+
+\newpage
+
+## Methods
+
+### Study area
+Our study was conducted in the Great Otway National Park and Otway Forest Park, Victoria, Australia (38.42 &deg;S, 142.24 &deg;E). The locality is 90 – 440 m a.s.l. and has a cool-temperate climate: maximum daily temperatures average 19.3 &deg;C in summer and 9.5 &deg;C in winter; annual rainfall averages 1955 mm [@BOM2021]. The vegetation is a mosaic of old-growth shrubby wet forest, wet forest and cool temperate rainforest, with an overstorey of tall eucalyptus spp. (primarily *Eucalyptus regnans*), *Acacia melanoxylon* and *Nothofagus cunninghamii*, and a midstorey dominated by tree ferns, *Acacia verticillata*, *Pomaderris aspera* and *Olearia argophylla*. The understorey predominantly comprises a dense layer of ferns and graminoids, but is relatively open in steep gullies. The terrestrial predator guild is depauperate, with the introduced red fox *Vulpes vulpes* being the only other significant competitor of feral cats. Our camera survey and other live-trapping surveys indicate an abundance of small native mammals within the study region, particularly native rats and antechinus [@banikos2018responses].
+
+### Study design
+We deployed camera traps in two grids, each approximately 49 km^2^ and separated by more than five kilometres (Fig. \@ref(fig:otways17-map)). The northern grid comprised 67 survey sites, spaced an average of 526 m apart (86 – 848 m). The southern grid comprised 73 survey sites, spaced an average of 547 m apart (352 – 719 m). We deployed a Reconyx Hyperfire HC600 survey camera, with infrared flash and temperature-in-motion detector (Reconyx, Holmen, Wisconsin), at each site. Cameras functioned for 37 – 68 days (mean 59) from 26 June to 2 September 2017, totalling 8230 trap nights. Each camera was placed on a tree approximately 30 cm above the ground and faced towards a lure 2 – 2.5 m away. Vegetation in the camera’s line of sight was cleared to prevent false triggers. The lure comprised an oil-absorbing cloth doused in tuna oil and placed inside a PVC pipe container with a mesh top. Ten to 30 small white feathers were also attached to the outside of the PVC pipe container. Each lure was fastened near the top of a one-metre wooden stake. Cameras took five immediately consecutive photographs when triggered, with no quiet period between trigger events.
+
+### Individual cat identification
+Images of feral cats were first grouped as marked or unmarked (black) individuals. Although some black cats had small white neck/chest coat splotches, these were not always visible (cats often moved with their heads down), and so all black cats were considered unmarked to avoid double-counting. The marked portion were tabby cats with naturally unique coat markings. These were further classified into distinct groups: stripes & spots, thick swirls, other markings (ginger, distinctive breeds etc.) and unknown (due to poor image quality). At least two independent observers identified individual cats from these groups based on matches in unique markings, predominantly on the front legs, torso and across both flanks. Observers collated folders of images of unique individuals for reference. Discrepancies between observers were reviewed together until consensus was reached. If no consensus was reached, the marked cat was considered unidentifiable.
+
+### Estimating population density
+We used conventional SMR models for an unknown number of marked individuals (sighting-only) to estimate feral cat density. These models assume that uniquely marked cats are a random sample of the population, with the same movement ecology as unmarked cats. We fitted models using the 'secr' R-package [v. 3.2.1; @efford2021secr] in R [v. 3.5.2; @R], as per @efford2018spatial.
+
+Capture histories were collapsed into 24-h occasions, beginning at midday each day (as this was the time of day with the lowest observed cat activity). We used a 3500 m buffer around the outermost coordinates of the trapping grids to ensure density was estimated over an area large enough to include the activity centres of all cats potentially exposed to our survey [@royle2013spatial]; this distance is larger than the estimated average maximum width of home ranges of large, male cats close to this region (n = 3; B.A. Hradsky, unpublished data).
+
+In SMR models, detectability is defined by two parameters: *g*~0~, the probability of detecting an animal (per occasion) if a detector was to be placed in the part of its home range where most time is spent, and sigma, a spatial scale parameter relating to home range size. Animals are assumed to have approximately circular home ranges, with the probability of detection declining with distance from the home range centre. We tested three shapes of this decline in detection probability: half‐normal, hazard‐rate, and exponential, and used the detector function with the lowest Akaike's Information Criterion adjusted for small sample size [AICc; @burnham2004multimodel] for subsequent model fitting.
+
+As the lures may have decreased in potency over the sampling session, we tested for a linear trend in *g*~0~ over time. We also tested whether density differed between the two grids, with and without a linear time trend. We compared these models to the null model (where detection and density were kept constant across both grids) using AICc. Overdispersal in the unmarked sightings was adjusted for as per @efford2018spatial and a spatial resolution of 0.6 of the sigma estimate was used for all models [@efford2021secr].
+
+\newpage
+
+$~$
+
+$~$
+
+$~$
+
+```{r otways17-map,   fig.align = "right", fig.cap = "Study area, western Otway Ranges, Victoria, Australia, showing the location of the camera-trapping sites (black dots) within the 3500 m buffer zone (thin grey line)."}
+include_graphics(path = "figure/otways17_map.png")
+```
+
+\newpage
+
+
+## Results
+
+We detected feral cats at 55% of sites. Of these detections (1 detection = one or more visits of an individual/unidentifiable/unmarked cat to a camera-trap per 24-h occasion), 41% were unmarked (black) cats. Of the marked cat detections, 89% could be reliably identified to the individual-level – 47 individuals were identified. The number of detections, number of identified individuals and mean distances moved were similar across the two camera-trapping grids (Table \@ref(tab:otways17-stats)).
+
+The top-ranked model estimated a density of 1.14 cats km^-2^ (95% CI: 0.88 – 1.47), with no difference in density between grids but a linear decrease in *g*~0~ over time (5.7% decrease per week; Fig. \@ref(fig:otways17-g0t); Table \@ref(tab:otways17-stats)). The second-ranked model (dAICc 1.74, Akaike weight 0.23) indicated that densities were slightly higher at the northern than southern grid, although confidence intervals overlapped substantially (Table \@ref(tab:otways17-estimates)). The hazard-rate detector function best described the rate at which detection probability changed with the distance of the camera from the centre of a cat’s home range (Table \@ref(tab:otways17-detfn)). Estimates of feral cat density were robust to all model specifications, with the mean estimate varying by less than 0.2 cats km^-2^ between all models (Table \@ref(tab:otways17-stats)).
+
+\newpage
+
+$~$
+
+$~$
+
+$~$
+
+
+------------------------------------------------------------------------------------------------------------------------
+Summary statistic                                          southern grid         northern grid           both grids 
+------------------------------------------------------ --------------------- --------------------- ---------------------
+Number of camera sites	                                        73	                 67	                  140
+
+Sites where cats detected (%)	                                  51	                 62	                  55
+
+Number of unmarked detection events	                            47	                 48	                  95
+
+Number of identifiable, marked detection events	                60	                 59	                  119
+
+Number of unidentifiable, marked detection events               10	                 5	                  15
+
+Total number of identified individuals	                         23	                 24	                  47
+
+Number of cats resighted at different cameras                   8	                    6	                  14
+
+Mean recapture distance (m)                                     653	                 774	                  716
+
+Maximum recapture distance (m)                                  905	                 1701	               1701
+------------------------------------------------------ --------------------- --------------------- ---------------------
+Table: (\#tab:otways17-stats) Summary of raw camera survey data for feral cats in the Otway Ranges, Victoria, Australia, 2017.
+
+
+
+\newpage
+
+$~$
+
+$~$
+
+$~$
+
+```{r otways17-estimates}
+# load model fits
+unexpected_model_fits <- readRDS("data/otways17/unexpected_model_fits.RData")
+# get aic vals (via secr package)
+df <- AIC(unexpected_model_fits, criterion = "AICc")[,-2]
+# make row names a proper column
+df <- tibble::rownames_to_column(df, "fit")
+# round to 2 digis
+df$AICc <- round(df$AICc, digits = 2)
+df$dAICc <- round(df$dAICc, digits = 2)
+df$AICcwt <- round(df$AICcwt, digits = 2)
+
+# function to extract density estimates per model in secrlist as list
+out <- list()
+# get density estimates
+for (i in 1:length(unexpected_model_fits)) {
+         # extract density estimate 
+   estimate <- as.data.frame(unlist(sapply(predict(unexpected_model_fits[[i]]), "[", "D","estimate")))
+names(estimate)[1] <- "estimate"
+estimate <- tibble::rownames_to_column(estimate, "grid")
+   # extract 5% CI
+lower_bound <- as.data.frame(unlist(sapply(predict(unexpected_model_fits[[i]]), "[", "D","lcl")))
+names(lower_bound)[1] <- "lcl"
+lower_bound <- tibble::rownames_to_column(lower_bound, "grid")
+   # extract 95% CI
+upper_bound <- as.data.frame(unlist(sapply(predict(unexpected_model_fits[[i]]), "[", "D","ucl")))
+names(upper_bound)[1] <- "ucl"
+upper_bound <- tibble::rownames_to_column(upper_bound, "grid")
+# merge
+mod_est <- left_join(estimate, lower_bound) %>%
+                left_join(., upper_bound) 
+out[[i]] <- mod_est
+}
+# convert lists to dataframe
+out_df <- out %>% reduce(bind_rows)
+# add sess name 
+out_df$fit <- c(rep(names(unexpected_model_fits[1]), 2), rep(names(unexpected_model_fits[2]), 2), rep(names(unexpected_model_fits[3]), 2), rep(names(unexpected_model_fits[4]), 2))
+# fix grid 
+out_df$grid <- c("both", "both", "both", "both", "north", "south", "north", "south")
+# convert ha to km2
+out_df$estimate <- out_df$estimate*100
+out_df$lcl <- out_df$lcl*100
+out_df$ucl <- out_df$ucl*100
+
+# join aic and model estimate tables
+df <- left_join(df, out_df) 
+# split model for D and g0
+df$model <- gsub(" sigma~1 z~1", "", df$model)
+df$model <- gsub("session", "grid", df$model)
+df$model <- gsub("D~", "", df$model)
+df$model <- gsub("g0~", "", df$model)
+
+df <- tidyr::separate(df, model, c("Density", "g0"), sep = " ")
+# subet cols
+df <- subset(df, select = -c(fit, logLik, AIC))
+# rename npar to k 
+df <- rename(df, K = npar)
+# remove duplicates
+df <- unique(df)
+rownames(df) <- NULL
+df[3,1:6] <- ""
+df[6,1:6] <- ""
+
+# make table with kableExtra
+kbl(df, longtable = T, booktabs = T, digits = 2, caption = "Comparison of spatial mark-resight models and density estimates") %>% 
+   add_header_above(c("Model" = 2, "Model comparison" = 4, "Density estimate (cats km-2)" = 4)) %>% 
+   kable_styling(latex_options = c("repeat_header"))
+
+```
+
+*T = linear time trend*
+
+*K = number of parameters estimated*
+
+*AICc = Akaike's Information Criterion with small-sample adjustment*
+
+*dAICc = difference between AICc of this model and the model with smallest AICc*
+
+*AICcwt = AICc model weight*
+
+*lcl – lower 95% confidence limit*
+
+*ucl – upper 95% confidence limit*
+
+
+
+\newpage
+
+## Discussion
+Our work provides one of the first robust estimates of feral cat density for a temperate wet forest in Australia. Our estimate of 1.14 cats km^-2^ (95% CI: 0.88 – 1.47) is five times higher than that predicted by the @legge2017enumerating model for this location (0.17 - 0.23 cats km^-2^), and more than three times higher than the predicted continental mean density for feral cats in ‘natural areas’ [0.27 cats km^-2^; 0.18 – 0.45 cats km^-2^; @legge2017enumerating]. The mesic coastal areas of Australia were previously thought to support the lowest densities of feral cats across the continent, particularly rugged and wet regions, such as rainforests [@dickman1996overview; @johnson2006australia; @legge2017enumerating; @mcdonald2017habitat]. Accordingly, feral cats were believed to have relatively less impact on native species in these environments [@burbidge2002mammal; @doherty2017impacts; @woinarski2017birds; @woinarski2018reptiles; @radford2018degrees; @murphy2019introduced]. Our finding is therefore startling, and prompts a rethink about the threat that feral cats may pose to native fauna in mesic habitats.
+
+The high density of feral cats in our study region likely reflects the high productivity of the landscape and abundant populations of some prey species. Our study region has the highest annual rainfall in Victoria [@BOM2021], and live-trapping surveys in our study site show consistent, near saturation of small mammal traps, predominantly bush rats *Rattus fuscipes* and *Antechinus spp*. (Z. Banïkos, unpublished data). Several images from our study confirmed that feral cats prey upon these taxa. These small mammals may be relatively robust to introduced predators due to their high fecundity and generalist habitat requirements [e.g. @banks1999predation]. However, by supporting high densities of feral cats, they may also facilitate high levels of predation on rarer and more vulnerable species [@smith1996patterns], such as the now locally extinct smoky mouse *Pseudomys fumeus* [@menkhorst2006background]. Significant declines and local extinctions of other small mammals have also been reported across the eastern Otways [@wayne2017recoveries]. Understanding temporal trends in these predator-prey dynamics and the relationships between introduced predators and their native primary and alternative prey is a key priority for future research.
+
+The lack of apex predators and competitors in the Otway Ranges may also facilitate high feral cat densities. Dingoes *Canis familiaris*–higher order predators [@johnson2007rarity]–and tiger quolls *Dasyurus maculatus*–key competitors [@glen2005complex]–are functionally extinct in the Otway Ranges. We detected foxes at 25% of sites (M. Rees, unpublished data) but the extent to which foxes exert top-down control on feral cats is unclear. Changes in feral cat abundance, behaviour and/or diet have been observed in response to fox control [@molsher2017mesopredator; @hunter2018not], and the relationship could be further clarified using robust density estimates under experimental manipulations of fox density.
+
+The belief that feral cat densities in Australia are lower in mesic forests than open habitats stems partly from the lack of robust density estimates from forests, and partly from observations that cats have greater hunting success and are more detectable in open microhabitats [@hohnen2016occupancy; @mcdonald2017habitat; @mcgregor2014landscape; @mcgregor2015density] and select for savannah over rainforest [@mcgregor2017habitat]. However, the variation in understorey structure (from extremely dense to relatively open) in our study region potentially creates ideal shelter and foraging habitat for feral cats, which often hunt along edges between dense and open vegetation [@doherty2015critical]. Our findings challenge the belief that cat density is low in mesic forests, and instead concur with the global pattern that feral cats have smaller, overlapping home ranges in productive, low-seasonal environments, resulting in higher population densities [@bengsen2016feral].
+
+Our surveys clearly need replicating in other mesic environments before they can be generalised. Nonetheless, higher than expected densities of feral cats in mesic and complex environments would have serious implications for biodiversity conservation. Feral cats are thought to be a key driver of the recent declines of critical-weight-range mammals in northern Australia [@woinarski2010monitoring; @fisher2014current; @davies2018declining]. Contemporary mammal declines are also occurring in temperate Australia, including the Otway Ranges [@bilney2010underestimated; @wayne2017recoveries; @lindenmayer2018conservation]. A better understanding of feral cat densities in these regions is essential for identifying key threatening processes and improving management outcomes.
+
+In conclusion, our study shows that feral cats can occur at high densities in wet forests and cool temperate rainforests, contrary to previous expectations. Further research is needed to understand the impacts of this on native mammal populations, and the mechanisms that drive spatial variation in feral cat density, including the influence of habitat type, productivity, disturbance events and interactions with other predators. New spatial capture-recapture methods will likely play a powerful role in improving understanding of the ecology of this globally-significant predator. Our work provides a strong foundation for future investigations, as our methodology allows for robust evaluations of feral cat density, particularly under experimental manipulations and population comparisons.
+
+
+
