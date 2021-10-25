@@ -1,0 +1,92 @@
+\contentsline {chapter}{\numberline {1}General Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Unexpectedly high densities of feral cats in a rugged temperate forest}{5}{chapter.2}%
+\contentsline {section}{Abstract}{5}{section*.9}%
+\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Methods}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Study area}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Study design}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Individual cat identification}{8}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Estimating population density}{9}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Results}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Discussion}{14}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Fire and poison-baiting manipulate invasive predator and threatened prey occurrence within temperate landscapes}{17}{chapter.3}%
+\contentsline {section}{Abstract}{17}{section*.11}%
+\contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Methods}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Study species}{21}{subsection.3.2.1}%
+\contentsline {subsubsection}{Red fox}{21}{section*.12}%
+\contentsline {subsubsection}{Feral cat}{21}{section*.13}%
+\contentsline {subsubsection}{Southern brown bandicoot}{22}{section*.14}%
+\contentsline {subsubsection}{Long-nosed potoroo}{22}{section*.15}%
+\contentsline {subsection}{\numberline {3.2.2}Study area and camera-trapping}{22}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Generalised additive models}{23}{subsection.3.2.3}%
+\contentsline {subsubsection}{1080 poison-bait density}{24}{section*.16}%
+\contentsline {subsubsection}{Time since fire and vegetation type}{24}{section*.17}%
+\contentsline {subsubsection}{Recent rainfall}{25}{section*.18}%
+\contentsline {subsubsection}{Proximity to forest edge}{25}{section*.19}%
+\contentsline {subsection}{\numberline {3.2.4}Cumulative detection probabilities}{25}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Results}{27}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Generalised additive models}{27}{subsection.3.3.1}%
+\contentsline {subsubsection}{1080 poison-bait density}{27}{section*.21}%
+\contentsline {subsubsection}{Time since fire and vegetation type}{28}{section*.22}%
+\contentsline {subsubsection}{Recent rainfall}{28}{section*.23}%
+\contentsline {subsubsection}{Proximity to forest edge}{29}{section*.24}%
+\contentsline {subsection}{\numberline {3.3.2}Cumulative detection probabilities}{29}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Discussion}{37}{section.3.4}%
+\contentsline {section}{\numberline {3.5}GY}{39}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Quantifying mesopredator release: lethal control of an invasive apex predator alters feral cat density and detectability}{41}{chapter.4}%
+\contentsline {section}{Abstract}{41}{section*.31}%
+\contentsline {section}{\numberline {4.1}Introduction}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Methods}{45}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Study area}{45}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Study design and camera-trapping}{45}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Individual feral cat identification}{46}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Spatial fox occurrence}{47}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Spatial mark-resight models of feral cat density}{47}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Results}{51}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Fox occurrence}{51}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Feral cats in the Glenelg region}{51}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Feral cats in the Otway region}{52}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Discussion}{58}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Spatiotemporal shifts in predator behaviour across habitats, individuals and threats.}{61}{chapter.5}%
+\contentsline {section}{Abstract}{61}{section*.38}%
+\contentsline {section}{\numberline {5.1}Introduction}{63}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Methods}{65}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Camera-trap surveys}{65}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Data preparation}{66}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Generalised additive models}{67}{subsection.5.2.3}%
+\contentsline {subsubsection}{Spatial variation in predator activity}{67}{section*.39}%
+\contentsline {subsubsection}{Variation in predator activity across vegetation types}{67}{section*.40}%
+\contentsline {subsubsection}{Feral cat spatiotemporal avoidance of foxes}{68}{section*.41}%
+\contentsline {subsubsection}{Individual variation in feral cat diel activity}{68}{section*.42}%
+\contentsline {section}{\numberline {5.3}Results}{70}{section.5.3}%
+\contentsline {subsubsection}{Spatial variation in predator activity}{70}{section*.44}%
+\contentsline {subsubsection}{Variation in predator activity across vegetation types}{70}{section*.45}%
+\contentsline {subsubsection}{Feral cat spatiotemporal avoidance of foxes}{70}{section*.46}%
+\contentsline {subsubsection}{Individual variation in feral cat diel activity}{71}{section*.47}%
+\contentsline {section}{\numberline {5.4}Discussion}{77}{section.5.4}%
+\contentsline {section}{\numberline {5.5}GY}{79}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Synthesis}{81}{chapter.6}%
+\contentsline {chapter}{References}{83}{chapter*.52}%
+\contentsline {chapter}{\numberline {A}Supporting Information: Chapter \ref {otways17}}{101}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Chapter \ref {otways17} publication}{105}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Supporting Information: Chapter \ref {density}}{111}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Field surveys}{112}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Individual cat identification}{115}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Summary statistics}{118}{section.C.3}%
+\contentsline {section}{\numberline {C.4}Feral cat detection plots}{119}{section.C.4}%
+\contentsline {subsection}{\numberline {C.4.1}Glenelg region}{119}{subsection.C.4.1}%
+\contentsline {subsubsection}{Replicate 1}{119}{section*.57}%
+\contentsline {subsubsection}{Replicate 2}{120}{section*.59}%
+\contentsline {subsubsection}{Replicate 3}{121}{section*.61}%
+\contentsline {subsection}{\numberline {C.4.2}Otway region}{122}{subsection.C.4.2}%
+\contentsline {subsubsection}{2017}{122}{section*.63}%
+\contentsline {subsubsection}{2018}{123}{section*.65}%
+\contentsline {subsubsection}{2019}{124}{section*.67}%
+\contentsline {section}{\numberline {C.5}Fox spatial occurrence}{125}{section.C.5}%
+\contentsline {subsection}{\numberline {C.5.1}Glenelg region}{125}{subsection.C.5.1}%
+\contentsline {subsection}{\numberline {C.5.2}Otway Region}{127}{subsection.C.5.2}%
+\contentsline {section}{\numberline {C.6}Vegetation categories}{129}{section.C.6}%
+\contentsline {section}{\numberline {C.7}Spatial mark-resight models}{131}{section.C.7}%
+\contentsline {subsection}{\numberline {C.7.1}Glenelg region}{131}{subsection.C.7.1}%
+\contentsline {subsection}{\numberline {C.7.2}Otway region}{136}{subsection.C.7.2}%
