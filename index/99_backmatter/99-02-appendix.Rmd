@@ -1,6 +1,114 @@
-# Chapter \@ref(otways17) publication {#otways17-pub}
+# Supporting Information: Chapter \@ref(occ) {#occ-app}
 
 \newpage
 
-\includepdf[pages={-}]{figure/Rees_2019_biolcons.pdf}
+
+```{r occ-naive}
+
+## DATA PREPARATION
+records <- read.csv("data/occ/records_presence_absence.csv")
+# drop zoi's records - too much spatial autocorrelation
+records <- filter(records, data_source != "zoi")
+# exclude stations left out for less than 14 days
+records <- filter(records, survey_duration >= 10)
+# as we only had three "Riverine Grassy Woodlands or Forests" unique survey sites --> drop em
+records <- filter(records, XGROUPNAME != "Riverine Grassy Woodlands or Forests")
+# as we only had 20 "Rainforests" unique survey sites, all of which interspersed in "Wet Forests" in the Otways, reclassify as "Wet Forests". 
+records$XGROUPNAME <- if_else(records$XGROUPNAME == "Rainforests", "Wet or Damp Forests", as.character(records$XGROUPNAME))
+# abbreviate EVC group names for plotting
+records$XGROUPNAME <- if_else(records$XGROUPNAME == "Wet or Damp Forests", "Wet Forests", records$XGROUPNAME)
+records$XGROUPNAME <- if_else(records$XGROUPNAME == "Riparian Scrubs or Swampy Scrubs and Woodlands", "Swampy Scrubs", records$XGROUPNAME)
+records$XGROUPNAME <- substr(records$XGROUPNAME, 1, nchar(records$XGROUPNAME) - 1)
+
+# SUMMARIES
+table1 <- records %>%
+  group_by(region, XGROUPNAME) %>%
+  mutate(sites = length(unique(station)),
+         deployments = length(unique(station_year)),
+         fox_present = sum(fox),
+         cat_present = sum(cat),
+         sbb_present = sum(bandicoot_sb),
+         lnp_present = sum(potoroo_ln),
+         fox_naive = (fox_present / deployments),
+         cat_naive = (cat_present / deployments),
+         sbb_naive = (sbb_present / deployments),
+         lnp_naive = (lnp_present / deployments)
+         )
+table1 <- table1 %>%
+  dplyr::select(XGROUPNAME, region, sites, deployments, fox_naive, cat_naive, sbb_naive, lnp_naive)  %>% 
+  distinct() %>%
+  arrange(XGROUPNAME, region)
+# rename region 
+table1$region <- factor(table1$region)
+levels(table1$region) <- c("Glenelg", "Otway")
+
+# remove repeat vegetation name
+table1[c(2, 4, 6, 8, 10, 12),1] <- ""
+
+# make table
+kbl(table1, longtable = T, booktabs = T, digits = 2,
+    caption = "Number of camera-trap sites, total deployments and naive occupancy rates for red foxes, feral cats, southern brown bandicoots (SBB) and long-nosed potoroos (LNP) within Ecological Vegetation Class groups across two broad regions in south-west Victoria, Australia.",
+     col.names = c("Vegetation", "Region", "Sites", "Deployments", "Fox", "Cat", "SBB", "LNP")) %>% 
+   kable_styling(font_size = 10)
+```
+
+\newpage
+
+
+```{r veg-tsf-violin, out.width="100%", fig.cap="Raw data"}
+knitr::include_graphics("figure/raw_data_tsf_veg.png")
+```
+
+
+\newpage
+
+
+```{r occ-cumdet, out.width="100%", fig.cap="Cumulative detection probabilities of species in landscapes with fox control (red) and without fox control (blue) in the Glenelg region (a) and Otway Ranges, south-west Victoria, Australia. Fox control had occurred in The Glenelg region for 8 - 13 years and was monitored with a control-impact design. The Otway Ranges was monitored using a before-after-control-impact experimental design; surveyed approximately 1 year prior and 2 years following the commencement of fox-baiting. Vertical grey lines represent mean (solid) as well as 25\\% and 75\\% quantiles (dotted) of days camera-traps were active for. Shaded bands represent 95\\% Bayesian credible intervals. Estimates derived from Bayesian occupancy-detection models."}
+knitr::include_graphics("figure/cumulative_detectability.png")
+```
+
+\newpage
+
+
+```{r occ-rain-aic}
+
+df <- read_csv("data/occ/rain_occ_aic_table.csv") %>%
+  dplyr::select(-c(X1, df)) %>% 
+  arrange(match(species, c( "fox", "cat", "SBB", "LNP")), desc(species))
+# rename
+df$species <- c(rep("Red fox",4), rep("Feral cat",4), rep("Southern brown bandicoot",4), rep("Long-nosed potoroo",4))
+
+# make table
+kbl(df, longtable = T, booktabs = T, digits = 2, 
+    caption = "Akaike's Information Criterion values for generalised additive models with different rainfall periods.",
+     col.names = c("Species", "Months", "AIC", "dAIC"))  %>% 
+   kable_styling(font_size = 10) %>% 
+  footnote(general = c("AIC - Akaike's Information Criterion score",
+                     "dAIC - difference between AIC of this model and the model with smallest AIC"))
+
+```
+
+\newpage
+
+
+```{r occ-1080, fig.cap="Probability of fox occupancy (a) declined with increasing 1080 poison-bait density across both the Otway Ranges (navy) and Glenelg region (brown) in south-west Victoria, Australia. Feral cat occupancy probability remain unchanged across the range of fox-bait density (b). Southern brown bandicoot (d) and long-nosed potoroo (e) occupancy probability increased with fox-bait density in the Glenelg region, but decreased in the Otway region– although these effects were weak with high uncertainty. Fox control had occurred in The Glenelg region for 8 - 13 years and was monitored with a control-impact design. The Otway Ranges was monitored using a before-after-control-impact experimental design; surveyed approximately 1 year prior and 2 years following the commencement of fox-baiting. Estimates derived from generalised additive models. Shaded regions indicate 95\\% confidence intervals."}
+knitr::include_graphics("figure/foxbaits.png")
+```
+
+
+
+\newpage
+
+
+```{r occ-rainfall, out.width="65%", fig.cap="Predator occupancy fluctuated differently across each region with deviations from the long-term average rainfall amount in the prior 6 and 18 months for feral cats and foxes, respectively. The effect of rainfall was removed entirely from models of southern brown bandicoot and long-nosed potoroo occupancy in both surveyed regions of south-west Victoria, Australia. Estimates derived from generalised additive models. Shaded regions indicate 95\\% confidence intervals"}
+knitr::include_graphics("figure/rainfall.png")
+```
+
+\newpage
+
+
+```{r occ-dist, out.width="100%", fig.cap="Fox occupancy probability decreased linearly for 2 km as distance to the nearest area of non-native vegetation (larger than 30 ha) increased. Increasing distance to non-native vegetation had a weak, positive effect on long-nosed potoroo's, but little-no impact on feral cats and southern brown bandicooots in south-west Victoria, Australia. Estimates derived from generalised additive models. Shaded regions indicate 95\\% confidence intervals."}
+knitr::include_graphics("figure/dist_edge.png")
+```
+
 

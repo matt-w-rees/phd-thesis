@@ -12,10 +12,17 @@ Chapter \@ref(otways17) uses a subset of this dataset; the 2017 camera-trap depl
 
 + Chapter \@ref(density) includes an additional dataset from the Lower Glenelg National Park (serving as a third spatial replicate for the Control-Impact experimental design). Alan Robley designed this camera-trap layout, with Ethan Le Duc, Michael Murrell, Dylan Thomas, Rhys Weber, Chris Johansson, Lachlan Levings and Liz Beever carried out the surveys, with Luke Woodford identifying cats (all from the Victorian Government Department of Environment, Land, Water and Planning). 
 
-
 $~$
 
+This thesis was written in R Markdown and Bookdown using the ['unimelbdown' template created by Luke Zappia](https://github.com/lazappi/unimelbdown).
+
+
+
+\newpage
+
 **Publications included as part of this thesis**
+
+$~$
 
 *Chapter \@ref(otways17)*
 
@@ -23,7 +30,9 @@ MW Rees, JH Pascoe, BA Wintle, M Le Pla, EK Birnbaum, BA Hradsky (2019). Unexpec
 
 Contributions: M.W.R, B.A.H and J.H.P  conceived the ideas and designed the methodology; M.W.R, J.H.P, M.LP, E.K.B and B.A.H collected the data; M.W.R analysed the data with input from B.A.H and B.A.W, and led the writing of the manuscript. All authors contributed critically to the writing.
 
-Analysis: https://github.com/matt-w-rees/feral-cat-otways-2017-SMR
+Data and code: 
+
+https://github.com/matt-w-rees/feral-cat-otways-2017-SMR
 
 $~$
 
@@ -33,7 +42,9 @@ $~$
 
 Contributions: M.W.R and B.A.H conceived the ideas; M.W.R and B.A.H collected some of the data; M.W.R analysed the data with input from B.A.H and B.A.W, and led the writing of the manuscript. All authors contributed critically to the writing.
 
-Analysis: https://github.com/matt-w-rees/occurrence-gams-fox-cat-sbb-lnp
+Data and code:
+
+https://github.com/matt-w-rees/occurrence-gams-fox-cat-sbb-lnp
 
 $~$
 
@@ -43,36 +54,46 @@ $~$
 
 Contributions: M.W.R, B.A.H, J.H.P, B.A.W and A.R conceived the ideas and designed the methodology; M.W.R, J.H.P, M.LP, E.K.B and B.A.H collected the data; M.W.R analysed the data with input from B.A.H and B.A.W, and led the writing of the manuscript. All authors contributed critically to the drafts and gave final approval for publication.
 
-Analysis: https://github.com/matt-w-rees/invasive-mesopredator-release
+Data and code: 
+
+https://github.com/matt-w-rees/invasive-mesopredator-release
 
 $~$
 
 *Chapter \@ref(diel)*
 
-**MW Rees**, N Golding, BA Wintle, A Robley, & BA Hradsky (*In preperation*). XX.
+**MW Rees**, N Golding, BA Wintle, A Robley, & BA Hradsky (*In preparation*). XX.
 
 Contributions: M.W.R and N.G conceived the ideas; M.W.R and B.A.H collected some of the data; M.W.R analysed the data with input from N.G and led the writing of the manuscript. All authors contributed critically to the writing.
 
-Analysis: https://github.com/matt-w-rees/spatiotemporal-gams-invasive-predators
+Data and code: 
 
-$~$
+https://github.com/matt-w-rees/spatiotemporal-gams-invasive-predators
 
-$~$
+
+
+\newpage
 
 **Other publications that I have contributed to during my candidature but are not presented in this thesis**
+
+$~$
 
 M Le Pla, EK Birnbaum, **MW Rees**, BA Hradsky, AR Weeks, A Van Rooyen, JH Pascoe (*In review*).
 Genetic Sampling and an Activity Index Indicate Contrasting Outcomes of Lethal Control for an Invasive Predator  
 
 A Stobo-Wilson, BP Murphy, SM Legge, H Caceres-Escobar, DG Chapple, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, ST. Garnett, M Gentle, TM Newsome, R Palmer, **MW Rees**, EG Ritchie, J Speed, J Stuart, AF Suarez-Castro, E Thompson, A Tulloch, J Turpin, JCZ Woinarski (*In review*). Counting the bodies: estimating the numbers and spatial variation of Australian reptiles, birds and mammals killed by two invasive mesopredators.
 
-A Stobo-Wilson, BP Murphy, SM Legge, DG Chapple, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, TM Newsome, R Palmer, **MW Rees**, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (*In review*). Compounding and complementary carnivores: Australian bird species eaten by the introduced European red fox *Vulpes vulpes* and domestic cat *Felis catus*.
+BA Hradsky, HW McGregor, **MW Rees**, M Le Pla, J Keem, BA Wintle, S Legge (2021). A guide to surveying red foxes and feral cats in Australia. *NESP Threatened Species Recovery Hub Project 1.1.5 report, Brisbane.*
+
+A Stobo-Wilson, BP Murphy, SM Legge, DG Chapple, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, TM Newsome, R Palmer, **MW Rees**, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (*In press*). Compounding and complementary carnivores: Australian bird species eaten by the introduced European red fox *Vulpes vulpes* and domestic cat *Felis catus*. *Bird Conservation International*.
 
 A Stobo-Wilson, BP Murphy, SM Legge, DG Chapple, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, TM Newsome, R Palmer, **MW Rees**, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (2021). Reptiles as food: predation of Australian reptiles by introduced red foxes compounds and complements predation by cats. *Wildlife Research* **48**, 470-480. https://doi.org/10.1071/WR20194
 
 A Stobo-Wilson, BP Murphy, HM Crawford, SJ Dawson, CR Dickman, TS Doherty, PA Fleming, M Gentle, SM Legge, TM Newsome, R Palmer, **MW Rees**, EG Ritchie, J Speed, J Stuart, E Thompson, J Turpin, JCZ Woinarski (2021). Sharing meals: Predation on Australian mammals by the introduced European red fox compounds and complements predation by feral cats. *Biological Conservation* **261** : 109284. https://doi.org/10.1016/j.biocon.2021.109284
 
 H Davies, Tiwi Land Rangers, **MW Rees**, D Stokeld, AC Miller, GR Gillespie, BP Murphy (2021). Variation in feral cat density between two large adjacent islands in Australia’s monsoon tropics. *Pacific Conservation Biology*. https://doi.org/10.1071/PC20088
+
+**MW Rees** (2020). Monitoring and managing critical weight range mammals in the indigenous protected areas of the world heritage Budj Bim cultural landscape. *A report prepared for the Victorian Government, Department of Environment, Land, Water and Planning*.
 
 **MW Rees**, J Carwardine, A Reeson, and J Firn (2020). Rapidly assessing cobenefits to advance threat-management alliances. *Conservation Biology*, **34**: 843-853. https://doi.org/10.1111/cobi.13490
 

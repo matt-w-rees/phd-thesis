@@ -1,3 +1,72 @@
 # Synthesis 
 
-text
+
+## Weighing up the evidence for mesopredator release 
+
+Does fox control cause a mesopredator release of feral cats? This was the central question of my thesis, which I investigated from several different angles (population metrics / statistical methods). So how do these separate pieces all fit together?
+
+The most commonly used methods--occupancy, activity indices, circular overlap in diel patterns-- inferred little-no impact of foxes / fox control on feral cats. Despite different preferences for vegetation types, foxes and cats had, on average, strong overlap in spatial and temporal activity. This is intuitive. These predators have strong niche overlap and cats occur across nearly the entire distribution of foxes. It appears this coexistence is facilitated by fine-scale avoidance, likely to have impacts on population density. 
+
+The strongest evidence for a mesopredator release of feral cats caused by fox control comes from Chapter \@ref(occ)). This chapter used the most complicated statistical method - spatial mark-resight models, which I designed all of my fieldwork around.
+
+Fairly startling results in the glenelg region - nearly 4-fold effect on density, however, we can't be sure these densities didn't occur prior to fox control commencing - are just natural. 
+
+
+
+Weakest / no evidence for occupancy. 
+
+Diel. We didn't explicitly test fox control effects diel activity. Nevertheless, we've seen that fox control reduces can reduce fox activity (detectability in glenelg), so safe to assume that fox control could alter diel patterns where fox activity is effectively suppressed. 
+Is altered diel patterns considered mesopredator release? I think so. Excluding cats from night time is a strong effect - probably the most tangible / clear sign of altering their impact - particularly concerning for mammals. 
+
+My thesis provides evidence that foxes can constrain the activity and density of feral cats, and that fox control may trigger a mesopredator release of feral cats following fox control. Evidence in the form of density and diel behaviour. Occupancy not so much.Probably, not enough to recommend managers to stop fox control. However, in regions where cat control is more feasible (namely arid regions where cats take baits), these results should encourage integrated control. 
+
+Both predators co-occur across their near global, we provide evidence this may be facilitated with temporal avoidance. Cat
+Modern mesopredator release / predator interaction studies use co-occurence - likely to provide little insight. 
+
+
+
+
+## How much does a mesopredator release of feral cats matter?
+
+Strongest evidence in the Glenelg region, but potoroos still benefiting. 
+Some species appear to be way more strongly limited by foxes than cats (moseby threshold study). So even in the face of mesopredator release, fox control will still be an appropriate conservation strategy. Just need careful monitoring (cats, and various prey) and trigger points stopping / implementing cat control. 
+
+The most-affected will be small mammals. And these regions are critical habitats for threatened rodents and antechinus. I documented many instances of cat carrying these - definitely prey species. Future investigation of mesopredator release impacts would do well to consider small mammals.
+
+We have information on fox diet from scats - in the works. However we have no information on cat diet in these regions, and unlikely to feasibly get this info anytime soon. Extremely difficult to relate predator densities to an impact on prey. A feasible step-forward is co-occurrence models. 
+
+My thesis, along with previous research in the region, revealed that many other factors drove native prey across these regions. Much of our governments priorities in the war against invasive is the body count (e.g. cat target). However, one of the most effective cat management / conservation strategies is the preservation of habitat structure (through fire regimes and grazing limitation). Fire in the south-west particularly important. 
+
+
+## Reccomendations for managers
+
+### Prescribed fire 
+Considerable uncertainty. Lots of confounding factors - still. 
+Need to collate more data - theres more from the regions. 
+A key question is should we also collate data from outside the regions?
+Habitat structure is the missing thing. 
+
+
+
+**I didn't consider was a herbivore release.**
+Billy tested this in the Glenelg region and found nothing. Occupancy is a difficult metric for these herbivores (especially swamp wallabies), perhaps behavioural differences (e.g., grazing times for wallabies, time spent on ground for possums) would be a better approach. 
+
+
+
+## Feral cat monitoring 
+Least detectable, nothing except veg type was a strong driver of occupancy.  
+
+
+**Spatial mark-resight methods for feral cats**
+Promising, but need heaps of data. 
+In low-density environments to otways - (i.e., everywhere else), one survey is not going to be enough. Will need to combine datasets and/or repeating surveys over time - sharing parameters. Open data!
+Clustered designs shows promise to spread further over somewhere like the Otway Ranges. Particularly to do a better job of testing role of vegetation type on density. 
+Now we're getting a handle on cat density across Australia, one of the biggest info gaps is how it changes over time, especially in temperate regions. Otways study provides a great foundation (unbaited control site), particularly considering the low-seasonality - if cat populations fluctuate widely here you know they will fluctuate way more in other environments. Will be easier with AI identifications, and bigger reference images. 
+
+Open pop. CR methods exist, but currently not open SMR. considering the black cats was more of a priority than open pop. Anecdotally, I found many of the same cats, hanging out in many of the same spots in each of the three years. Open pop. methods allow you model transient activity centres, would be good to test this. 
+Is Tassie, Lazenby hypothesised that killing resident cats made things worse by promoting younger bastards. Might be a reason to leave them alone...
+
+
+
+
+

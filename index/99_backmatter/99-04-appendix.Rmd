@@ -1,0 +1,154 @@
+# Supporting Information: Chapter \@ref(diel) {#diel-app}
+
+\newpage
+
+$~$
+
+$~$
+
+$~$
+
+
+```{r diel-tab1}
+
+# load records
+records <- read_csv("data/diel/counts_hour_cleaned.csv")
+# drop hour
+records <- distinct(records, station_year, .keep_all = TRUE)
+# get unique sites dataframe
+camdata <- distinct(records, station, .keep_all = TRUE)
+
+table1 <- records %>%
+ group_by(region, vegetation_group) %>%
+ mutate(sites = length(unique(station)),
+     deployments = length(unique(station_year)),
+     fox_count_vr = sum(fox_count),
+     cat_count_vr = sum(cat_count),
+     fox_present = sum(fox_pa == "present"),
+     cat_present = sum(cat_pa == "present")
+     )
+
+table1 <- table1 %>%
+ dplyr::select(vegetation_group, region, sites, deployments, fox_count_vr, cat_count_vr) %>% 
+ distinct() %>%
+ arrange(vegetation_group, region)
+
+# get sums for total row
+total <- colSums(Filter(is.numeric, table1))
+# add to df
+table1 <- rbind(table1, total)
+table1[14,1] <- "Total"
+table1[14,2] <- ""
+
+# rename region 
+table1$region <- factor(table1$region)
+table1$region <- gsub("glenelg", "Glenelg", table1$region)
+table1$region <- gsub("otway", "Otway", table1$region)
+
+# remove repeat vegetation name
+table1[c(2, 4, 6, 8, 10, 12),1] <- ""
+
+# make table
+kbl(table1, longtable = T, booktabs = T, digits = 2,
+  caption = "Summary of the number of camera-trap deployments, unique survey sites and 'independent' counts of invasive predator detections across Ecological Vegetation Class groups within the Glenelg and Otway regions, south-west Victoria, Australia.",
+   col.names = c("Vegetation", "Region", "Sites", "Deployments", "Fox counts", "Cat counts")) %>% 
+  kable_styling(font_size = 10) %>% 
+  row_spec(14, bold = T) 
+
+```
+
+\newpage
+
+```{r diel-tab-fits}
+
+# load records
+fits_summaries <- read_csv("data/diel/model_summaries.csv") %>%
+  dplyr::select(-c(X1))
+
+# make table
+kbl(fits_summaries, longtable = T, booktabs = T, digits = 4,
+  caption = "Generalised additive model summaries for invasive predator spatiotemporal activity in south-west Victoria, Australia.",
+     col.names = c("Species", "Model", "EDF", "dev.expl", "r.sq")) %>% 
+  kable_styling(font_size = 10) %>% 
+  footnote(general = c("EDF - estimated degrees of freedom of all model terms.",
+                       "dev.expl - proportion of the null deviance explained by the model. ",
+                       "r.sq -  adjusted r-squared value."))
+
+```
+
+
+\newpage
+
+```{r diel-space-time-marginal, fig.cap = "Marginal effect of time (model 1) on predators across both study regions in south-west Victoria, Australia. White crosses depict unique camera-trap sites"}
+knitr::include_graphics("figure/avg_diel_predator.png")
+
+```
+
+
+\newpage
+
+```{r diel-space-time-marginal-g}
+knitr::include_graphics("figure/sp_marginal_g.png")
+
+```
+
+```{r diel-space-time-marginal-o, fig.cap = "Marginal effect of space on predators across south-west Victoria, Australia (model 1). White crosses depict unique camera-trap sites"}
+knitr::include_graphics("figure/sp_marginal_o.png")
+
+```
+
+\newpage
+
+```{r diel-st-int-g-fox, fig.cap = "Interaction effect of space-time on feral cat \\textit{Felis catus} activity across each hour of the day (0 - 23) in the Glenelg region, Australia (model 1). White crosses depict unique camera-trap sites. "}
+knitr::include_graphics("figure/spte_diff_avg_g_fox.png")
+
+```
+
+\newpage
+
+```{r diel-st-int-g-cat, fig.cap = "Interaction effect of space-time on feral cat \\textit{Felis catus} activity across each hour of the day (0 - 23) in the Glenelg region, Australia (model 1). White crosses depict unique camera-trap sites. "}
+knitr::include_graphics("figure/spte_diff_avg_g_cat.png")
+
+```
+
+\newpage
+
+```{r diel-st-int-o-cat, fig.cap = "Interaction effect of space-time on feral cat \\textit{Felis catus} activity across each hour of the day (0 - 23) in the Otway Ranges, Australia (model 1). White crosses depict unique camera-trap sites. "}
+knitr::include_graphics("figure/spte_diff_avg_o_cat.png")
+
+```
+
+
+
+
+\newpage
+
+```{r diel-space-g-fox, fig.cap = "Overall spatial activity of red foxes \\textit{Vulpes vulpes} for each hour of the day (0 - 23) in the Glenelg region, Australia (model 1). White crosses depict unique camera-trap sites"}
+knitr::include_graphics("figure/spte_facet_o_fox.png")
+
+```
+
+\newpage
+
+```{r diel-space-g-cat, fig.cap = "Overall spatial activity of feral cats \\textit{Felis catus} for each hour of the day (0 - 23) in the Glenelg region, Australia (model 1). White crosses depict unique camera-trap sites"}
+knitr::include_graphics("figure/spte_facet_g_cat.png")
+
+```
+
+\newpage
+
+```{r diel-space-o-fox, fig.cap = "Overall spatial activity of red foxes \\textit{Vulpes vulpes} for each hour of the day (0 - 23) in the Otway Ranges, Australia (model 1). White crosses depict unique camera-trap sites"}
+knitr::include_graphics("figure/spte_facet_o_fox.png")
+
+```
+
+\newpage
+
+```{r diel-space-o-cat, fig.cap = "Overall spatial activity of feral cats \\textit{Felis catus} for each hour of the day (0 - 23) in the Otway Ranges, Australia (model 1). White crosses depict unique camera-trap sites"}
+knitr::include_graphics("figure/spte_facet_o_cat.png")
+
+```
+
+
+
+

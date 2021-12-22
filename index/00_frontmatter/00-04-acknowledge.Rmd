@@ -1,24 +1,24 @@
-My thesis 
+I acknowledge and pay respect to the Gunditjmara and Eastern Maar (in particular, the Gadabunud) people on whose traditional lands this study took place. I feel extremely grateful to have had the chance to learn about and work across these countries, which have some of longest histories of management which continue to this day--I hope this research can help in some small way. I completed the less exciting parts of my PhD while living on Wurundjeri, Bundjalung and Larrakia country, a key source of motivation and inspiration, I also extend my respect to their elders, past and present. 
 
+I firstly wish to thank my supervisor Bronwyn Hradksy. Bron was incredibly generous in her time in getting me onto my feet with this project - I had no prior experience. Bron gave me the freedom to find and pursue my own interests, gently reigned me in when I became distracted by shiny lights and was a serious help in getting my writing up to scratch. I am fortunate to have had a mentor who values robust and useful science, as well as kindness. Thank you Bron!
 
-I acknowledge and pay respect to the Gadubanud and Gunditjmara people on whose traditional lands this study took place. It was a privilege to learn about and work on across the countries.  
-I also completed my PhD while living on Wurundjeri country and Bandjalang country. 
+Thanks to my other supervisors, Brendan Wintle and Alan Robley. Thanks to Brendan for helping me to see the bigger picture of my research. And to Alan, for guiding me through world of fox control in south-west Victoria, lining up equipment and sharing copius amounts of data--it is painful to imagine what my thesis would have been without this support. To my PhD committee, Mick McCarthy, Nat Briscoe and Richard Hill. Ten minutes with Micks thoughts is enough to run on for a year, Nat gave advice which fundamentally shifted my attitude to this PhD, Richard, for making sure my research was useful and for always reminding me not to stress and enjoy the research. 
 
-Supervisors. 
+Many helpful and kind people who took an interest in my research. None of my research in the Otways would have been remotely feasible without the huge support I received from the Conservation Ecology Centre. Particular thanks to Jack Pascoe, my unofficial supervisor, who always tells it to me straight; as well as Mark Le Pla and Emma Birnbaum. Further west, a big thanks to the legends of the Heywood DELWP office for being incredibly supportive, always being up for a laugh and letting me raid the equipment storage. Special thanks go to Pittsy, Wes, Tom, Louise and Ethan. To Vin and Kelly Gannon, who gave me a home away from home (and even some employment). Both the Glenelg Ark and Otway Ark fox control programs for helping to shape my research questions, providing advice and sharing datasets. 
 
-Committee. 
+Nearly 50 field field assistants. 
+Shauni Omond, Shayne Neal, Asitha Samarawickrama, Shelley Thompson, Erin Harris, Hannah Killian, Lani Watson, Mark Dorman, Jack Davis, Carl Roffey, Bruce Edley, Larissa Oliveira Gonçalves, Ben Lake, Chantelle Geissler, Aviya Naccarella, Emily Gronow, Harley England, David Pitts, Annie Hobby, Louise Falls, Thomas McKinnon, Jimmy Downie, Marney Hradsky, Stephanie Samson, Robin Sinclair, Asmaa Alhusainan, Kelly Forrester, Tammana Wadawani, Emily McColl-Gausden, Emily Gregg, Hannah Edwards, Adam Beck, Vishnu Memnon, Sandy Lu, Pia Lentini, Nick Golding, Emily McColl-Gausden, Nina Page, Maggie Campbell-Jones, Kyle Quinn and Jack Dickson.
 
-Discussions many QAEco people highly influenced this PhD. Zoï. Plus Billy. 
+O study was generously supported by the Conservation Ecology Centre, the Victorian Government Department of Environment, Land Water and Planning, Arthur Rylah Institute for Environmental Research, Parks Victoria, the Australian Government’s National Environmental Science Program through the Threatened Species Recovery Hub, and ARC Linkage Project LP170101134. M.W.R also receives support from an Australian Government Research Training Program Scholarship.
+
+My thesis is largely a product of the many great minds, colleagues, friends in the QAEco lab. I knocked on many doors for both coding and statistical help, as well as general advice on navigating the very foreign world of research, pulling me out out a slump many a times. To Bec Groenewegen, for navigating the thorny worlds of spatial capture-recapture and predator research with me. To Nick Golding, for introducing me to the wonder of the 'mgcv' R-package, featuring heavily throughout this thesis.
 Pauline and Dolla. 
 
-This thesis would be very different--much worse--without the assistance of nearly 50 fieldwork volunteers. 
-Vin and Kelly provided me a home away from home during fieldwork and some much needed employment. 
+Thanks to my good mate, the ever-reliable Billy Geary, always there when I needed someone to whinge to, discuss results, methods, plots and even edit drafts. 
 
-Heywood DELWP office. Wes and the GA project officers: Pittsy, Thomas McKinnon, Lou, Ethan. 
-Glenelg Ark, Arthur Rylah Institute for borrowing camera-traps. 
-Claire Miller from PV Otway Ark. 
+While I'm at it, I'd also like thank Jenny Fisher and Jennifer Firn for taking a chance on a fairly average, uninterested undergraduate student and introducing me to the world of research, teaching me a great deal and encouraging me that I could pursue this.  
 
-Family and friends. Particularly parents. Cara. 
+Lastly, I wish to sincerely thanks my non-scientific friends and family for supporting me in this journey, and still  tolerating me when I was off with the bloody cats and stats (literally and figuratively). Most importantly of all I want to thank my parents, Kim and Malcolm, who didn't instil a love of nature in me or anything like that, still have no real idea of what a PhD is (neither TBH), but could not have been more supportive of my pursuit of this. I doubt I could have finished this thesis without the support of my mum and dad, who gave me a place to live when I ran out of funding and needed to escape pandemic lockdowns. I am incredibly lucky and appreciative for everything you both have done for me, both during my PhD and supporting me to get the stage of doing my thesis and doing the actual thing. To putting me out of house escaping pandemics and when I ran out of funding. 
 
-Funding:
-Our study was generously supported by the Conservation Ecology Centre, the Victorian Government Department of Environment, Land Water and Planning, Arthur Rylah Institute for Environmental Research, Parks Victoria, the Australian Government’s National Environmental Science Program through the Threatened Species Recovery Hub, and ARC Linkage Project LP170101134. M.W.R also receives support from an Australian Government Research Training Program Scholarship.
+All the research undertaken for this thesis was approved by the Animal Ethics Committee at the University of Melbourne (1714119) and carried out in accordance with a Victorian Government Department of Environment, Land Water and Planning Research Permit (10008273).
+
