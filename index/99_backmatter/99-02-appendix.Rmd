@@ -55,7 +55,7 @@ kbl(table1, longtable = T, booktabs = T, digits = 2,
 \newpage
 
 
-```{r veg-tsf-violin, out.width="100%", fig.cap="Raw data"}
+```{r veg-tsf-violin, out.width="100%", fig.cap="Range and distribution of time since fire values across the surveyed vegetation types in baited and unbaited sites. In the Glenelg Ark camera-trapping dataset, where most sites in the baited landscapes are relatively recently burnt, and most sites are long-unburnt in the unbaited landscapes. Combining M.W.R PhD and Otway Ark surveys provides a wider range of fire history patterns in each vegetation type with and without fox control."}
 knitr::include_graphics("figure/raw_data_tsf_veg.png")
 ```
 
@@ -90,25 +90,6 @@ kbl(df, longtable = T, booktabs = T, digits = 2,
 
 \newpage
 
-
-```{r occ-1080, fig.cap="Probability of fox occupancy (a) declined with increasing 1080 poison-bait density across both the Otway Ranges (navy) and Glenelg region (brown) in south-west Victoria, Australia. Feral cat occupancy probability remain unchanged across the range of fox-bait density (b). Southern brown bandicoot (d) and long-nosed potoroo (e) occupancy probability increased with fox-bait density in the Glenelg region, but decreased in the Otway region– although these effects were weak with high uncertainty. Fox control had occurred in The Glenelg region for 8 - 13 years and was monitored with a control-impact design. The Otway Ranges was monitored using a before-after-control-impact experimental design; surveyed approximately 1 year prior and 2 years following the commencement of fox-baiting. Estimates derived from generalised additive models. Shaded regions indicate 95\\% confidence intervals."}
-knitr::include_graphics("figure/foxbaits.png")
+```{r occ-tsf, fig.cap="Time since fire had a weak impact on fox (a) and feral cat (b) occupancy probability in south-west Victoria, Australia. Southern brown bandicoot occupancy probability (c) peaked around 15 and 75 years following fire, although, the magnitude of both peaks differed across Ecological Vegetation Class groups. Long-nosed potoroo occupancy probability (d) linearly increased with time since fire in heathy vegetation groups, but linearly decreased with years post-fire in Herb-Rich Woodlands. Estimates derived from generalised additive models (assuming perfect detection). Shaded regions indicate 95\\% confidence intervals. Rug ticks representing the distribution of time since fire data for the Glenelg region (brown) is shown on the inside of the top axis, Otway Ranges distribution shown on the inside of the bottom axis (navy)."}
+knitr::include_graphics("figure/tsf.png")
 ```
-
-
-
-\newpage
-
-
-```{r occ-rainfall, out.width="65%", fig.cap="Predator occupancy fluctuated differently across each region with deviations from the long-term average rainfall amount in the prior 6 and 18 months for feral cats and foxes, respectively. The effect of rainfall was removed entirely from models of southern brown bandicoot and long-nosed potoroo occupancy in both surveyed regions of south-west Victoria, Australia. Estimates derived from generalised additive models. Shaded regions indicate 95\\% confidence intervals"}
-knitr::include_graphics("figure/rainfall.png")
-```
-
-\newpage
-
-
-```{r occ-dist, out.width="100%", fig.cap="Fox occupancy probability decreased linearly for 2 km as distance to the nearest area of non-native vegetation (larger than 30 ha) increased. Increasing distance to non-native vegetation had a weak, positive effect on long-nosed potoroo's, but little-no impact on feral cats and southern brown bandicooots in south-west Victoria, Australia. Estimates derived from generalised additive models. Shaded regions indicate 95\\% confidence intervals."}
-knitr::include_graphics("figure/dist_edge.png")
-```
-
-

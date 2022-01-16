@@ -54,8 +54,6 @@ $~$
 
 $~$
 
-$~$
-
 ```{r intro-conceptual, out.width = "70%", fig.cap = "Conceptual diagram of direct (solid line) and indirect (dashed line) positive (blue) and negative (red) interactions tested in this thesis. Fox control in Australia (in this case via 1080 poison-baiting) aims to suppress invasive red foxes, thereby benefiting two threatened prey species - the southern brown bandicoot and long-nosed potoroo. However, fox control may cause mesopredator release of feral cats (because foxes may exert top-down and competitive pressure on cats), which could lead to a net negative impact on their shared prey such as these two threatened native mammals."}
 include_graphics("figure/conceptual_diagram.jpeg")
 ```
