@@ -118,7 +118,7 @@ bibliography: "bib/thesis.bib"
 #  your citations. See https://citationstyles.org/ for more details.
 # +----------------------------------------------------------------------------+
 
-csl: "style/ecology_letters.csl"
+csl: "style/jae.csl"
 
 # *============================================================================*
 #  OUTPUT FORMATS

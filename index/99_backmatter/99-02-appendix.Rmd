@@ -90,6 +90,28 @@ kbl(df, longtable = T, booktabs = T, digits = 2,
 
 \newpage
 
+
+```{r occ-model-sumstats}
+
+df <- read_csv("data/occ/model_summaries.csv") %>%
+  dplyr::select(-c(X1)) 
+# rename
+df$species <- c(rep("Red fox",2), rep("Feral cat",2), rep("Southern brown bandicoot",2), rep("Long-nosed potoroo",2))
+
+# make table
+kbl(df, longtable = T, booktabs = T, digits = 2, 
+    caption = "Generalised additive model summary statistics for models with 'full' set of explanatory variables relative to a 'null model' with only a site random effect.",
+     col.names = c("Species", "Model", "EDF", "dev.expl", "r.sq", "AIC"))  %>% 
+   kable_styling(font_size = 10) %>% 
+  footnote(general = c("EDF - estimated degrees of freedom of all model terms.",
+                       "dev.expl - proportion of the null deviance explained by the model. ",
+                       "r.sq -  adjusted r-squared value.",
+                      "AIC - Akaike's Information Criterion score"))
+
+```
+
+\newpage
+
 ```{r occ-tsf, fig.cap="Time since fire had a weak impact on fox (a) and feral cat (b) occupancy probability in south-west Victoria, Australia. Southern brown bandicoot occupancy probability (c) peaked around 15 and 75 years following fire, although, the magnitude of both peaks differed across Ecological Vegetation Class groups. Long-nosed potoroo occupancy probability (d) linearly increased with time since fire in heathy vegetation groups, but linearly decreased with years post-fire in Herb-Rich Woodlands. Estimates derived from generalised additive models (assuming perfect detection). Shaded regions indicate 95\\% confidence intervals. Rug ticks representing the distribution of time since fire data for the Glenelg region (brown) is shown on the inside of the top axis, Otway Ranges distribution shown on the inside of the bottom axis (navy)."}
 knitr::include_graphics("figure/tsf.png")
 ```

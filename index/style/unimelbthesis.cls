@@ -412,3 +412,6 @@
 % reduce size of figure captions
 \usepackage{caption}
 \captionsetup[figure]{font=small}
+
+% stop url's extending into the margins
+\usepackage{xurl}
