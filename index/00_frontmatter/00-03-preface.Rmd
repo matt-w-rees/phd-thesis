@@ -2,7 +2,7 @@ $~$
 
 **Thesis overview**
 
-This is a thesis with publication and comprises four 'data' chapters that present my PhD research (Chapters 2 - 5). Chapter 2 has been published in a peer-review journal, with Chapters 3, 4 & 5 either currently being peer-reviewed or are in preparation for peer-review, the details of which are listed below. Accordingly, each chapter is a standalone work, with enough detail to allow them to be viewed independently. This means there is some repetition between chapters, particularly in methods sections. The pronoun ‘we’ is used instead of ‘I’ in recognition of the co-authors’ Contributions: to these data chapters. 
+This is a thesis with publication and comprises four 'data' chapters that present my PhD research (Chapters 2 - 5). Chapter 2 has been published in a peer-reviewed journal, with Chapters 3, 4 & 5 currently being peer-reviewed. Accordingly, each chapter is a standalone work, with enough detail to allow them to be viewed independently. This means there is some repetition between chapters, particularly in methods sections. The pronoun ‘we’ is used instead of ‘I’ in recognition of the co-authors’ contributions to these data chapters. 
 
 The General Introduction provides a brief overview of the relevant literature and outlines the key themes underlying the research, while the Synthesis describes links between the papers, discussing management implications and future research priorities. 
 
@@ -10,23 +10,23 @@ $~$
 
 **Contributions**
 
-I am the primary author and principle contributor on all chapters (i.e., I have contributed greater than 50% effort) which I completed for the purpose of this degree. I led the design, collection and collation of the data, conducted all statistical analyses and led the writing of each chapter. 
+I am the primary author and principal contributor on all chapters (i.e., I have contributed greater than 50% effort) which I completed for the purpose of this degree. I led the design, collection and collation of the data, conducted all statistical analyses and led the writing of each chapter. 
 
-I deployed 425 camera-traps in the Glenelg region during 2018 (a control-impact experiment two spatial replicates), and 524 camera-trap deployments (195 unique sites) in a Before-After-Control-Impact-Paired-Series design in the western Otway Ranges annually from 2017 - 2019. I had field assistance from: Shauni Omond, Shayne Neal, Asitha Samarawickrama, Shelley Thompson, Erin Harris, Hannah Killian, Lani Watson, Mark Dorman, Jack Davis, Carl Roffey, Bruce Edley, Larissa Oliveira Gonçalves, Ben Lake, Chantelle Geissler, Aviya Naccarella, Emily Gronow, Harley England, David Pitts, Annie Hobby, Louise Falls, Thomas McKinnon, Jimmy Downie, Marney Hradsky, Stephanie Samson, Robin Sinclair, Asmaa Alhusainan, Kelly Forrester, Tammana Wadawani, Emily Gregg, Hannah Edwards, Adam Beck, Vishnu Memnon, Sandy Lu, Pia Lentini, Nick Golding, Emily McColl-Gausden, Nina Page, Maggie Campbell-Jones, Kyle Quinn and Jack Dickson. Surveys were conducted under University of Melbourne Animal Ethics Committee approval 1714119 and Victorian Government Department of Environment, Land Water and Planning Research Permit 10008273. I identified species and 133 individual cats from this dataset, with secondary cat identifications by Mark Le Pla and Luke Woodford.
+Alongside fieldwork volunteers, I led the deployment 425 camera-traps in the Glenelg region during 2018 (a control-impact experiment two spatial replicates), and 524 camera-trap deployments (195 unique sites) in a Before-After-Control-Impact-Paired-Series design in the western Otway Ranges annually from 2017 - 2019. I identified species and 133 individual cats from this dataset, with secondary cat identifications by Mark Le Pla, Emma Birnbaum, Bronwyn Hradsky and Luke Woodford.
 
-Chapter \@ref(otways17) uses a subset of this dataset: my 2017 camera-trap deployments in the Otway Ranges. For the remaining data chapters, my dataset was used in its entirety and supplemented with the following datasets:
+Chapter \@ref(otways17) uses a subset of this dataset: my 2017 camera-trap deployments in the Otway Ranges. For the remaining data chapters, my dataset was used in its entirety as well as supplemented with the following datasets:
 
-+ Chapters \@ref(occ) and \@ref(diel) include an additional 1616 camera-trap deployments from the Glenelg Ark fox control monitoring program (240 unique sites surveyed annually 2013-19) and 1113 from the Otway Ark fox control monitoring program (372 unique sites surveyed annually 2016-18). 
++ Chapters \@ref(occ) and \@ref(diel) include an additional 1,616 camera-trap deployments from the Glenelg Ark fox control monitoring program (240 unique sites surveyed annually 2013-19) and 1,113 from the Otway Ark fox control monitoring program (372 unique sites surveyed annually 2016-18). 
 
 + Chapter \@ref(density) includes an additional dataset from the Lower Glenelg National Park (113 camera-traps; serving as a third spatial replicate for the Control-Impact experimental design). Alan Robley designed this camera-trap layout, Ethan Le Duc, Michael Murrell, Dylan Thomas, Rhys Weber, Chris Johansson, Lachlan Levings and Liz Beever carried out the surveys, with Luke Woodford identifying cats (all from the Victorian Government Department of Environment, Land, Water and Planning). 
 
-This thesis was written in R Markdown and Bookdown using the ['unimelbdown' template created by Luke Zappia](https://github.com/lazappi/unimelbdown).
+This thesis was written in R Markdown and Bookdown using the 'unimelbdown' template created by Luke Zappia [@unimelbdown2018].
 
 $~$
 
 **Permits and funding**
 
-All the research undertaken for this thesis was approved by the Animal Ethics Committee at the University of Melbourne (1714119) and carried out in accordance with a Victorian Government Department of Environment, Land Water and Planning Research Permit (10008273). I received funding to conduct this PhD from an Australian Government Research Training Program Scholarship and Victorian Government Department of Environment, Land Water and Planning top-up scholarship. My PhD research was generously funded and supported by the Conservation Ecology Centre; Victorian Government Department of Environment, Land Water and Planning; Parks Victoria; Holsworth Wildlife Research Endowment – Equity Trustees Charitable Foundation and Ecological Society of Australia; the Australian Government’s National Environmental Science Program through the Threatened Species Recovery Hub; ARC Linkage Project LP170101134; a Victorian Environmental Assessment Council Bill Borthwick scholarship; a University of Melbourne, School of BioSciences travel grant and Jasper Loftus-Hills award.
+All the research undertaken for this thesis was approved by the Animal Ethics Committee at the University of Melbourne (approval 1714119) and carried out in accordance with a Victorian Government Department of Environment, Land Water and Planning Research Permit (permit 10008273). I received funding to conduct this PhD from an Australian Government Research Training Program Scholarship and Victorian Government Department of Environment, Land Water and Planning top-up scholarship. My PhD research was generously funded and supported by the Conservation Ecology Centre; Victorian Government Department of Environment, Land Water and Planning; Parks Victoria; Holsworth Wildlife Research Endowment – Equity Trustees Charitable Foundation and Ecological Society of Australia; the Australian Government’s National Environmental Science Program through the Threatened Species Recovery Hub; ARC Linkage Project LP170101134; a Victorian Environmental Assessment Council Bill Borthwick scholarship; a University of Melbourne, School of BioSciences travel grant and Jasper Loftus-Hills award.
 
 
 
@@ -41,7 +41,7 @@ $~$
 MW Rees, JH Pascoe, BA Wintle, M Le Pla, EK Birnbaum, BA Hradsky (2019). Unexpectedly high densities of feral cats in a rugged temperate forest. *Biological Conservation*, **239**, 108287. https://doi.org/10.1016/j.biocon.2019.108287
 
 |    Contributions:
-|         *MW Rees* conceived and developed ideas, designed and conducted experiments, performed statistical analysis and wrote the manuscript.
+|         *MW Rees* conceived and developed ideas, designed and conducted experiments, performed statistical analysis and led the writing of the manuscript.
 |         *JH Pascoe* conceived experimental design, assisted in data collection and contributed to manuscript.
 |         *BA Wintle* developed ideas and contributed to the manuscript.
 |         *M Le Pla* assisted in data collection and contributed to manuscript.
@@ -55,10 +55,10 @@ $~$
 
 **Chapter \@ref(occ)**
 
-MW Rees, BA Wintle, A Robley, JH Pascoe, M Le Pla, EK Birnbaum, & BA Hradsky (*In preparation*). Lethal fox control and fire influence the occurrence of invasive predators and threatened native prey.
+MW Rees, BA Wintle, A Robley, JH Pascoe, M Le Pla, EK Birnbaum, & BA Hradsky (*In review*). Lethal fox control and fire influence the occurrence of invasive predators and threatened native prey.
 
 |    Contributions:
-|         *MW Rees* conceived and developed ideas, collated data, performed statistical analysis and wrote the manuscript.
+|         *MW Rees* conceived and developed ideas, collated data, performed statistical analysis and led the writing of the manuscript.
 |         *BA Wintle* developed ideas and contributed to the manuscript.
 |         *A Robley* assisted in data collection and contributed to manuscript.
 |         *JH Pascoe* assisted in data collection and contributed to manuscript.
@@ -77,7 +77,7 @@ $~$
 MW Rees, JH Pascoe, M Le Pla, A Robley, EK Birnbaum, BA Wintle, & BA Hradsky (*In review*). Feral cat density is higher with lethal control of invasive red foxes across two temperate regions.
 
 |    Contributions:
-|         *MW Rees* conceived and developed ideas, designed and conducted experiments, performed statistical analysis and wrote the manuscript.
+|         *MW Rees* conceived and developed ideas, designed and conducted experiments, performed statistical analysis and led the writing of the manuscript.
 |         *JH Pascoe* conceived experimental design, assisted in data collection and contributed to manuscript.
 |         *M Le Pla* assisted in data collection and contributed to manuscript.
 |         *A Robley* assisted in data collection and contributed to manuscript.
@@ -93,12 +93,11 @@ $~$
 
 **Chapter \@ref(diel)**
 
-MW Rees, BA Wintle, A Robley, JH Pascoe, M Le Pla, EK Birnbaum, & BA Hradsky (*In preparation*). Spatial variation in predator diel activity patterns &mdash; feral cats avoid red foxes in time, not space.
+MW Rees, BA Wintle, JH Pascoe, M Le Pla, EK Birnbaum, & BA Hradsky (*In review*). Spatial variation in predator diel activity patterns &mdash; feral cats avoid red foxes in time, not space.
 
 |    Contributions:
-|         *MW Rees* conceived and developed ideas, collated data, performed statistical analysis and wrote the manuscript.
+|         *MW Rees* conceived and developed ideas, collated data, performed statistical analysis and led the writing of the manuscript.
 |         *BA Wintle* developed ideas and contributed to the manuscript.
-|         *A Robley* assisted in data collection and contributed to manuscript.
 |         *JH Pascoe* assisted in data collection and contributed to manuscript.
 |         *M Le Pla* assisted in data collection and contributed to manuscript.
 |         *EK Birnbaum* assisted in data collection and contributed to manuscript.
@@ -115,20 +114,20 @@ MW Rees, BA Wintle, A Robley, JH Pascoe, M Le Pla, EK Birnbaum, & BA Hradsky (*I
 
 $~$
 
-M Le Pla, EK Birnbaum, **MW Rees**, BA Hradsky, AR Weeks, A Van Rooyen, JH Pascoe (*In review*). Genetic Sampling and an Activity Index Indicate Contrasting Outcomes of Lethal Control for an Invasive Predator  
+M Le Pla, EK Birnbaum, **MW Rees**, BA Hradsky, AR Weeks, A Van Rooyen, JH Pascoe (2022). Genetic Sampling and an Activity Index Indicate Contrasting Outcomes of Lethal Control for an Invasive Predator. *Austral Ecology*. https://doi.org/10.1111/aec.13182
 
-A Stobo-Wilson *et al.* (*In press*). Counting the bodies: estimating the numbers and spatial variation of Australian reptiles, birds and mammals killed by two invasive mesopredators. *Diversity and Distributions*.
+A Stobo-Wilson *et al.* (2022). Counting the bodies: estimating the numbers and spatial variation of Australian reptiles, birds and mammals killed by two invasive mesopredators. *Diversity and Distributions*, **28(5)**, 976-991. https://doi.org/10.1111/ddi.13497
 
 BA Hradsky, HW McGregor, **MW Rees**, M Le Pla, J Keem, BA Wintle, S Legge (2021). A guide to surveying red foxes and feral cats in Australia. *NESP Threatened Species Recovery Hub Project 1.1.5 report, Brisbane*.
 https://www.nespthreatenedspecies.edu.au/publications-and-tools/a-guide-to-surveying-red-foxes-and-feral-cats-in-australia
 
-Woinarski *et al.* (2021). Compounding and complementary carnivores: Australian bird species eaten by the introduced European red fox *Vulpes vulpes* and domestic cat *Felis catus*. *Bird Conservation International*, **1-17**. https://doi.org/10.1017/S0959270921000460
+Woinarski *et al.* (2021). Compounding and complementary carnivores: Australian bird species eaten by the introduced European red fox *Vulpes vulpes* and domestic cat *Felis catus*. *Bird Conservation International*, 1-17. https://doi.org/10.1017/S0959270921000460
 
 A Stobo-Wilson *et al.* (2021) Reptiles as food: predation of Australian reptiles by introduced red foxes compounds and complements predation by cats. *Wildlife Research*, **48**, 470-480. https://doi.org/10.1071/WR20194
 
-A Stobo-Wilson *et al.* (2021). Sharing meals: Predation on Australian mammals by the introduced European red fox compounds and complements predation by feral cats. *Biological Conservation* **261** : 109284. https://doi.org/10.1016/j.biocon.2021.109284
+A Stobo-Wilson *et al.* (2021). Sharing meals: Predation on Australian mammals by the introduced European red fox compounds and complements predation by feral cats. *Biological Conservation*, **261**, 109284. https://doi.org/10.1016/j.biocon.2021.109284
 
-H Davies, Tiwi Land Rangers, **MW Rees**, D Stokeld, AC Miller, GR Gillespie, BP Murphy (2021). Variation in feral cat density between two large adjacent islands in Australia’s monsoon tropics. *Pacific Conservation Biology*. https://doi.org/10.1071/PC20088
+H Davies, Tiwi Land Rangers, **MW Rees**, D Stokeld, AC Miller, GR Gillespie, BP Murphy (2021). Variation in feral cat density between two large adjacent islands in Australia’s monsoon tropics. *Pacific Conservation Biology*, **28(1)**, 18-24. https://doi.org/10.1071/PC20088
 
 **MW Rees** (2020). Monitoring and managing critical weight range mammals in the indigenous protected areas of the world heritage Budj Bim cultural landscape. *A report prepared for the Victorian Government, Department of Environment, Land, Water and Planning*.
 

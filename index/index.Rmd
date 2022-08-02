@@ -34,8 +34,10 @@ degree: "Doctor of Philosophy"
 #  also be manually controlled.
 # +----------------------------------------------------------------------------+
 
-submissionmonth: "`r format(Sys.Date(), '%B')`"
-submissionyear: "`r format(Sys.Date(), '%Y')`"
+#submissionmonth: "`r format(Sys.Date(), '%B')`"
+#submissionyear: "`r format(Sys.Date(), '%Y')`"
+submissionmonth: "July"
+submissionyear: "2022"
 
 # +-----Institute--------------------------------------------------------------+
 #  Whatever is in the `department` field is placed first with the `university`
@@ -99,8 +101,6 @@ lof: true
 #  version of the thesis.
 # +----------------------------------------------------------------------------+
 
-copyrightlist: |
-  `r if(knitr:::is_latex_output()) paste(readLines("00_frontmatter/00-05-copyrightlist.Rmd"), collapse = "\n  ")`
 
 # *============================================================================*
 #  CITATIONS
@@ -151,14 +151,7 @@ if(!require(devtools))
   install.packages("devtools", repos = "http://cran.rstudio.com")
 if(!require(unimelbdown))
   devtools::install_github("lazappi/unimelbdown")
-library(unimelbdown)
 
-#if(!require(devtools))
-#  install.packages("devtools", repos = "http://cran.rstudio.com")
-#if(!require(unimelbdown)){
-#  library(devtools)
-#  devtools::install_github("lazappi/unimelbdown")
-#}
 library(unimelbdown)
 library(secr)
 library(magick)
@@ -174,6 +167,7 @@ library(viridis)
 library(sf) 
 library(sp) 
 library(terra)
+library(lubridate)
 ```
 
 ```{r knitr-options, include = FALSE}

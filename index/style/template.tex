@@ -46,6 +46,7 @@
 \usepackage{palatino}  % Use the palatino font family
 \usepackage{mathpazo}  % Use the palotino font family
 \usepackage{pdfpages}  % MATT ADDITION: merge in pdf doc (publication)
+
 % +-----Parameters-------------------------------------------------------------+
 %  Set parameters for the document. To convert from YAML to LaTeX we need to add
 %  the dollar signs.
@@ -68,6 +69,20 @@
 
 $if(highlighting-macros)$
   $highlighting-macros$
+$endif$
+
+% matt addition: fix problem with new pandoc version (but still fucks up if you have a pandoc table!)
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{-0.20in}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
+\newenvironment{cslreferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{-0.20in}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
 $endif$
 
 % *============================================================================*
@@ -140,11 +155,11 @@ $endif$
 
 % +-----List of copyright------------------------------------------------------+
 
-$if(copyrightlist)$
-\begin{copyrightlist}
-  $copyrightlist$
-\end{copyrightlist}
-$endif$
+%$if(copyrightlist)$
+%\begin{copyrightlist}
+%  $copyrightlist$
+%\end{copyrightlist}
+%$endif$
 
 \end{frontmatter}
 

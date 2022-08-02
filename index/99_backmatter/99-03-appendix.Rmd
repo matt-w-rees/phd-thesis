@@ -98,7 +98,7 @@ gam_o_fox <- readRDS("data/density/gam_o_fox.RData")
 
 In the Glenelg region, we deployed camera-traps once at a unique sites once. In the Otway region, we redeployed camera-traps in sites annually for three years. All 2017 camera-sites were resurveyed each year, except for four logistically challenging sites in the southern grid. In 2018, we added 16 additional sites in the southern grid, as well as 36 additional sites in the northern grid. These additional sites were resurveyed in 2019. 
 
-At each site, we deployed a singular remote trail camera with infrared flash and temperature-in-motion detector. The vast majority of camera-traps were Reconyx Hyperfire HC600, but a small portion was made up of both PC900 and HF2X infrared models (Reconyx, Holmen, Wisconsin). We programmed camera’s to the highest sensitivity and to take five consecutive photographs when triggered (no quiet period). We attached each camera to a tree, approximately 30 cm above the ground, and facing toward a lure 2 - 2.5 metres away. The lure comprised an oil-absorbing cloth doused in tuna oil and placed inside a PVC pipe container with a mesh top. We secured each lure to the top of a 1 metre wooden stake and attached a handful of small white feathers to the outside of the PVC pipe container. Feathers were not used in the Lower Glenelg National Park survey. We cleared vegetation in the camera’s line-of-sight to reduce false triggers and avoid obscuring cat coat markings in images. 
+At each site, we deployed a single Reconyx (Holmen, Wisconsin) branded camera-trap with passive infrared sensor that detects a thermal differential between the subject and the background temperature. The majority of camera-traps were Reconyx Hyperfire HC600 (97% in the Glenelg region; 78% in the Otway Ranges); in the Glenelg region PC900's were deployed in the remained of sites (3%), whereas in the Otway Ranges PC900, PC800, HC500 and HF2X models were also used (Table \@ref(tab:cam-models)). We programmed camera’s to high sensitivity and to take five consecutive photographs when triggered (no quiet period). We attached each camera to a tree, approximately 30 cm above the ground, and facing toward a lure 2 - 2.5 m away. The lure comprised an oil-absorbing cloth doused in tuna oil and placed inside a PVC pipe container with a mesh top. We secured each lure to the top of a 1 m wooden stake and attached a handful of small white feathers to the outside of the PVC pipe container. Feathers were not used in the Lower Glenelg National Park survey. We cleared vegetation in the camera’s line-of-sight to reduce false triggers and avoid obscuring cat coat markings in images. 
 
 \newpage
 
@@ -135,11 +135,80 @@ abline(v = at.tmp, col = rgb(0,0,0, 0.1))
 
 \newpage
 
-$~$
+\newpage
+```{r tab-dates}
+# table of start / end dates for each grid
 
-$~$
+# clean LGNP records for merge
+# add grid 
+records_lg$st_no <- records_lg$station
+records_lg$st_no <- as.integer(gsub('LGNP', "", records_lg$st_no))
+records_lg$grid  <- if_else(records_lg$st_no >= 65, "LGNP_n", "LGNP_s")
+# add station_year
+records_lg$station_year <- paste0(records_lg$station, "_2021")
+## merge LGNP records with other records
+records <- bind_rows(records, records_lg)
+# add grid variable for gam data
+records$grid  <- if_else(grepl("^A", records$station), "Annya", records$grid)
+records$grid  <- if_else(grepl("^C", records$station), "Hotspur", records$grid)
+records$grid  <- if_else(grepl("^H", records$station), "Cobboboonee", records$grid)
+records$grid  <- if_else(grepl("^M", records$station), "Mt Clay", records$grid)
+records$grid  <- if_else(grepl("^T", records$station), "South", records$grid)
+records$grid  <- if_else(grepl("^U", records$station), "North", records$grid)
+records$grid <- if_else(as.character(records$region) == "otways", paste0(records$grid, "_", records$year), records$grid)
 
-$~$
+#records$grid <- paste0(substr(records$station_year, 0, 1), substr(records$station_year, nchar(records$station_year) - 4, nchar(records$station_year)))
+
+df <- records %>% 
+  group_by(grid) %>% 
+  mutate(year = substr(station_year, nchar(station_year) - 3, nchar(station_year)), 
+         date_min = min(ymd(date_start)),
+         date_max = max(ymd(date_end)),
+         duration = (ymd(date_max) - ymd(date_min)) - 1)
+
+# summarise fox naive occupancy
+df <- df %>% 
+  group_by(grid) %>% 
+  mutate(fox_naive = round(sum(fox) / n(), digits = 2))
+         
+# consense to one row per grid
+df <- df %>% 
+  distinct(grid, .keep_all = TRUE) %>% 
+  select(region, grid, year, date_min, date_max, duration, fox_naive) 
+
+# rename grids / capitlise region
+df$grid <- c("Annya", "Cobboboonee", "Hotspur", "Mt Clay", "North", "North", "North", "South", "South", "South", "LGNP South", "LGNP North")
+df$region <- if_else(df$region == "glenelg", "Glenelg", "Otway")
+
+df <- df %>%
+  arrange(region, date_min)
+
+df$replicate <- c("1", "1", "2", "2", "3", "3", "1", "1", "2", "2", "3", "3")
+
+df <- relocate(df, region, grid, replicate)
+
+# make table
+kbl(df, booktabs = TRUE, longtable = TRUE,
+    col.names = c("Region", "Landscape", "Replicate", "Year", "Date start", "Date end", "Duration", "Naive fox occurrence"),
+    caption = "Survey dates of camera-trapping grids and naive occurrence rates of foxes (proportion of camera-traps foxes were detected at) in each surveyed landscape") %>% 
+   kable_styling(latex_options = c("repeat_header"), font_size = 10) 
+
+```
+
+\newpage
+
+```{r cam-models}
+cam_models <- read.csv("data/density/cam_models.csv")
+cam_models$X <- NULL
+
+# make table
+kbl(cam_models, booktabs = TRUE, longtable = TRUE,
+    col.names = c("Region", "Camera model", "Frequency"),
+    caption = "Frequency of different Reconyx camera-trap models used in each survey") %>% 
+   kable_styling(latex_options = c("repeat_header"), font_size = 10) 
+```
+
+\newpage
 
 ```{r density-cam-photo, fig.cap = "Example of a typical camera-trap set-up in the Otway region, Australia."}
 knitr::include_graphics("figure/camtrap1.jpg")
@@ -149,11 +218,12 @@ knitr::include_graphics("figure/camtrap1.jpg")
 
 ## Individual cat identification {#density-app-id}
 
-We first labelled every camera-trap image with a species metadata tag using [DigiKam software](https://www.digikam.org){target="_blank"}. We also added metadata tags for each cat coat type: black, mackerel tabby, classic tabby, ginger and other (coats with multiple colour blends; Fig. 3). This allowed us to summarise species records and extract cat images using the 'camtrapR' R-package [@niedballa2016].
+
+We first labelled every camera-trap image with a species metadata tag using [DigiKam software](https://www.digikam.org){target="_blank"}. We also added metadata tags for each cat coat type: black, mackerel / spotted tabby, classic tabby, ginger and other (coats with multiple colour blends; Fig. 3). This allowed us to summarise species records and extract cat images using the 'camtrapR' R-package [@niedballa2016].
 
 We considered all black cats to be of the 'unmarked' category in spatial mark-resight models - even the few with white splotches on their underside (as these couldn't always be seen as cats move with their head down).
 
-In the remaining coat categories where possible, we identified individual cats based on their unique coat markings. The ability to identify individuals substantially increased as the image library for each cat increased. Therefore we made the easiest identifications first to build up these libraries, before making decisions on the less obvious detections. We examined and matched all coat markings seen between two particular defections. Markings on the front legs were the most useful for ID's as the patterns do not skew as much with different body positions. On the whole, unidentifiable detections were mainly due to only part of a cat appearing in the frame, or because photos were blurry (because of cat movement or a foggy camera lens).
+In the remaining coat categories where possible, we identified individual cats based on their unique coat markings. The ability to identify individuals substantially increased as the image library for each cat increased. Therefore we made the easiest identifications first to build up these libraries, before making decisions on the less obvious detections. We examined and matched all coat markings seen between two particular detections. Markings on the front legs were the most useful for ID's as the patterns do not skew as much with different body positions. On the whole, unidentifiable detections were mainly due to only part of a cat appearing in the frame, or because photos were blurry (because of cat movement or a foggy camera lens).
 
 We were left with a small number of instances (less than ten) where only left or right flanks could be seen. In this case, the side with the most repeat detections was labelled as an individual, whereas the side with the least number of detections was considered unidentifiable. Additionally, an extremely small portion of cats in the Otways had ginger coats. When ginger coats are photographed with an infrared flash, they become overexposed and no markings can be seen (see the image in bottom-right corner in Fig. S3). Therefore, if there were multiple ginger cat detections in a single grid, we treated them in the same way as one-sided flank detections.
 
@@ -171,7 +241,7 @@ $~$
 
 $~$
 
-```{r density-cat-photo, fig.cap="Feral cat coat categories from left-right, top-bottom: black, mackerel tabby, classic tabby, other, black, ginger and ginger with infrared flash."}
+```{r density-cat-photo, fig.cap="Feral cat coat categories from left-right, top-bottom: mackerel / spotted tabby, classic tabby, other, black, ginger and ginger with infrared flash."}
 knitr::include_graphics("figure/cat_coats.jpg")
 ```
 

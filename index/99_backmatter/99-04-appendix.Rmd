@@ -63,7 +63,7 @@ kbl(table1, longtable = T, booktabs = T, digits = 2,
 
 # load records
 fits_summaries <- read_csv("data/diel/model_summaries.csv") %>%
-  dplyr::select(-c(X1))
+  dplyr::select(-c(...1))
 
 # make table
 kbl(fits_summaries, longtable = T, booktabs = T, digits = 4,
@@ -110,14 +110,6 @@ knitr::include_graphics("figure/spte_diff_avg_g_fox.png")
 knitr::include_graphics("figure/spte_diff_avg_g_cat.png")
 
 ```
-
-\newpage
-
-```{r diel-st-int-o-cat, fig.cap = "Interaction effect of space-time on feral cat \\textit{Felis catus} activity across each hour of the day (0 - 23) in the Otway Ranges, Australia (model 1). White crosses depict unique camera-trap sites. "}
-knitr::include_graphics("figure/spte_diff_avg_o_cat.png")
-
-```
-
 
 
 

@@ -30,8 +30,3 @@ This is just for testing with more citations for the bibliography at the end.  A
 
 <!-- This line tells Pandoc to put the references here -->
 <div id="refs"></div>
-
----
-nocite: |
-  @angel2000, @angel2001, @angel2002a
-...

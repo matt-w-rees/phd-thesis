@@ -6,7 +6,7 @@
 ```{r occ-naive}
 
 ## DATA PREPARATION
-records <- read.csv("data/occ/records_presence_absence.csv")
+records <- read.csv("/Users/ree140/Dropbox/personal/matt/github/phd-thesis/index/data/occ/records_presence_absence.csv")
 # drop zoi's records - too much spatial autocorrelation
 records <- filter(records, data_source != "zoi")
 # exclude stations left out for less than 14 days
@@ -73,7 +73,7 @@ knitr::include_graphics("figure/cumulative_detectability.png")
 ```{r occ-rain-aic}
 
 df <- read_csv("data/occ/rain_occ_aic_table.csv") %>%
-  dplyr::select(-c(X1, df)) %>% 
+  dplyr::select(-c(df, ...1)) %>% 
   arrange(match(species, c( "fox", "cat", "SBB", "LNP")), desc(species))
 # rename
 df$species <- c(rep("Red fox",4), rep("Feral cat",4), rep("Southern brown bandicoot",4), rep("Long-nosed potoroo",4))
@@ -94,7 +94,7 @@ kbl(df, longtable = T, booktabs = T, digits = 2,
 ```{r occ-model-sumstats}
 
 df <- read_csv("data/occ/model_summaries.csv") %>%
-  dplyr::select(-c(X1)) 
+  dplyr::select(-c(...1)) 
 # rename
 df$species <- c(rep("Red fox",2), rep("Feral cat",2), rep("Southern brown bandicoot",2), rep("Long-nosed potoroo",2))
 
